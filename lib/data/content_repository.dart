@@ -4,6 +4,7 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/category.dart';
 import '../models/phrase.dart';
+import '../models/vocab_word.dart';
 
 /// Charge le catalogue de contenu (catégories, phrases) depuis les assets
 /// JSON embarqués dans l'application. Ce contenu est en lecture seule et
@@ -14,6 +15,7 @@ class ContentRepository {
 
   List<Category> categories = [];
   List<Phrase> phrases = [];
+  List<VocabWord> vocabWords = [];
 
   bool _loaded = false;
   bool get isLoaded => _loaded;
@@ -24,6 +26,7 @@ class ContentRepository {
     final categoriesRaw =
         await rootBundle.loadString('assets/data/categories.json');
     final phrasesRaw = await rootBundle.loadString('assets/data/phrases.json');
+    final vocabRaw = await rootBundle.loadString('assets/data/vocab.json');
 
     categories = (jsonDecode(categoriesRaw) as List<dynamic>)
         .map((e) => Category.fromJson(e as Map<String, dynamic>))
@@ -31,6 +34,10 @@ class ContentRepository {
 
     phrases = (jsonDecode(phrasesRaw) as List<dynamic>)
         .map((e) => Phrase.fromJson(e as Map<String, dynamic>))
+        .toList();
+
+    vocabWords = (jsonDecode(vocabRaw) as List<dynamic>)
+        .map((e) => VocabWord.fromJson(e as Map<String, dynamic>))
         .toList();
 
     _loaded = true;
@@ -45,6 +52,18 @@ class ContentRepository {
 
   List<Phrase> phrasesForCategory(String categoryId) =>
       phrases.where((p) => p.categoryId == categoryId).toList();
+
+  /// Thèmes de vocabulaire disponibles, dans l'ordre d'apparition des mots.
+  List<String> get vocabThemes {
+    final seen = <String>{};
+    for (final v in vocabWords) {
+      seen.add(v.category);
+    }
+    return seen.toList();
+  }
+
+  List<VocabWord> vocabForTheme(String theme) =>
+      vocabWords.where((v) => v.category == theme).toList();
 
   Phrase? phraseById(String id) {
     for (final p in phrases) {

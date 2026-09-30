@@ -1,0 +1,690 @@
+[
+  {
+    "id": "num-001",
+    "category": "nombres",
+    "french": "zéro",
+    "lao": "ສູນ",
+    "phoneticLao": "ເຊໂຣ",
+    "needsReview": true
+  },
+  {
+    "id": "num-002",
+    "category": "nombres",
+    "french": "un",
+    "lao": "ໜຶ່ງ",
+    "phoneticLao": "ອັງ",
+    "needsReview": true
+  },
+  {
+    "id": "num-003",
+    "category": "nombres",
+    "french": "deux",
+    "lao": "ສອງ",
+    "phoneticLao": "ເດີ",
+    "needsReview": true
+  },
+  {
+    "id": "num-004",
+    "category": "nombres",
+    "french": "trois",
+    "lao": "ສາມ",
+    "phoneticLao": "ຕຣົວ",
+    "needsReview": true
+  },
+  {
+    "id": "num-005",
+    "category": "nombres",
+    "french": "quatre",
+    "lao": "ສີ່",
+    "phoneticLao": "ກາຕເຣີ",
+    "needsReview": true
+  },
+  {
+    "id": "num-006",
+    "category": "nombres",
+    "french": "cinq",
+    "lao": "ຫ້າ",
+    "phoneticLao": "ແຊງ",
+    "needsReview": true
+  },
+  {
+    "id": "num-007",
+    "category": "nombres",
+    "french": "six",
+    "lao": "ຫົກ",
+    "phoneticLao": "ຊິສ",
+    "needsReview": true
+  },
+  {
+    "id": "num-008",
+    "category": "nombres",
+    "french": "sept",
+    "lao": "ເຈັດ",
+    "phoneticLao": "ແຊັດ",
+    "needsReview": true
+  },
+  {
+    "id": "num-009",
+    "category": "nombres",
+    "french": "huit",
+    "lao": "ແປດ",
+    "phoneticLao": "ວີດ",
+    "needsReview": true
+  },
+  {
+    "id": "num-010",
+    "category": "nombres",
+    "french": "neuf",
+    "lao": "ເກົ້າ",
+    "phoneticLao": "ເນີຝ",
+    "needsReview": true
+  },
+  {
+    "id": "num-011",
+    "category": "nombres",
+    "french": "dix",
+    "lao": "ສິບ",
+    "phoneticLao": "ດີສ",
+    "needsReview": true
+  },
+  {
+    "id": "num-012",
+    "category": "nombres",
+    "french": "onze",
+    "lao": "ສິບເອັດ",
+    "phoneticLao": "ອົງຊ",
+    "needsReview": true
+  },
+  {
+    "id": "num-013",
+    "category": "nombres",
+    "french": "douze",
+    "lao": "ສິບສອງ",
+    "phoneticLao": "ດູຊ",
+    "needsReview": true
+  },
+  {
+    "id": "num-014",
+    "category": "nombres",
+    "french": "treize",
+    "lao": "ສິບສາມ",
+    "phoneticLao": "ເຕຣັຊ",
+    "needsReview": true
+  },
+  {
+    "id": "num-015",
+    "category": "nombres",
+    "french": "quatorze",
+    "lao": "ສິບສີ່",
+    "phoneticLao": "ກາໂຕຣຊ",
+    "needsReview": true
+  },
+  {
+    "id": "num-016",
+    "category": "nombres",
+    "french": "quinze",
+    "lao": "ສິບຫ້າ",
+    "phoneticLao": "ແກງຊ",
+    "needsReview": true
+  },
+  {
+    "id": "num-017",
+    "category": "nombres",
+    "french": "seize",
+    "lao": "ສິບຫົກ",
+    "phoneticLao": "ແຊັຊ",
+    "needsReview": true
+  },
+  {
+    "id": "num-018",
+    "category": "nombres",
+    "french": "dix-sept",
+    "lao": "ສິບເຈັດ",
+    "phoneticLao": "ດີເຊັດ",
+    "needsReview": true
+  },
+  {
+    "id": "num-019",
+    "category": "nombres",
+    "french": "dix-huit",
+    "lao": "ສິບແປດ",
+    "phoneticLao": "ດີຊວີດ",
+    "needsReview": true
+  },
+  {
+    "id": "num-020",
+    "category": "nombres",
+    "french": "dix-neuf",
+    "lao": "ສິບເກົ້າ",
+    "phoneticLao": "ດີສເນີຝ",
+    "needsReview": true
+  },
+  {
+    "id": "num-021",
+    "category": "nombres",
+    "french": "vingt",
+    "lao": "ຊາວ",
+    "phoneticLao": "ວັງ",
+    "needsReview": true
+  },
+  {
+    "id": "num-022",
+    "category": "nombres",
+    "french": "trente",
+    "lao": "ສາມສິບ",
+    "phoneticLao": "ຕຣັງຕ",
+    "needsReview": true
+  },
+  {
+    "id": "num-023",
+    "category": "nombres",
+    "french": "quarante",
+    "lao": "ສີ່ສິບ",
+    "phoneticLao": "ກາຣັງຕ",
+    "needsReview": true
+  },
+  {
+    "id": "num-024",
+    "category": "nombres",
+    "french": "cinquante",
+    "lao": "ຫ້າສິບ",
+    "phoneticLao": "ແຊງກັງຕ",
+    "needsReview": true
+  },
+  {
+    "id": "num-025",
+    "category": "nombres",
+    "french": "soixante",
+    "lao": "ຫົກສິບ",
+    "phoneticLao": "ຊົວຊັງຕ",
+    "needsReview": true
+  },
+  {
+    "id": "num-026",
+    "category": "nombres",
+    "french": "soixante-dix",
+    "lao": "ເຈັດສິບ",
+    "phoneticLao": "ຊົວຊັງຕ-ດີສ",
+    "needsReview": true
+  },
+  {
+    "id": "num-027",
+    "category": "nombres",
+    "french": "quatre-vingts",
+    "lao": "ແປດສິບ",
+    "phoneticLao": "ກາຕເຣີ-ວັງ",
+    "needsReview": true
+  },
+  {
+    "id": "num-028",
+    "category": "nombres",
+    "french": "quatre-vingt-dix",
+    "lao": "ເກົ້າສິບ",
+    "phoneticLao": "ກາຕເຣີ-ວັງ-ດີສ",
+    "needsReview": true
+  },
+  {
+    "id": "num-029",
+    "category": "nombres",
+    "french": "cent",
+    "lao": "ໜຶ່ງຮ້ອຍ",
+    "phoneticLao": "ຊັງ",
+    "needsReview": true
+  },
+  {
+    "id": "num-030",
+    "category": "nombres",
+    "french": "mille",
+    "lao": "ໜຶ່ງພັນ",
+    "phoneticLao": "ມີລ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-001",
+    "category": "heures",
+    "french": "une heure",
+    "lao": "ໜຶ່ງໂມງ",
+    "phoneticLao": "ອູນ ເອີຣ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-002",
+    "category": "heures",
+    "french": "une minute",
+    "lao": "ໜຶ່ງນາທີ",
+    "phoneticLao": "ອູນ ມີນຸດ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-003",
+    "category": "heures",
+    "french": "et demie",
+    "lao": "ເຄິ່ງ",
+    "phoneticLao": "ເອ ເດີມີ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-004",
+    "category": "heures",
+    "french": "et quart",
+    "lao": "ສິບຫ້ານາທີ",
+    "phoneticLao": "ເອ ກາຣ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-005",
+    "category": "heures",
+    "french": "moins le quart",
+    "lao": "ຂາດສິບຫ້ານາທີ",
+    "phoneticLao": "ມົວັງ ເລີ ກາຣ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-006",
+    "category": "heures",
+    "french": "le matin",
+    "lao": "ຕອນເຊົ້າ",
+    "phoneticLao": "ເລີ ມາຕັງ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-007",
+    "category": "heures",
+    "french": "le midi",
+    "lao": "ຕອນທ່ຽງ",
+    "phoneticLao": "ເລີ ມີດີ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-008",
+    "category": "heures",
+    "french": "l'après-midi",
+    "lao": "ຕອນບ່າຍ",
+    "phoneticLao": "ລາປເຣ-ມີດີ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-009",
+    "category": "heures",
+    "french": "le soir",
+    "lao": "ຕອນແລງ",
+    "phoneticLao": "ເລີ ຊົວຣ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-010",
+    "category": "heures",
+    "french": "minuit",
+    "lao": "ທ່ຽງຄືນ",
+    "phoneticLao": "ມີນູອີ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-011",
+    "category": "heures",
+    "french": "aujourd'hui",
+    "lao": "ມື້ນີ້",
+    "phoneticLao": "ໂອຊູຣດຫຼີ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-012",
+    "category": "heures",
+    "french": "demain",
+    "lao": "ມື້ອື່ນ",
+    "phoneticLao": "ດມັງ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-013",
+    "category": "heures",
+    "french": "hier",
+    "lao": "ມື້ວານ",
+    "phoneticLao": "ອີແອຣ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-014",
+    "category": "heures",
+    "french": "maintenant",
+    "lao": "ດຽວນີ້",
+    "phoneticLao": "ມັງເຕນັງ",
+    "needsReview": true
+  },
+  {
+    "id": "heu-015",
+    "category": "heures",
+    "french": "tout à l'heure",
+    "lao": "ບຶດນີ້",
+    "phoneticLao": "ຕູຕ ອາ ລເອີຣ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-001",
+    "category": "jours",
+    "french": "lundi",
+    "lao": "ວັນຈັນ",
+    "phoneticLao": "ລັງດີ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-002",
+    "category": "jours",
+    "french": "mardi",
+    "lao": "ວັນອັງຄານ",
+    "phoneticLao": "ມາຣດີ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-003",
+    "category": "jours",
+    "french": "mercredi",
+    "lao": "ວັນພຸດ",
+    "phoneticLao": "ແມຣກເຣດີ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-004",
+    "category": "jours",
+    "french": "jeudi",
+    "lao": "ວັນພະຫັດ",
+    "phoneticLao": "ຊເອີດີ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-005",
+    "category": "jours",
+    "french": "vendredi",
+    "lao": "ວັນສຸກ",
+    "phoneticLao": "ວັງດເຣີດີ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-006",
+    "category": "jours",
+    "french": "samedi",
+    "lao": "ວັນເສົາ",
+    "phoneticLao": "ຊາມດີ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-007",
+    "category": "jours",
+    "french": "dimanche",
+    "lao": "ວັນອາທິດ",
+    "phoneticLao": "ດີມັງຊ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-008",
+    "category": "jours",
+    "french": "une semaine",
+    "lao": "ໜຶ່ງອາທິດ",
+    "phoneticLao": "ອູນ ເຊແມນ",
+    "needsReview": true
+  },
+  {
+    "id": "jou-009",
+    "category": "jours",
+    "french": "le week-end",
+    "lao": "ວັນພັກທ້າຍອາທິດ",
+    "phoneticLao": "ເລີ ວີກແອນດ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-001",
+    "category": "lieux",
+    "french": "l'aéroport",
+    "lao": "ສະໜາມບິນ",
+    "phoneticLao": "ລາເອໂຣປໍຣ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-002",
+    "category": "lieux",
+    "french": "l'hôtel",
+    "lao": "ໂຮງແຮມ",
+    "phoneticLao": "ໂລແຕລ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-003",
+    "category": "lieux",
+    "french": "la gare",
+    "lao": "ສະຖານີລົດໄຟ",
+    "phoneticLao": "ລາ ການ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-004",
+    "category": "lieux",
+    "french": "le marché",
+    "lao": "ຕະຫຼາດ",
+    "phoneticLao": "ເລີ ມາເຣເຊ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-005",
+    "category": "lieux",
+    "french": "le temple",
+    "lao": "ວັດ",
+    "phoneticLao": "ເລີ ຕັງປລ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-006",
+    "category": "lieux",
+    "french": "le restaurant",
+    "lao": "ຮ້ານອາຫານ",
+    "phoneticLao": "ເລີ ເຣສໂຕຣັງ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-007",
+    "category": "lieux",
+    "french": "la pharmacie",
+    "lao": "ຮ້ານຂາຍຢາ",
+    "phoneticLao": "ລາ ຝາຣມາຊີ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-008",
+    "category": "lieux",
+    "french": "la banque",
+    "lao": "ທະນາຄານ",
+    "phoneticLao": "ລາ ບັງກ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-009",
+    "category": "lieux",
+    "french": "les toilettes",
+    "lao": "ຫ້ອງນ້ຳ",
+    "phoneticLao": "ເລ ຕົວເຣັດ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-010",
+    "category": "lieux",
+    "french": "la plage",
+    "lao": "ຫາດຊາຍ",
+    "phoneticLao": "ລາ ປລາຊ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-011",
+    "category": "lieux",
+    "french": "la montagne",
+    "lao": "ພູເຂົາ",
+    "phoneticLao": "ລາ ມົງຕາຢຍ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-012",
+    "category": "lieux",
+    "french": "la ville",
+    "lao": "ເມືອງ",
+    "phoneticLao": "ລາ ວີລ",
+    "needsReview": true
+  },
+  {
+    "id": "lie-013",
+    "category": "lieux",
+    "french": "le village",
+    "lao": "ບ້ານ",
+    "phoneticLao": "ເລີ ວີລາຊ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-001",
+    "category": "transport",
+    "french": "la voiture",
+    "lao": "ລົດ",
+    "phoneticLao": "ລາ ວົວຕູຣ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-002",
+    "category": "transport",
+    "french": "le bus",
+    "lao": "ລົດເມ",
+    "phoneticLao": "ເລີ ບຸດ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-003",
+    "category": "transport",
+    "french": "l'avion",
+    "lao": "ຍົນ",
+    "phoneticLao": "ລາວີອົງ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-004",
+    "category": "transport",
+    "french": "le bateau",
+    "lao": "ເຮືອ",
+    "phoneticLao": "ເລີ ບາໂຕ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-005",
+    "category": "transport",
+    "french": "le tuk-tuk",
+    "lao": "ລົດຕຸກໆ",
+    "phoneticLao": "ເລີ ຕູກ-ຕູກ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-006",
+    "category": "transport",
+    "french": "la moto",
+    "lao": "ລົດຈັກ",
+    "phoneticLao": "ລາ ໂມໂຕ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-007",
+    "category": "transport",
+    "french": "le vélo",
+    "lao": "ລົດຖີບ",
+    "phoneticLao": "ເລີ ເວໂລ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-008",
+    "category": "transport",
+    "french": "le taxi",
+    "lao": "ລົດແທັກຊີ່",
+    "phoneticLao": "ເລີ ຕາກຊີ",
+    "needsReview": true
+  },
+  {
+    "id": "tra-009",
+    "category": "transport",
+    "french": "le train",
+    "lao": "ລົດໄຟ",
+    "phoneticLao": "ເລີ ຕຣັງ",
+    "needsReview": true
+  },
+  {
+    "id": "col-001",
+    "category": "couleurs",
+    "french": "rouge",
+    "lao": "ສີແດງ",
+    "phoneticLao": "ຣູຊ",
+    "needsReview": true
+  },
+  {
+    "id": "col-002",
+    "category": "couleurs",
+    "french": "bleu",
+    "lao": "ສີຟ້າ",
+    "phoneticLao": "ເບລີ",
+    "needsReview": true
+  },
+  {
+    "id": "col-003",
+    "category": "couleurs",
+    "french": "vert",
+    "lao": "ສີຂຽວ",
+    "phoneticLao": "ແວຣ",
+    "needsReview": true
+  },
+  {
+    "id": "col-004",
+    "category": "couleurs",
+    "french": "jaune",
+    "lao": "ສີເຫຼືອງ",
+    "phoneticLao": "ໂຊນ",
+    "needsReview": true
+  },
+  {
+    "id": "col-005",
+    "category": "couleurs",
+    "french": "blanc",
+    "lao": "ສີຂາວ",
+    "phoneticLao": "ບລັງ",
+    "needsReview": true
+  },
+  {
+    "id": "col-006",
+    "category": "couleurs",
+    "french": "noir",
+    "lao": "ສີດຳ",
+    "phoneticLao": "ນົວຣ",
+    "needsReview": true
+  },
+  {
+    "id": "col-007",
+    "category": "couleurs",
+    "french": "orange",
+    "lao": "ສີສົ້ມ",
+    "phoneticLao": "ໂອຣັງຊ",
+    "needsReview": true
+  },
+  {
+    "id": "col-008",
+    "category": "couleurs",
+    "french": "violet",
+    "lao": "ສີມ່ວງ",
+    "phoneticLao": "ວີໂອແລ",
+    "needsReview": true
+  },
+  {
+    "id": "col-009",
+    "category": "couleurs",
+    "french": "rose",
+    "lao": "ສີບົວ",
+    "phoneticLao": "ໂຣຊ",
+    "needsReview": true
+  },
+  {
+    "id": "col-010",
+    "category": "couleurs",
+    "french": "marron",
+    "lao": "ສີນ້ຳຕານ",
+    "phoneticLao": "ມາຣົງ",
+    "needsReview": true
+  }
+]

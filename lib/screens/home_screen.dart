@@ -5,6 +5,7 @@ import '../widgets/category_card.dart';
 import 'category_phrases_screen.dart';
 import 'favorites_screen.dart';
 import 'search_screen.dart';
+import 'vocab_screen.dart';
 
 /// Écran d'accueil : grandes catégories, recherche et accès aux favoris
 /// (point 4 du cahier des charges).
@@ -26,6 +27,13 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Sabai Tourisme'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.menu_book),
+            tooltip: 'Vocabulaire',
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const VocabScreen()),
+            ),
+          ),
           IconButton(
             icon: const Icon(Icons.star),
             tooltip: 'Mes phrases favorites',
