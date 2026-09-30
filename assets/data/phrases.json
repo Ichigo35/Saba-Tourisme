@@ -8,7 +8,10 @@
     "phoneticLao": "ບົງຊູ, ບຽງເວີນູ ໂອ ລາວ !",
     "pronunciationTip": "Le son français \"on\" (bonjour) n'existe pas en lao : c'est un son nasal, comme si vous disiez le mot en vous pinçant légèrement le nez.",
     "difficulty": "debutant",
-    "tags": ["salutation", "premiere_phrase"],
+    "tags": [
+      "salutation",
+      "premiere_phrase"
+    ],
     "needsReview": true
   },
   {
@@ -19,7 +22,9 @@
     "lao": "ທ່ານສະບາຍດີບໍ?",
     "phoneticLao": "ໂກມົງ ອາເລ ວູ ?",
     "difficulty": "debutant",
-    "tags": ["salutation"],
+    "tags": [
+      "salutation"
+    ],
     "needsReview": true
   },
   {
@@ -30,7 +35,9 @@
     "lao": "ການເດີນທາງຂອງທ່ານເປັນແນວໃດ?",
     "phoneticLao": "ອາເວ ວູ ແຟ ບົງ ວົວຢາຊ ?",
     "difficulty": "debutant",
-    "tags": ["voyage"],
+    "tags": [
+      "voyage"
+    ],
     "needsReview": true
   },
   {
@@ -41,7 +48,9 @@
     "lao": "ການເດີນທາງຂອງທ່ານໄປໄດ້ດີບໍ?",
     "phoneticLao": "ໂວດ ວົວຢາຊ ແຊ ບຽງ ປາເຊ ?",
     "difficulty": "debutant",
-    "tags": ["voyage"],
+    "tags": [
+      "voyage"
+    ],
     "needsReview": true
   },
   {
@@ -53,7 +62,10 @@
     "phoneticLao": "ເຈີ ຊຸຍ ໂວດ ກີດ.",
     "explanation": "Phrase de présentation à dire dès le premier contact avec le touriste.",
     "difficulty": "debutant",
-    "tags": ["presentation", "guide"],
+    "tags": [
+      "presentation",
+      "guide"
+    ],
     "needsReview": true
   },
   {
@@ -64,7 +76,9 @@
     "lao": "ຂ້ອຍຊື່ວ່າ...",
     "phoneticLao": "ເຈີ ມາແປລ...",
     "difficulty": "debutant",
-    "tags": ["presentation"],
+    "tags": [
+      "presentation"
+    ],
     "needsReview": true
   },
   {
@@ -75,7 +89,10 @@
     "lao": "ຂ້ອຍຈະໄປນຳທ່ານຕະຫຼອດການພັກຢູ່ນີ້.",
     "phoneticLao": "ເຈີ ເວ ວູ ອາກົງປາຍເຍ ປັງດັງ ໂວດ ເຊຊູ.",
     "difficulty": "debutant",
-    "tags": ["presentation", "guide"],
+    "tags": [
+      "presentation",
+      "guide"
+    ],
     "needsReview": true
   },
   {
@@ -86,7 +103,9 @@
     "lao": "ຖ້າທ່ານຕ້ອງການສິ່ງໃດ, ບອກຂ້ອຍໄດ້ເລີຍ.",
     "phoneticLao": "ຊີ ວູ ອາເວ ເບີຊວັງ ເດີ ແກນລະຊົງ, ດີດ ເລີ ມົວ.",
     "difficulty": "debutant",
-    "tags": ["disponibilite"],
+    "tags": [
+      "disponibilite"
+    ],
     "needsReview": true
   },
   {
@@ -97,7 +116,9 @@
     "lao": "ຢ່າລັງເລທີ່ຈະຖາມຂ້ອຍ.",
     "phoneticLao": "ເນຊີເຕ ປາ ອາ ມະ ໂປເຊ ເດ ແກສຕົງ.",
     "difficulty": "debutant",
-    "tags": ["disponibilite"],
+    "tags": [
+      "disponibilite"
+    ],
     "needsReview": true
   },
   {
@@ -108,7 +129,9 @@
     "lao": "ຍິນດີຕ້ອນຮັບສູ່ສະໜາມບິນ.",
     "phoneticLao": "ບຽງເວີນູ ອາ ລາເອໂຣປໍ.",
     "difficulty": "debutant",
-    "tags": ["aeroport"],
+    "tags": [
+      "aeroport"
+    ],
     "needsReview": true
   },
   {
@@ -119,7 +142,9 @@
     "lao": "ຂ້ອຍມາຮັບທ່ານ.",
     "phoneticLao": "ເຈີ ວຽງ ວູ ແຊເຊ.",
     "difficulty": "debutant",
-    "tags": ["aeroport"],
+    "tags": [
+      "aeroport"
+    ],
     "needsReview": true
   },
   {
@@ -130,7 +155,9 @@
     "lao": "ທ່ານແມ່ນທ່ານ / ນາງ... ແມ່ນບໍ?",
     "phoneticLao": "ວູ ແອດ ບຽງ ມີສີເອີ / ມາດາມ... ?",
     "difficulty": "debutant",
-    "tags": ["aeroport"],
+    "tags": [
+      "aeroport"
+    ],
     "needsReview": true
   },
   {
@@ -141,7 +168,10 @@
     "lao": "ທ່ານມີກະເປົາບໍ?",
     "phoneticLao": "ອາເວ ວູ ໂວ ບາກາຊ ?",
     "difficulty": "debutant",
-    "tags": ["aeroport", "bagages"],
+    "tags": [
+      "aeroport",
+      "bagages"
+    ],
     "needsReview": true
   },
   {
@@ -152,7 +182,10 @@
     "lao": "ກະເປົາເດີນທາງຂອງທ່ານຢູ່ໃສ?",
     "phoneticLao": "ູ ແອ ໂວດ ວາລີສ ?",
     "difficulty": "debutant",
-    "tags": ["aeroport", "bagages"],
+    "tags": [
+      "aeroport",
+      "bagages"
+    ],
     "needsReview": true
   },
   {
@@ -163,7 +196,10 @@
     "lao": "ພວກເຮົາຈະໄປຫາລົດນຳກັນ.",
     "phoneticLao": "ນູ ອາລົງ ເຣຊວັງດ ລາ ວົວຕູ.",
     "difficulty": "debutant",
-    "tags": ["aeroport", "transport"],
+    "tags": [
+      "aeroport",
+      "transport"
+    ],
     "needsReview": true
   },
   {
@@ -174,7 +210,11 @@
     "lao": "ການເດີນທາງໄປໂຮງແຮມໃຊ້ເວລາປະມານ 30 ນາທີ.",
     "phoneticLao": "ເລີ ຕຣາເຊ ຈູສະກາ ໂລແຕລ ປຣັງດຣາ ອັງວີຣົງ ຕຣັງດ ມີນູດ.",
     "difficulty": "intermediaire",
-    "tags": ["aeroport", "transport", "duree"],
+    "tags": [
+      "aeroport",
+      "transport",
+      "duree"
+    ],
     "needsReview": true
   },
   {
@@ -185,7 +225,9 @@
     "lao": "ນີ້ແມ່ນໂຮງແຮມຂອງທ່ານ.",
     "phoneticLao": "ວົວຊີ ໂວດ ໂລແຕລ.",
     "difficulty": "debutant",
-    "tags": ["hotel"],
+    "tags": [
+      "hotel"
+    ],
     "needsReview": true
   },
   {
@@ -196,7 +238,9 @@
     "lao": "ນີ້ແມ່ນຫ້ອງຂອງທ່ານ.",
     "phoneticLao": "ວົວຊີ ໂວດ ຊົງບຣ.",
     "difficulty": "debutant",
-    "tags": ["hotel"],
+    "tags": [
+      "hotel"
+    ],
     "needsReview": true
   },
   {
@@ -207,7 +251,10 @@
     "lao": "ອາຫານເຊົ້າໃຫ້ບໍລິການແຕ່ 7 ໂມງຫາ 10 ໂມງ.",
     "phoneticLao": "ເລີ ເປຕີເດເຈີເນ ແອ ແຊວີ ເດີ ເຊດເອີ ອາ ດີເຊີ.",
     "difficulty": "intermediaire",
-    "tags": ["hotel", "horaires"],
+    "tags": [
+      "hotel",
+      "horaires"
+    ],
     "needsReview": true
   },
   {
@@ -218,7 +265,10 @@
     "lao": "ວາຍຟາຍບໍ່ເສຍຄ່າ.",
     "phoneticLao": "ເລີ ວາຍຟາຍ ແອ ກຣາຕຸຍ.",
     "difficulty": "debutant",
-    "tags": ["hotel", "wifi"],
+    "tags": [
+      "hotel",
+      "wifi"
+    ],
     "needsReview": true
   },
   {
@@ -229,7 +279,9 @@
     "lao": "ນີ້ແມ່ນກະແຈຂອງທ່ານ.",
     "phoneticLao": "ວົວຊີ ໂວດ ກເລ.",
     "difficulty": "debutant",
-    "tags": ["hotel"],
+    "tags": [
+      "hotel"
+    ],
     "needsReview": true
   },
   {
@@ -240,7 +292,9 @@
     "lao": "ຫ້ອງຂອງທ່ານຢູ່ຊັ້ນສອງ.",
     "phoneticLao": "ໂວດ ຊົງບຣ ແອ ໂອ ເດີຊຽມ ເອຕາຊ.",
     "difficulty": "intermediaire",
-    "tags": ["hotel"],
+    "tags": [
+      "hotel"
+    ],
     "needsReview": true
   },
   {
@@ -252,7 +306,10 @@
     "phoneticLao": "ລາຊັງເຊີ ແອ ອາ ດຣົວດ.",
     "pronunciationTip": "Le \"r\" français (droite) se prononce au fond de la gorge, un peu comme un raclement doux. N'essayez pas de le rouler avec la langue comme en lao.",
     "difficulty": "debutant",
-    "tags": ["hotel", "direction"],
+    "tags": [
+      "hotel",
+      "direction"
+    ],
     "needsReview": true
   },
   {
@@ -263,7 +320,10 @@
     "lao": "ທ່ານຕ້ອງການອັນອື່ນອີກບໍ?",
     "phoneticLao": "ອາເວ ວູ ເບີຊວັງ ໂດຕຣ ຊົງ ?",
     "difficulty": "debutant",
-    "tags": ["hotel", "disponibilite"],
+    "tags": [
+      "hotel",
+      "disponibilite"
+    ],
     "needsReview": true
   },
   {
@@ -274,7 +334,9 @@
     "lao": "ທ່ານຫິວເຂົ້າບໍ?",
     "phoneticLao": "ອາເວ ວູ ແຟງ ?",
     "difficulty": "debutant",
-    "tags": ["restaurant"],
+    "tags": [
+      "restaurant"
+    ],
     "needsReview": true
   },
   {
@@ -285,7 +347,9 @@
     "lao": "ທ່ານຢາກກິນຫຍັງ?",
     "phoneticLao": "ແກສກະ ວູ ຊູເອເຕ ມັງເຊ ?",
     "difficulty": "debutant",
-    "tags": ["restaurant"],
+    "tags": [
+      "restaurant"
+    ],
     "needsReview": true
   },
   {
@@ -296,7 +360,10 @@
     "lao": "ທ່ານຢາກກິນເຜັດບໍ?",
     "phoneticLao": "ວູເລ ວູ ມັງເຊ ເອປີເຊ ?",
     "difficulty": "debutant",
-    "tags": ["restaurant", "epice"],
+    "tags": [
+      "restaurant",
+      "epice"
+    ],
     "needsReview": true
   },
   {
@@ -307,7 +374,10 @@
     "lao": "ອາຫານຈານນີ້ເຜັດ.",
     "phoneticLao": "ເຊີ ປລາ ແອ ເອປີເຊ.",
     "difficulty": "debutant",
-    "tags": ["restaurant", "epice"],
+    "tags": [
+      "restaurant",
+      "epice"
+    ],
     "needsReview": true
   },
   {
@@ -318,7 +388,10 @@
     "lao": "ອາຫານຈານນີ້ບໍ່ເຜັດ.",
     "phoneticLao": "ເຊີ ປລາ ເນ ປາ ເອປີເຊ.",
     "difficulty": "debutant",
-    "tags": ["restaurant", "epice"],
+    "tags": [
+      "restaurant",
+      "epice"
+    ],
     "needsReview": true
   },
   {
@@ -330,7 +403,11 @@
     "phoneticLao": "ແອດ ວູ ອາແລຊິກ ອາ ແກນລະຊົງ ?",
     "explanation": "Question importante à poser systématiquement avant de commander pour un touriste.",
     "difficulty": "intermediaire",
-    "tags": ["restaurant", "allergie", "securite"],
+    "tags": [
+      "restaurant",
+      "allergie",
+      "securite"
+    ],
     "needsReview": true
   },
   {
@@ -341,7 +418,9 @@
     "lao": "ທ່ານຕ້ອງການເຂົ້າບໍ?",
     "phoneticLao": "ວູເລ ວູ ດູ ຣີ ?",
     "difficulty": "debutant",
-    "tags": ["restaurant"],
+    "tags": [
+      "restaurant"
+    ],
     "needsReview": true
   },
   {
@@ -352,7 +431,9 @@
     "lao": "ທ່ານຕ້ອງການນ້ຳບໍ?",
     "phoneticLao": "ວູເລ ວູ ເດີ ໂລ ?",
     "difficulty": "debutant",
-    "tags": ["restaurant"],
+    "tags": [
+      "restaurant"
+    ],
     "needsReview": true
   },
   {
@@ -363,7 +444,9 @@
     "lao": "ນີ້ແມ່ນເມນູ.",
     "phoneticLao": "ວົວຊີ ເລີ ເມີນູ.",
     "difficulty": "debutant",
-    "tags": ["restaurant"],
+    "tags": [
+      "restaurant"
+    ],
     "needsReview": true
   },
   {
@@ -375,7 +458,3538 @@
     "phoneticLao": "ລາດີຊົງ, ຊີວູປແລ ?",
     "pronunciationTip": "\"S'il vous plaît\" est une formule très fréquente : entraînez-vous à l'enchaîner d'un seul souffle, comme un seul mot.",
     "difficulty": "debutant",
-    "tags": ["restaurant", "paiement", "politesse"],
+    "tags": [
+      "restaurant",
+      "paiement",
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-001",
+    "categoryId": "guide",
+    "situation": "guider_intro",
+    "french": "Nous allons visiter le centre-ville.",
+    "lao": "ພວກເຮົາຊິໄປທ່ຽວໃຈກາງເມືອງ.",
+    "phoneticLao": "ນູ ຊາລົງ ວີຊິເຕ ເລີ ຊັງ-ເຕີວີລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "visite",
+      "introduction"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-002",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Le bus part dans dix minutes.",
+    "lao": "ລົດເມອອກໃນອີກສິບນາທີ.",
+    "phoneticLao": "ເລີ ບຸດ ປາ ດັງ ດີ ມີນຸດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "horaire",
+      "transport"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-003",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Suivez-moi, s'il vous plaît.",
+    "lao": "ກະລຸນາຕິດຕາມຂ້ອຍ.",
+    "phoneticLao": "ສ ⁠ຢູ່ວີ-ມົວ, ຊິວູ ປແລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "consigne"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-004",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "Attention à la marche.",
+    "lao": "ລະວັງຂັ້ນໄດ.",
+    "phoneticLao": "ອາຕັງຊິອົງ ອາ ລາ ມາຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "securite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-005",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Nous avons deux heures de visite ici.",
+    "lao": "ພວກເຮົາມີເວລາທ່ຽວຢູ່ນີ້ສອງຊົ່ວໂມງ.",
+    "phoneticLao": "ນູ ຊາວົງ ເດີເຊີ ເດີ ວີຊິດ ອິຊິ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "duree"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-006",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "N'oubliez pas votre appareil photo.",
+    "lao": "ຢ່າລືມກ້ອງຖ່າຍຮູບ.",
+    "phoneticLao": "ນູບລີເອ ປາ ໂວດຣ ອາປາເຣຍ ໂຟໂຕ.",
+    "difficulty": "debutant",
+    "tags": [
+      "rappel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-007",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Le prochain arrêt est le marché du matin.",
+    "lao": "ບ່ອນຢຸດຕໍ່ໄປແມ່ນຕະຫຼາດເຊົ້າ.",
+    "phoneticLao": "ເລີ ໂປຣຊັງ ອາເຣ ແອ ເລີ ມາເຊ ດູ ມາຕັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-008",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "Restez groupés, s'il vous plaît.",
+    "lao": "ກະລຸນາຢູ່ນຳກັນເປັນກຸ່ມ.",
+    "phoneticLao": "ເຣສະເຕ ກຣູເປ, ຊິວູ ປແລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "consigne",
+      "groupe"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-009",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Il y a des toilettes juste ici.",
+    "lao": "ມີຫ້ອງນ້ຳຢູ່ຕິດນີ້.",
+    "phoneticLao": "ອິລີຢາ ເດ ຕົວເຣັດ ຊຸດ ອິຊິ.",
+    "difficulty": "debutant",
+    "tags": [
+      "pratique"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-010",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Nous reprenons la route dans cinq minutes.",
+    "lao": "ພວກເຮົາຊິອອກເດີນທາງຕໍ່ໃນອີກຫ້ານາທີ.",
+    "phoneticLao": "ນູ ເຣເປຣນົງ ລາ ຣຸດ ດັງ ແຊງ ມີນຸດ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-011",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Voici le point de rendez-vous.",
+    "lao": "ນີ້ແມ່ນຈຸດນັດພົບ.",
+    "phoneticLao": "ວົວອາຊິ ເລີ ປົວຣງ ເດີ ຣັງເດ-ວູ.",
+    "difficulty": "debutant",
+    "tags": [
+      "rendez-vous"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-012",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "La visite dure environ une heure.",
+    "lao": "ການທ່ຽວຊົມໃຊ້ເວລາປະມານຫນຶ່ງຊົ່ວໂມງ.",
+    "phoneticLao": "ລາ ວີຊິດ ດູຣ ອັງວີຣົງ ອູນ ເອີຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "duree"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-013",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "Faites attention aux motos.",
+    "lao": "ລະວັງລົດຈັກ.",
+    "phoneticLao": "ເຟດ ອາຕັງຊິອົງ ໂອ ໂມໂຕ.",
+    "difficulty": "debutant",
+    "tags": [
+      "securite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-014",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Le musée ferme à dix-sept heures.",
+    "lao": "ພິພິທະພັນປິດເວລາສິບເຈັດໂມງ.",
+    "phoneticLao": "ເລີ ມູເຊ ແຟຣມ ອາ ດີເຊັດ ເອີຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-015",
+    "categoryId": "guide",
+    "situation": "guider_intro",
+    "french": "N'hésitez pas à me poser des questions.",
+    "lao": "ຢ່າລັງເລທີ່ຈະຖາມຂ້ອຍ.",
+    "phoneticLao": "ເນເຊເຕ ປາ ອາ ມ ໂປເຊ ເດ ເກສຕຽງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "invitation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-001",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Merci d'enlever vos chaussures avant d'entrer.",
+    "lao": "ກະລຸນາຖອດເກີບກ່ອນເຂົ້າ.",
+    "phoneticLao": "ແມກຊິ ເດັງເລເວ ໂວ ຊູຊູຣ ອາວັງ ດັງເຕຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "regle",
+      "respect"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-002",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Les épaules doivent être couvertes dans le temple.",
+    "lao": "ບ່າໄຫລ່ຕ້ອງຖືກປົກປິດໃນວັດ.",
+    "phoneticLao": "ເລ ເອປໂອລ ດົວຝ ແອຕຣ ກູແຝຣຕ ດັງ ເລີ ຕັງປລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "regle",
+      "habillement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-003",
+    "categoryId": "temples",
+    "situation": "temple_histoire",
+    "french": "Ce temple a plus de trois cents ans.",
+    "lao": "ວັດນີ້ມີອາຍຸຫຼາຍກວ່າສາມຮ້ອຍປີ.",
+    "phoneticLao": "ເຊີ ຕັງປລ ອາ ພລູ ເດີ ຕຣົວ ຊັງ ອັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "histoire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-004",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Merci de parler doucement, c'est un lieu sacré.",
+    "lao": "ກະລຸນາເວົ້າແຜ່ວໆ, ນີ້ແມ່ນສະຖານທີ່ສັກສິດ.",
+    "phoneticLao": "ແມກຊິ ເດີ ປາຣເລ ດູສມັງ, ເຊ ຕ ລີເອີ ຊາເກຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "regle",
+      "respect"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-005",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Vous pouvez prendre des photos ici, mais pas à l'intérieur.",
+    "lao": "ທ່ານສາມາດຖ່າຍຮູບຢູ່ນີ້ໄດ້, ແຕ່ບໍ່ແມ່ນຂ້າງໃນ.",
+    "phoneticLao": "ວູ ປູເວ ປຣັງດຣ ເດ ໂຟໂຕ ອິຊິ, ແມ ປາ ອາ ລັງເຕຣີເອີຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "photo",
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-006",
+    "categoryId": "temples",
+    "situation": "temple_histoire",
+    "french": "Ce bouddha est très important pour les Laotiens.",
+    "lao": "ພະພຸດທະຮູບນີ້ສຳຄັນຫຼາຍສຳລັບຄົນລາວ.",
+    "phoneticLao": "ເຊີ ບູດດາ ແອ ຕເຣ ອັງປອຣຕັງ ປູຣ ເລ ລາໂອຊຽງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-007",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Il est interdit de toucher les statues.",
+    "lao": "ຫ້າມແຕະຮູບປັ້ນ.",
+    "phoneticLao": "ອິລ ແອ ອັງແຕຣດີ ເດີ ຕູແຊ ເລ ສະຕາຕູ.",
+    "difficulty": "debutant",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-008",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Nous retirons nos chapeaux par respect.",
+    "lao": "ພວກເຮົາຖອດໝວກເພື່ອສະແດງຄວາມເຄົາລົບ.",
+    "phoneticLao": "ນູ ເຣຕີຣົງ ໂນ ຊາໂປ ປາຣ ເຣສແປ.",
+    "difficulty": "debutant",
+    "tags": [
+      "regle",
+      "respect"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-009",
+    "categoryId": "temples",
+    "situation": "temple_histoire",
+    "french": "Le moine va nous expliquer l'histoire du temple.",
+    "lao": "ພຣະສົງຈະອະທິບາຍປະຫວັດວັດໃຫ້ພວກເຮົາຟັງ.",
+    "phoneticLao": "ເລີ ມົວນ ວາ ນູ ແອກສປລີເກ ລິສຕົວຣ ດູ ຕັງປລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-010",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Merci de rester sur le chemin balisé.",
+    "lao": "ກະລຸນາຍ່າງຕາມເສັ້ນທາງທີ່ກຳນົດ.",
+    "phoneticLao": "ແມກຊິ ເດີ ເຣສເຕ ຊູຣ ເລີ ສມັງ ບາລີເຊ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "securite",
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-011",
+    "categoryId": "temples",
+    "situation": "temple_histoire",
+    "french": "Ce site est classé au patrimoine mondial.",
+    "lao": "ສະຖານທີ່ນີ້ຖືກຈັດເປັນມໍລະດົກໂລກ.",
+    "phoneticLao": "ເຊີ ຊິຕ ແອ ກລາເຊ ໂອ ປາຕຣີມົວນ ມົງດີອາລ.",
+    "difficulty": "avance",
+    "tags": [
+      "patrimoine"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-012",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Vous pouvez faire un don si vous le souhaitez.",
+    "lao": "ທ່ານສາມາດບໍລິຈາກໄດ້ຖ້າທ່ານຕ້ອງການ.",
+    "phoneticLao": "ວູ ປູເວ ແຟຣ ອັງ ດົງ ຊີ ວູ ເລີ ຊູແອເຕ.",
+    "difficulty": "debutant",
+    "tags": [
+      "don"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-001",
+    "categoryId": "shopping",
+    "situation": "shopping_intro",
+    "french": "Bienvenue dans ce marché artisanal.",
+    "lao": "ຍິນດີຕ້ອນຮັບສູ່ຕະຫຼາດຫັດຖະກຳ.",
+    "phoneticLao": "ບຽງເວີນູ ດັງ ເຊີ ມາເຣເຊ ອາຕີຊານາລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "accueil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-002",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Ce tissu est tissé à la main.",
+    "lao": "ຜ້າຜືນນີ້ແມ່ນທໍດ້ວຍມື.",
+    "phoneticLao": "ເຊີ ຕີຊູ ແອ ຕີເຊ ອາ ລາ ມັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "artisanat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-003",
+    "categoryId": "shopping",
+    "situation": "shopping_prix",
+    "french": "Vous pouvez négocier le prix ici.",
+    "lao": "ທ່ານສາມາດຕໍ່ລາຄາໄດ້ຢູ່ນີ້.",
+    "phoneticLao": "ວູ ປູເວ ເນໂກຊິເອ ເລີ ປຣີ ອິຊິ.",
+    "difficulty": "debutant",
+    "tags": [
+      "negociation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-004",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "C'est fait par des artisans locaux.",
+    "lao": "ນີ້ແມ່ນເຮັດໂດຍຊ່າງຝີມືທ້ອງຖິ່ນ.",
+    "phoneticLao": "ເຊ ແຟ ປາຣ ເດ ອາຕີຊັງ ໂລກາລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "artisanat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-005",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Voulez-vous essayer ce vêtement ?",
+    "lao": "ທ່ານຢາກລອງເສື້ອຜ້າຊຸດນີ້ບໍ?",
+    "phoneticLao": "ວູເລ ວູ ແອເຊເຢ ເຊີ ເວດມັງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "vetement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-006",
+    "categoryId": "shopping",
+    "situation": "shopping_paiement",
+    "french": "Nous acceptons les dollars et les kips.",
+    "lao": "ພວກເຮົາຮັບທັງເງິນໂດລາແລະເງິນກີບ.",
+    "phoneticLao": "ນູ ອາກແຊບຕົງ ເລ ໂດລາຣ ເອ ເລ ກີບ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "monnaie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-007",
+    "categoryId": "shopping",
+    "situation": "shopping_prix",
+    "french": "Je vous fais un bon prix.",
+    "lao": "ຂ້ອຍໃຫ້ລາຄາດີແກ່ທ່ານ.",
+    "phoneticLao": "ຊ ວູ ແຟ ອັງ ບົງ ປຣີ.",
+    "difficulty": "debutant",
+    "tags": [
+      "negociation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-008",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Ce sac est en soie naturelle.",
+    "lao": "ກະເປົາໃບນີ້ແມ່ນໄໝແທ້.",
+    "phoneticLao": "ເຊີ ຊາກ ແອ ຕັງ ຊົວ ນາຕູແຣລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "artisanat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-009",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Vous voulez un sac pour vos achats ?",
+    "lao": "ທ່ານຢາກໄດ້ຖົງໃສ່ເຄື່ອງບໍ?",
+    "phoneticLao": "ວູ ວູເລ ອັງ ຊາກ ປູຣ ໂວ ຊາຊາ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "service"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-010",
+    "categoryId": "shopping",
+    "situation": "shopping_intro",
+    "french": "Ce marché est ouvert tous les matins.",
+    "lao": "ຕະຫຼາດນີ້ເປີດທຸກຕອນເຊົ້າ.",
+    "phoneticLao": "ເຊີ ມາເຣເຊ ແອ ອູແວຣ ຕູ ເລ ມາຕັງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-011",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "C'est notre spécialité locale.",
+    "lao": "ນີ້ແມ່ນຂອງທ້ອງຖິ່ນທີ່ພິເສດຂອງພວກເຮົາ.",
+    "phoneticLao": "ເຊ ໂນຕຣ ສເປຊິອາລີເຕ ໂລກາລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "specialite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-012",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Faites attention, c'est fragile.",
+    "lao": "ລະວັງແດ່, ມັນແຕກງ່າຍ.",
+    "phoneticLao": "ເຟດ ອາຕັງຊິອົງ, ເຊ ຝຣາຊິລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "securite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-001",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "Combien ça coûte ?",
+    "lao": "ອັນນີ້ລາຄາເທົ່າໃດ?",
+    "phoneticLao": "ກົງບຽງ ຊາ ກູດ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "prix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-002",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Vous pouvez payer par carte.",
+    "lao": "ທ່ານສາມາດຈ່າຍດ້ວຍບັດໄດ້.",
+    "phoneticLao": "ວູ ປູເວ ເປເຢ ປາຣ ກາຣດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "paiement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-003",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Nous n'acceptons que les espèces.",
+    "lao": "ພວກເຮົາຮັບແຕ່ເງິນສົດເທົ່ານັ້ນ.",
+    "phoneticLao": "ນູ ນາກແຊບຕົງ ເກີ ເລ ແອສແປສ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "paiement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-004",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Voici votre monnaie.",
+    "lao": "ນີ້ແມ່ນເງິນທອນຂອງທ່ານ.",
+    "phoneticLao": "ວົວອາຊິ ໂວຕຣ ໂມແນ.",
+    "difficulty": "debutant",
+    "tags": [
+      "monnaie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-005",
+    "categoryId": "argent",
+    "situation": "argent_change",
+    "french": "Le taux de change est affiché ici.",
+    "lao": "ອັດຕາແລກປ່ຽນເງິນຕິດປະກາດຢູ່ນີ້.",
+    "phoneticLao": "ເລີ ໂຕ ເດີ ຊັງຊ ແອ ອາຝິເຊ ອິຊິ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "change"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-006",
+    "categoryId": "argent",
+    "situation": "argent_change",
+    "french": "Il y a un distributeur automatique là-bas.",
+    "lao": "ມີຕູ້ ATM ຢູ່ທາງນັ້ນ.",
+    "phoneticLao": "ອິລີຢາ ອັງ ດີສຕຣີບີເຕີຣ ໂອໂຕມາຕີກ ລາບາ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "atm"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-007",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "Le prix inclut le transport.",
+    "lao": "ລາຄານີ້ລວມຄ່າລົດແລ້ວ.",
+    "phoneticLao": "ເລີ ປຣີ ອັງແກລີ ເລີ ຕຣັງສປໍຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "prix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-008",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "C'est le prix pour deux personnes.",
+    "lao": "ນີ້ແມ່ນລາຄາສຳລັບສອງຄົນ.",
+    "phoneticLao": "ເຊ ເລີ ປຣີ ປູຣ ເດີ ແປຣຊົງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "prix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-009",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "Y a-t-il des frais supplémentaires ?",
+    "lao": "ມີຄ່າໃຊ້ຈ່າຍເພີ່ມເຕີມບໍ?",
+    "phoneticLao": "ອີຢາຕິລ ເດ ເຝຣ ຊູແປລມັງແຕຣ ?",
+    "difficulty": "avance",
+    "tags": [
+      "prix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-010",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Gardez votre reçu, s'il vous plaît.",
+    "lao": "ກະລຸນາເກັບໃບບິນໄວ້.",
+    "phoneticLao": "ການເດ ໂວຕຣ ເຣຊູ, ຊິວູ ປແລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "recu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-011",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Le pourboire n'est pas obligatoire.",
+    "lao": "ທິບບໍ່ແມ່ນຂໍ້ບັງຄັບ.",
+    "phoneticLao": "ເລີ ປູຣບົວຣ ເນແປ ໂອບລີກາຕົວຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "pourboire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-012",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Nous pouvons faire un reçu en anglais.",
+    "lao": "ພວກເຮົາສາມາດອອກໃບບິນເປັນພາສາອັງກິດໄດ້.",
+    "phoneticLao": "ນູ ປູວົງ ແຟຣ ອັງ ເຣຊູ ອັງ ອັງແກລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "recu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-001",
+    "categoryId": "urgences",
+    "situation": "urgence_check",
+    "french": "Est-ce que tout va bien ?",
+    "lao": "ທຸກຢ່າງດີບໍ?",
+    "phoneticLao": "ແອສ ເກີ ຕູ ວາ ບຽງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "securite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-002",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Avez-vous besoin d'un médecin ?",
+    "lao": "ທ່ານຕ້ອງການໝໍບໍ?",
+    "phoneticLao": "ອາເວ ວູ ເບີຊວັງ ດັງ ເມດແຊງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-003",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "L'hôpital le plus proche est à dix minutes.",
+    "lao": "ໂຮງໝໍໃກ້ທີ່ສຸດຢູ່ຫ່າງອອກໄປສິບນາທີ.",
+    "phoneticLao": "ໂລປີຕາລ ເລີ ພລູ ປໂຣຊ ແອ ອາ ດີ ມີນຸດ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-004",
+    "categoryId": "urgences",
+    "situation": "urgence_objet",
+    "french": "Avez-vous perdu quelque chose ?",
+    "lao": "ທ່ານເສຍເຄື່ອງຫຍັງໄປບໍ?",
+    "phoneticLao": "ອາເວ ວູ ແປຣດູ ແກນກຊ ຊົວ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "objet"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-005",
+    "categoryId": "urgences",
+    "situation": "urgence_securite",
+    "french": "Je vais appeler la police.",
+    "lao": "ຂ້ອຍຊິໂທຫາຕຳຫຼວດ.",
+    "phoneticLao": "ຊ ວາ ອາເປແລ ລາ ໂປລີສ.",
+    "difficulty": "debutant",
+    "tags": [
+      "police"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-006",
+    "categoryId": "urgences",
+    "situation": "urgence_reconfort",
+    "french": "Restez calme, je vais vous aider.",
+    "lao": "ໃຈເຢັນໆ, ຂ້ອຍຊິຊ່ວຍທ່ານ.",
+    "phoneticLao": "ເຣສເຕ ກາລມ, ຊ ວາ ວູ ແອເດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "reconfort"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-007",
+    "categoryId": "urgences",
+    "situation": "urgence_documents",
+    "french": "Avez-vous votre passeport avec vous ?",
+    "lao": "ທ່ານມີໜັງສືຜ່ານແດນຕິດຕົວບໍ?",
+    "phoneticLao": "ອາເວ ວູ ໂວຕຣ ປາສປໍຣ ອາເວກ ວູ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "documents"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-008",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Il y a une pharmacie juste là.",
+    "lao": "ມີຮ້ານຂາຍຢາຢູ່ທາງນັ້ນ.",
+    "phoneticLao": "ອິລີຢາ ອູນ ຝາຣມາຊີ ຊຸດ ລາ.",
+    "difficulty": "debutant",
+    "tags": [
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-009",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Buvez de l'eau, il fait très chaud.",
+    "lao": "ດື່ມນ້ຳແດ່, ອາກາດຮ້ອນຫຼາຍ.",
+    "phoneticLao": "ບູເວ ເດີ ໂລ, ອິລ ແຟ ຕເຣ ໂຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "chaleur",
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-010",
+    "categoryId": "urgences",
+    "situation": "urgence_securite",
+    "french": "Le numéro d'urgence est le cent quatre-vingt-onze.",
+    "lao": "ເບີໂທສຸກເສີນແມ່ນ 191.",
+    "phoneticLao": "ເລີ ນູເມໂຣ ດີວຣຊັງ ແອ ເລີ ຊັງ ກາຕເຣີ-ວັງ-ອົງເຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "numero"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-011",
+    "categoryId": "urgences",
+    "situation": "urgence_documents",
+    "french": "Nous allons contacter votre ambassade.",
+    "lao": "ພວກເຮົາຊິຕິດຕໍ່ສະຖານທູດຂອງທ່ານ.",
+    "phoneticLao": "ນູ ຊາລົງ ກົງຕັກເຕ ໂວຕຣ ອັງບາຊາດ.",
+    "difficulty": "avance",
+    "tags": [
+      "ambassade"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-012",
+    "categoryId": "urgences",
+    "situation": "urgence_reconfort",
+    "french": "Asseyez-vous, ça va aller.",
+    "lao": "ນັ່ງລົງກ່ອນ, ບໍ່ເປັນຫຍັງ.",
+    "phoneticLao": "ອາເຊເຢ ວູ, ຊາ ວາ ອາເລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "reconfort"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-001",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "D'où venez-vous ?",
+    "lao": "ທ່ານມາຈາກໃສ?",
+    "phoneticLao": "ດ ອູ ເວີເນ ວູ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "question"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-002",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Combien de temps restez-vous au Laos ?",
+    "lao": "ທ່ານຢູ່ລາວດົນປານໃດ?",
+    "phoneticLao": "ກົງບຽງ ເດີ ຕັງ ເຣສເຕ ວູ ໂອ ລາວ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "question"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-003",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "C'est votre première visite ?",
+    "lao": "ນີ້ແມ່ນເທື່ອທຳອິດທີ່ທ່ານມາບໍ?",
+    "phoneticLao": "ເຊ ໂວຕຣ ປເຣມີແອຣ ວີຊິດ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "question"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-004",
+    "categoryId": "conversation",
+    "situation": "conv_compliment",
+    "french": "Vous parlez très bien français.",
+    "lao": "ທ່ານເວົ້າພາສາຝຣັ່ງໄດ້ດີຫຼາຍ.",
+    "phoneticLao": "ວູ ປາຣເລ ຕເຣ ບຽງ ຝຣັງແຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "compliment"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-005",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Qu'est-ce que vous aimez le plus ici ?",
+    "lao": "ທ່ານມັກຫຍັງທີ່ສຸດຢູ່ນີ້?",
+    "phoneticLao": "ແກສ ເກີ ວູ ແອເມ ເລີ ພລູ ອິຊິ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "question"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-006",
+    "categoryId": "conversation",
+    "situation": "conv_pratique",
+    "french": "Avez-vous faim ?",
+    "lao": "ທ່ານຫິວເຂົ້າບໍ?",
+    "phoneticLao": "ອາເວ ວູ ຝັງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "question"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-007",
+    "categoryId": "conversation",
+    "situation": "conv_smalltalk",
+    "french": "Vous avez de la chance, il fait beau aujourd'hui.",
+    "lao": "ທ່ານມີໂຊກດີ, ມື້ນີ້ອາກາດດີ.",
+    "phoneticLao": "ວູ ອາເວ ເດີ ລາ ຊັງສ, ອິລ ແຟ ໂບ ໂອຊູຣດຫຼີ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "meteo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-008",
+    "categoryId": "conversation",
+    "situation": "conv_pratique",
+    "french": "Voulez-vous une photo souvenir ?",
+    "lao": "ທ່ານຢາກຖ່າຍຮູບໄວ້ເປັນທີ່ລະນຶກບໍ?",
+    "phoneticLao": "ວູເລ ວູ ອູນ ໂຟໂຕ ຊູເວນີຣ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "photo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-009",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "J'espère que vous passez un bon séjour.",
+    "lao": "ຂ້ອຍຫວັງວ່າທ່ານຈະມີການເດີນທາງທີ່ດີ.",
+    "phoneticLao": "ເຊສແປຣ ເກີ ວູ ປາເຊ ອັງ ບົງ ເຊຊູຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-010",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "N'hésitez pas si vous avez des questions.",
+    "lao": "ຢ່າລັງເລທີ່ຈະຖາມຖ້າທ່ານມີຄຳຖາມ.",
+    "phoneticLao": "ເນເຊເຕ ປາ ຊີ ວູ ອາເວ ເດ ເກສຕຽງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "invitation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-011",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Quel est votre plat préféré jusqu'à présent ?",
+    "lao": "ອາຫານຈານໃດທີ່ທ່ານມັກທີ່ສຸດຮອດຕອນນີ້?",
+    "phoneticLao": "ແກລ ແອ ໂວຕຣ ປລາ ເປເຝເຣ ຊູສກາ ປເຣຊັງ ?",
+    "difficulty": "avance",
+    "tags": [
+      "nourriture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-012",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "Vous reviendrez au Laos, j'espère !",
+    "lao": "ຂ້ອຍຫວັງວ່າທ່ານຈະກັບມາລາວອີກ!",
+    "phoneticLao": "ວູ ເຣວຽງດເຣ ໂອ ລາວ, ເຊສແປຣ !",
+    "difficulty": "intermediaire",
+    "tags": [
+      "adieu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-013",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "C'est un plaisir de vous faire visiter.",
+    "lao": "ມັນເປັນຄວາມຍິນດີທີ່ໄດ້ພາທ່ານທ່ຽວຊົມ.",
+    "phoneticLao": "ເຊ ຕ ອັງ ເປຼຊິຣ ເດີ ວູ ແຟຣ ວີຊິເຕ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-014",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Comment trouvez-vous le Laos ?",
+    "lao": "ທ່ານຮູ້ສຶກແນວໃດກັບລາວ?",
+    "phoneticLao": "ໂກມົງ ຕຣູເວ ວູ ເລີ ລາວ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "question"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-015",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "Merci de votre confiance.",
+    "lao": "ຂອບໃຈສຳລັບຄວາມໄວ້ວາງໃຈ.",
+    "phoneticLao": "ແມກຊິ ເດີ ໂວຕຣ ກົງຝິອັງສ.",
+    "difficulty": "debutant",
+    "tags": [
+      "remerciement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-001",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Pouvez-vous répéter, s'il vous plaît ?",
+    "lao": "ທ່ານເວົ້າຄືນໄດ້ບໍ?",
+    "phoneticLao": "ປູເວ ວູ ເຣເປເຕ, ຊິວູ ປແລ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-002",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Parlez plus lentement, s'il vous plaît.",
+    "lao": "ກະລຸນາເວົ້າຊ້າໆ.",
+    "phoneticLao": "ປາຣເລ ພລູ ລັງເຕມັງ, ຊິວູ ປແລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-003",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Je ne comprends pas.",
+    "lao": "ຂ້ອຍບໍ່ເຂົ້າໃຈ.",
+    "phoneticLao": "ຊ ເນີ ກົງປຣັງ ປາ.",
+    "difficulty": "debutant",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-004",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Comment dit-on cela en français ?",
+    "lao": "ອັນນີ້ເວົ້າເປັນພາສາຝຣັ່ງແນວໃດ?",
+    "phoneticLao": "ໂກມົງ ດີ ຕົງ ເຊລາ ອັງ ຝຣັງແຊ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-005",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Pouvez-vous écrire le mot, s'il vous plaît ?",
+    "lao": "ທ່ານຂຽນຄຳສັບໃຫ້ໄດ້ບໍ?",
+    "phoneticLao": "ປູເວ ວູ ເອກຣີຣ ເລີ ໂມ, ຊິວູ ປແລ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-006",
+    "categoryId": "apprendre",
+    "situation": "apprendre_service",
+    "french": "Je vais vérifier et je reviens vers vous.",
+    "lao": "ຂ້ອຍຊິກວດເບິ່ງແລ້ວຈະກັບມາບອກທ່ານ.",
+    "phoneticLao": "ຊ ວາ ເວຣີຝີເຢ ເອ ຊ ເຣວຽງ ແວຣ ວູ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "service"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-007",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Excusez-moi, je n'ai pas bien entendu.",
+    "lao": "ຂໍໂທດ, ຂ້ອຍບໍ່ໄດ້ຍິນຈະແຈ້ງ.",
+    "phoneticLao": "ແອກສກູເຊ ມົວ, ຊ ເນ ປາ ບຽງ ອັງຕັງດູ.",
+    "difficulty": "debutant",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-008",
+    "categoryId": "apprendre",
+    "situation": "apprendre_service",
+    "french": "Merci de votre patience.",
+    "lao": "ຂອບໃຈສຳລັບຄວາມອົດທົນ.",
+    "phoneticLao": "ແມກຊິ ເດີ ໂວຕຣ ປາຊັງສ.",
+    "difficulty": "debutant",
+    "tags": [
+      "remerciement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-009",
+    "categoryId": "apprendre",
+    "situation": "apprendre_service",
+    "french": "C'est noté, merci.",
+    "lao": "ຮັບຊາບແລ້ວ, ຂອບໃຈ.",
+    "phoneticLao": "ເຊ ໂນເຕ, ແມກຊິ.",
+    "difficulty": "debutant",
+    "tags": [
+      "confirmation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-010",
+    "categoryId": "apprendre",
+    "situation": "apprendre_service",
+    "french": "Un instant, s'il vous plaît.",
+    "lao": "ຂໍເວລາບຶດໜຶ່ງ.",
+    "phoneticLao": "ອັງ ນັງສຕັງ, ຊິວູ ປແລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "service"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-025",
+    "categoryId": "accueil",
+    "situation": "accueil_aeroport",
+    "french": "Avez-vous fait bon voyage ?",
+    "lao": "ການເດີນທາງຂອງທ່ານເປັນແນວໃດ?",
+    "phoneticLao": "ອາເວ ວູ ແຟ ບົງ ວົວຢາຊ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "aeroport"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-026",
+    "categoryId": "accueil",
+    "situation": "accueil_aeroport",
+    "french": "Votre chauffeur vous attend dehors.",
+    "lao": "ຄົນຂັບລົດຂອງທ່ານລໍຖ້າຢູ່ຂ້າງນອກ.",
+    "phoneticLao": "ໂວຕຣ ໂຊເຝີຣ ວູ ອາຕັງ ເດໂອຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "aeroport"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-027",
+    "categoryId": "accueil",
+    "situation": "accueil_aeroport",
+    "french": "Avez-vous récupéré tous vos bagages ?",
+    "lao": "ທ່ານໄດ້ຮັບກະເປົາຄົບແລ້ວບໍ?",
+    "phoneticLao": "ອາເວ ວູ ເຣກູເປເຣ ຕູ ໂວ ບາກາຊ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "aeroport",
+      "bagages"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-028",
+    "categoryId": "accueil",
+    "situation": "accueil_hotel",
+    "french": "Bienvenue à l'hôtel, voici votre chambre.",
+    "lao": "ຍິນດີຕ້ອນຮັບສູ່ໂຮງແຮມ, ນີ້ແມ່ນຫ້ອງຂອງທ່ານ.",
+    "phoneticLao": "ບຽງເວີນູ ອາ ໂລແຕລ, ວົວອາຊິ ໂວຕຣ ຊັງບຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "hotel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-029",
+    "categoryId": "accueil",
+    "situation": "accueil_hotel",
+    "french": "Le petit-déjeuner est servi de sept à dix heures.",
+    "lao": "ອາຫານເຊົ້າບໍລິການແຕ່ເຈັດໂມງຫາສິບໂມງ.",
+    "phoneticLao": "ເລີ ເປຕີ ເດເຊີເນ ແອ ແຊຣວີ ເດີ ແຊັດ ອາ ດີ ເອີຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "hotel",
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-030",
+    "categoryId": "accueil",
+    "situation": "accueil_hotel",
+    "french": "Voici la clé de votre chambre.",
+    "lao": "ນີ້ແມ່ນກະແຈຫ້ອງຂອງທ່ານ.",
+    "phoneticLao": "ວົວອາຊິ ລາ ເກ ເດີ ໂວຕຣ ຊັງບຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "hotel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-031",
+    "categoryId": "accueil",
+    "situation": "accueil_hotel",
+    "french": "Le wifi est gratuit dans tout l'hôtel.",
+    "lao": "ວາຍຟາຍໃຫ້ບໍລິການຟຣີທົ່ວໂຮງແຮມ.",
+    "phoneticLao": "ເລີ ວີຝີ ແອ ກຣາຕູອີ ດັງ ຕູ ໂລແຕລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "hotel",
+      "pratique"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-032",
+    "categoryId": "accueil",
+    "situation": "accueil_adieu",
+    "french": "Passez une bonne nuit.",
+    "lao": "ຝັນດີ.",
+    "phoneticLao": "ປາເຊ ອູນ ບົນ ນູອີ.",
+    "difficulty": "debutant",
+    "tags": [
+      "adieu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-033",
+    "categoryId": "accueil",
+    "situation": "accueil_adieu",
+    "french": "Merci d'être venus, à bientôt !",
+    "lao": "ຂອບໃຈທີ່ມາ, ພົບກັນໃໝ່!",
+    "phoneticLao": "ແມກຊິ ເດຕຣ ເວີນູ, ອາ ບຽງໂຕ !",
+    "difficulty": "debutant",
+    "tags": [
+      "adieu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-034",
+    "categoryId": "accueil",
+    "situation": "accueil_meteo",
+    "french": "Il fera beau toute la journée aujourd'hui.",
+    "lao": "ມື້ນີ້ອາກາດຈະດີຕະຫຼອດມື້.",
+    "phoneticLao": "ອິລ ເຝຣາ ໂບ ຕູຕ ລາ ຊູຣເນ ໂອຊູຣດຫຼີ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "meteo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-035",
+    "categoryId": "accueil",
+    "situation": "accueil_meteo",
+    "french": "Prenez un parapluie, il va pleuvoir.",
+    "lao": "ເອົາຮົ່ມໄປນຳ, ຝົນຊິຕົກ.",
+    "phoneticLao": "ປເຣເນ ອັງ ປາຣາປລູອີ, ອິລ ວາ ເປລີວົວຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "meteo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-036",
+    "categoryId": "accueil",
+    "situation": "accueil_meteo",
+    "french": "Il fait très chaud aujourd'hui, buvez beaucoup d'eau.",
+    "lao": "ມື້ນີ້ອາກາດຮ້ອນຫຼາຍ, ດື່ມນ້ຳຫຼາຍໆ.",
+    "phoneticLao": "ອິລ ແຟ ຕເຣ ໂຊ ໂອຊູຣດຫຼີ, ບູເວ ໂບກູ ໂດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "meteo",
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-011",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Voici le menu en français.",
+    "lao": "ນີ້ແມ່ນເມນູພາສາຝຣັ່ງ.",
+    "phoneticLao": "ວົວອາຊິ ເລີ ເມນູ ອັງ ຝຣັງແຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "menu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-012",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Avez-vous des allergies alimentaires ?",
+    "lao": "ທ່ານແພ້ອາຫານຫຍັງບໍ?",
+    "phoneticLao": "ອາເວ ວູ ເດ ອາແລຣຊີ ອາລີມັງແຕຣ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "allergie",
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-013",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Ce plat est un peu épicé.",
+    "lao": "ອາຫານຈານນີ້ແຊບແຕ່ອາດເຜັດ.",
+    "phoneticLao": "ເຊີ ປລາ ແອ ຕັງ ເປີ ເອປີເຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "piment"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-014",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Voulez-vous quelque chose à boire ?",
+    "lao": "ທ່ານຢາກດື່ມຫຍັງບໍ?",
+    "phoneticLao": "ວູເລ ວູ ແກນກຊ ຊົວ ອາ ບົວຣ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "boisson"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-015",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Je vous recommande ce plat.",
+    "lao": "ຂ້ອຍຂໍແນະນຳອາຫານຈານນີ້.",
+    "phoneticLao": "ຊ ວູ ເຣກໍມັງດ ເຊີ ປລາ.",
+    "difficulty": "debutant",
+    "tags": [
+      "recommandation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-016",
+    "categoryId": "restaurant",
+    "situation": "restaurant_paiement",
+    "french": "L'addition, s'il vous plaît.",
+    "lao": "ຂໍໃບບິນແດ່.",
+    "phoneticLao": "ລາດີຊິອົງ, ຊິວູ ປແລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "addition"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-017",
+    "categoryId": "restaurant",
+    "situation": "restaurant_paiement",
+    "french": "Le service est-il inclus ?",
+    "lao": "ຄ່າບໍລິການລວມແລ້ວບໍ?",
+    "phoneticLao": "ເລີ ແຊຣວີສ ແອຕິລ ອັງແກລີ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "service"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-018",
+    "categoryId": "restaurant",
+    "situation": "restaurant_recommandation",
+    "french": "Ce restaurant est réputé pour sa soupe de nouilles.",
+    "lao": "ຮ້ານອາຫານນີ້ມີຊື່ສຽງເລື່ອງເຝີ.",
+    "phoneticLao": "ເຊີ ເຣສໂຕຣັງ ແອ ເຣປູເຕ ປູຣ ຊາ ຊູບ ເດີ ນູອີ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "specialite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-019",
+    "categoryId": "restaurant",
+    "situation": "restaurant_recommandation",
+    "french": "Voulez-vous goûter un dessert lao ?",
+    "lao": "ທ່ານຢາກລອງກິນເຂົ້າໜົມລາວບໍ?",
+    "phoneticLao": "ວູເລ ວູ ກູເຕ ອັງ ເດແຊຣ ລາໂອ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "dessert"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-020",
+    "categoryId": "restaurant",
+    "situation": "restaurant_service",
+    "french": "La table près de la fenêtre est libre.",
+    "lao": "ໂຕະຢູ່ໃກ້ປ່ອງຢ້ຽມຫວ່າງຢູ່.",
+    "phoneticLao": "ລາ ຕາບລ ປເຣ ເດີ ລາ ເຝແນຕຣ ແອ ລີບຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "table"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-021",
+    "categoryId": "restaurant",
+    "situation": "restaurant_service",
+    "french": "Prenez votre temps pour choisir.",
+    "lao": "ໃຊ້ເວລາເລືອກໄດ້ຕາມສະບາຍ.",
+    "phoneticLao": "ປເຣເນ ໂວຕຣ ຕັງ ປູຣ ຊົວຊິຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "service"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-022",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Ce n'est pas piquant du tout.",
+    "lao": "ອັນນີ້ບໍ່ເຜັດເລີຍ.",
+    "phoneticLao": "ເຊ ເນ ປາ ປີກັງ ດູ ຕູ.",
+    "difficulty": "debutant",
+    "tags": [
+      "piment"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-023",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Avez-vous une option végétarienne ?",
+    "lao": "ທ່ານມີເມນູມັງສະວິລັດບໍ?",
+    "phoneticLao": "ອາເວ ວູ ອູນ ອອບຊິອົງ ເວເຊຕາຣິແອນ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "vegetarien"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-024",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Bon appétit !",
+    "lao": "ກິນໃຫ້ແຊບເດີ້!",
+    "phoneticLao": "ບົນ ອາເປຕີ !",
+    "difficulty": "debutant",
+    "tags": [
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-025",
+    "categoryId": "restaurant",
+    "situation": "restaurant_service",
+    "french": "Voici votre eau, elle est gratuite.",
+    "lao": "ນີ້ແມ່ນນ້ຳຂອງທ່ານ, ຟຣີບໍ່ເສຍຄ່າ.",
+    "phoneticLao": "ວົວອາຊິ ໂວຕຣ ໂອ, ແອລ ແອ ກຣາຕູອີ.",
+    "difficulty": "debutant",
+    "tags": [
+      "boisson"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-016",
+    "categoryId": "guide",
+    "situation": "guider_itineraire",
+    "french": "Le programme d'aujourd'hui comprend trois visites.",
+    "lao": "ໂປຣແກຣມມື້ນີ້ມີການທ່ຽວຊົມສາມບ່ອນ.",
+    "phoneticLao": "ເລີ ປໂຣກຣາມ ດີໂອຊູຣດຫຼີ ກົງປຣັງ ຕຣົວ ວີຊິດ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-017",
+    "categoryId": "guide",
+    "situation": "guider_itineraire",
+    "french": "Nous changeons légèrement le programme à cause de la pluie.",
+    "lao": "ພວກເຮົາຊິປ່ຽນໂປຣແກຣມແດ່ໜ້ອຍໜຶ່ງຍ້ອນຝົນ.",
+    "phoneticLao": "ນູ ຊັງຊົງ ເລຊແອຣມັງ ເລີ ປໂຣກຣາມ ອາ ໂກສ ເດີ ລາ ປລູອີ.",
+    "difficulty": "avance",
+    "tags": [
+      "meteo",
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-018",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Prenons cinq minutes de pause.",
+    "lao": "ພັກຫ້ານາທີກ່ອນ.",
+    "phoneticLao": "ປເຣນົງ ແຊງ ມີນຸດ ເດີ ໂປສ.",
+    "difficulty": "debutant",
+    "tags": [
+      "pause"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-019",
+    "categoryId": "guide",
+    "situation": "guider_photo",
+    "french": "Vous pouvez prendre des photos ici, c'est un beau point de vue.",
+    "lao": "ທ່ານສາມາດຖ່າຍຮູບຢູ່ນີ້ໄດ້, ວິວສວຍຫຼາຍ.",
+    "phoneticLao": "ວູ ປູເວ ປຣັງດຣ ເດ ໂຟໂຕ ອິຊິ, ເຊ ຕ ອັງ ໂບ ປົວຣງ ເດີ ວູ.",
+    "difficulty": "debutant",
+    "tags": [
+      "photo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-020",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "Comptons-nous : sommes-nous tous là ?",
+    "lao": "ນັບເບິ່ງ: ພວກເຮົາມາພ້ອມກັນບໍ?",
+    "phoneticLao": "ກົງຕົງ ນູ : ໂຊມ ນູ ຕູ ລາ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "groupe"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-021",
+    "categoryId": "guide",
+    "situation": "guider_regles",
+    "french": "Merci de mettre votre téléphone en silencieux.",
+    "lao": "ກະລຸນາປິດສຽງໂທລະສັບ.",
+    "phoneticLao": "ແມກຊິ ເດີ ແມຕຣ ໂວຕຣ ເຕເລໂຝນ ອັງ ຊີລັງຊິເອີ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-022",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "La route est un peu sinueuse, accrochez-vous.",
+    "lao": "ເສັ້ນທາງນີ້ໂຄ້ງໜ້ອຍໜຶ່ງ, ຈັບໃຫ້ແໜ້ນ.",
+    "phoneticLao": "ລາ ຣຸດ ແອ ຕັງ ເປີ ຊີນູເອີຊ, ອາກໂຣເຊ ວູ.",
+    "difficulty": "avance",
+    "tags": [
+      "securite",
+      "transport"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-023",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Nous arrivons bientôt à destination.",
+    "lao": "ພວກເຮົາຊິໄປຮອດບ່ອນໝາຍໃນໄວໆນີ້.",
+    "phoneticLao": "ນູ ອາຣີວົງ ບຽງໂຕ ອາ ເດສຕີນາຊິອົງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-024",
+    "categoryId": "guide",
+    "situation": "guider_photo",
+    "french": "Cette vue est parfaite pour le coucher de soleil.",
+    "lao": "ບ່ອນນີ້ແມ່ນຈຸດທີ່ດີທີ່ສຸດເບິ່ງຕາເວັນຕົກ.",
+    "phoneticLao": "ເຊດ ວູ ແອ ປາຣແຝດ ປູຣ ເລີ ກູເຊ ເດີ ໂຊເລຢ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "photo",
+      "coucher_soleil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-025",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Le guide local va nous rejoindre ici.",
+    "lao": "ໄກ້ນຳທ່ຽວທ້ອງຖິ່ນຊິມາພົບພວກເຮົາຢູ່ນີ້.",
+    "phoneticLao": "ເລີ ກີດ ໂລກາລ ວາ ນູ ເຣຊົວັງດຣ ອິຊິ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-026",
+    "categoryId": "guide",
+    "situation": "guider_regles",
+    "french": "Merci de porter votre badge du groupe.",
+    "lao": "ກະລຸນາໃສ່ບັດຊື່ຂອງກຸ່ມ.",
+    "phoneticLao": "ແມກຊິ ເດີ ປໍຣເຕ ໂວຕຣ ບາດຊ ດູ ກຣູບ.",
+    "difficulty": "debutant",
+    "tags": [
+      "groupe"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-027",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "Il y a une petite montée, prenez votre temps.",
+    "lao": "ມີທາງຂຶ້ນໜ້ອຍໜຶ່ງ, ຄ່ອຍໆເດີນ.",
+    "phoneticLao": "ອິລີຢາ ອູນ ເປຕີດ ມົງເຕ, ປເຣເນ ໂວຕຣ ຕັງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "marche"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-028",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Nous ferons une pause déjeuner à midi.",
+    "lao": "ພວກເຮົາຊິພັກກິນເຂົ້າທ່ຽງຕອນທ່ຽງ.",
+    "phoneticLao": "ນູ ເຝໂຣງ ອູນ ໂປສ ເດເຊີເນ ອາ ມີດີ.",
+    "difficulty": "debutant",
+    "tags": [
+      "repas"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-029",
+    "categoryId": "guide",
+    "situation": "guider_culture",
+    "french": "Ce village vit principalement de l'agriculture.",
+    "lao": "ບ້ານນີ້ດຳລົງຊີວິດຕົ້ນຕໍດ້ວຍການກະສິກຳ.",
+    "phoneticLao": "ເຊີ ວີລາຊ ວີ ປຣັງຊິປາລມັງ ເດີ ລາກຣີກູລຕູຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-030",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Nous sommes en avance sur le programme.",
+    "lao": "ພວກເຮົາໄປໄວກວ່າໂປຣແກຣມ.",
+    "phoneticLao": "ນູ ໂຊມ ອັງ ນາວັງສ ຊູຣ ເລີ ປໂຣກຣາມ.",
+    "difficulty": "avance",
+    "tags": [
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-013",
+    "categoryId": "temples",
+    "situation": "temple_ceremonie",
+    "french": "Le moine va vous donner une bénédiction.",
+    "lao": "ພຣະສົງຊິໃຫ້ພອນແກ່ທ່ານ.",
+    "phoneticLao": "ເລີ ມົວນ ວາ ວູ ດົນເນ ອູນ ເບເນດີກຊິອົງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "ceremonie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-014",
+    "categoryId": "temples",
+    "situation": "temple_ceremonie",
+    "french": "Vous pouvez allumer de l'encens ici.",
+    "lao": "ທ່ານສາມາດຈູດທູບໄດ້ຢູ່ນີ້.",
+    "phoneticLao": "ວູ ປູເວ ອາລູເມ ເດີ ລັງແຊງ ອິຊິ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "ceremonie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-015",
+    "categoryId": "temples",
+    "situation": "temple_culture",
+    "french": "Ce gong sonne pour annoncer les prières.",
+    "lao": "ຄ້ອງນີ້ຕີເພື່ອປະກາດເວລາສວດມົນ.",
+    "phoneticLao": "ເຊີ ກົງ ຊົນ ປູຣ ອານົງເຊ ເລ ປຣີແອຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-016",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Marchez pieds nus dans la salle principale.",
+    "lao": "ຍ່າງຕີນເປົ່າຢູ່ໃນຫ້ອງໃຫຍ່.",
+    "phoneticLao": "ມາຣເຊ ປີເອ ນູ ດັງ ລາ ຊາລ ປຣັງຊິປາລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-017",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Ce n'est pas poli de pointer du doigt le Bouddha.",
+    "lao": "ບໍ່ສຸພາບທີ່ຈະຊີ້ນິ້ວໃສ່ພະພຸດທະຮູບ.",
+    "phoneticLao": "ເຊ ເນ ປາ ໂປລີ ເດີ ປົວັງເຕ ດູ ດົວ ເລີ ບູດດາ.",
+    "difficulty": "avance",
+    "tags": [
+      "regle",
+      "respect"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-018",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Les femmes ne doivent pas toucher les moines.",
+    "lao": "ແມ່ຍິງຫ້າມແຕະພຣະສົງ.",
+    "phoneticLao": "ເລ ຝາມ ເນີ ດົວຝ ປາ ຕູເຊ ເລ ມົວນ.",
+    "difficulty": "avance",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-019",
+    "categoryId": "temples",
+    "situation": "temple_culture",
+    "french": "Cette fresque raconte la vie de Bouddha.",
+    "lao": "ຮູບແຕ້ມນີ້ບອກເລົ່າຊີວິດຂອງພະພຸດທະເຈົ້າ.",
+    "phoneticLao": "ເຊດ ເຝຣແອສກ ຣາກົງຕ ລາ ວີ ເດີ ບູດດາ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture",
+      "histoire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-020",
+    "categoryId": "temples",
+    "situation": "temple_logistique",
+    "french": "Nous avons vingt minutes pour visiter librement.",
+    "lao": "ພວກເຮົາມີຊາວນາທີໃຫ້ທ່ຽວຊົມແບບອິດສະຫຼະ.",
+    "phoneticLao": "ນູ ອາວົງ ວັງ ມີນຸດ ປູຣ ວີຊິເຕ ລີບຣມັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-021",
+    "categoryId": "temples",
+    "situation": "temple_photo",
+    "french": "Le lever du soleil sur ce temple est magnifique.",
+    "lao": "ຕາເວັນຂຶ້ນຢູ່ວັດນີ້ງາມຫຼາຍ.",
+    "phoneticLao": "ເລີ ເລເວ ດູ ໂຊເລຢ ຊູຣ ເຊີ ຕັງປລ ແອ ມາຍນິຝິກ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "photo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-022",
+    "categoryId": "temples",
+    "situation": "temple_culture",
+    "french": "Ce marché des moines a lieu tous les matins à l'aube.",
+    "lao": "ການຕັກບາດຂອງພຣະສົງມີທຸກເຊົ້າຕອນແຈ້ງ.",
+    "phoneticLao": "ເຊີ ມາເຣເຊ ເດ ມົວນ ອາ ລີເອີ ຕູ ເລ ມາຕັງ ອາ ໂລບ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture",
+      "tradition"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-013",
+    "categoryId": "shopping",
+    "situation": "shopping_taille",
+    "french": "Quelle taille faites-vous ?",
+    "lao": "ທ່ານໃສ່ໄຊສ໌ຫຍັງ?",
+    "phoneticLao": "ແກລ ຕາຍ ແຝດ ວູ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "taille"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-014",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Cette couleur vous va très bien.",
+    "lao": "ສີນີ້ເໝາະກັບທ່ານຫຼາຍ.",
+    "phoneticLao": "ເຊດ ກູເລີຣ ວູ ວາ ຕເຣ ບຽງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "couleur"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-015",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Je peux vous l'emballer comme cadeau.",
+    "lao": "ຂ້ອຍຫໍ່ເປັນຂອງຂວັນໃຫ້ໄດ້.",
+    "phoneticLao": "ຊ ເປີ ວູ ລັງບາເລ ກົມ ກາໂດ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "emballage",
+      "cadeau"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-016",
+    "categoryId": "shopping",
+    "situation": "shopping_prix",
+    "french": "Le prix final, c'est vingt mille kips.",
+    "lao": "ລາຄາສຸດທ້າຍແມ່ນສອງໝື່ນກີບ.",
+    "phoneticLao": "ເລີ ປຣີ ຝີນາລ, ເຊ ວັງ ມີລ ກີບ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "prix",
+      "negociation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-017",
+    "categoryId": "shopping",
+    "situation": "shopping_taille",
+    "french": "Avez-vous une taille plus grande ?",
+    "lao": "ທ່ານມີໄຊສ໌ໃຫຍ່ກວ່ານີ້ບໍ?",
+    "phoneticLao": "ອາເວ ວູ ອູນ ຕາຍ ພລູ ກຣັງດ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "taille"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-018",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Ce n'est pas fabriqué en usine, c'est fait main.",
+    "lao": "ອັນນີ້ບໍ່ແມ່ນຜະລິດຈາກໂຮງງານ, ແຕ່ເຮັດດ້ວຍມື.",
+    "phoneticLao": "ເຊ ເນ ປາ ຝາບຣິເກ ອັງ ວູຊິນ, ເຊ ແຟ ມັງ.",
+    "difficulty": "avance",
+    "tags": [
+      "artisanat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-019",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Merci de votre achat, revenez nous voir !",
+    "lao": "ຂອບໃຈທີ່ຊື້, ແວະມາອີກເດີ້!",
+    "phoneticLao": "ແມກຊິ ເດີ ໂວຕຣ ອາຊາ, ເຣວເນ ນູ ວົວຣ !",
+    "difficulty": "debutant",
+    "tags": [
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-020",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Ce collier est en argent véritable.",
+    "lao": "ສາຍຄໍນີ້ແມ່ນເງິນແທ້.",
+    "phoneticLao": "ເຊີ ໂກລີເອ ແອ ຕັງ ອາຣຊັງ ເວຣີຕາບລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "bijou"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-021",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Puis-je voir celui qui est dans la vitrine ?",
+    "lao": "ຂໍເບິ່ງອັນທີ່ຢູ່ໃນຕູ້ໂຊວ໌ໄດ້ບໍ?",
+    "phoneticLao": "ປວີ ຊ ວົວຣ ເຊີລີ ກີ ແອ ດັງ ລາ ວີຕຣີນ ?",
+    "difficulty": "avance",
+    "tags": [
+      "demande"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-022",
+    "categoryId": "shopping",
+    "situation": "shopping_prix",
+    "french": "Les prix sont fixes dans cette boutique.",
+    "lao": "ລາຄາຄົງທີ່ຢູ່ຮ້ານນີ້.",
+    "phoneticLao": "ເລ ປຣີ ຊົງ ຝິກສ ດັງ ເຊດ ບູຕີກ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "prix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-023",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Voulez-vous voir d'autres modèles ?",
+    "lao": "ທ່ານຢາກເບິ່ງແບບອື່ນອີກບໍ?",
+    "phoneticLao": "ວູເລ ວູ ວົວຣ ໂດຕຣ ໂມແດລ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "choix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-024",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Ce panier est tissé en bambou.",
+    "lao": "ກະຕ່າໃບນີ້ສານດ້ວຍໄມ້ໄຜ່.",
+    "phoneticLao": "ເຊີ ປານິເອ ແອ ຕີເຊ ອັງ ບັງບູ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "artisanat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-025",
+    "categoryId": "shopping",
+    "situation": "shopping_horaire",
+    "french": "Nous fermons dans une heure.",
+    "lao": "ພວກເຮົາຊິປິດຮ້ານໃນອີກໜຶ່ງຊົ່ວໂມງ.",
+    "phoneticLao": "ນູ ແຝຣໂມງ ດັງ ອູນ ເອີຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-026",
+    "categoryId": "shopping",
+    "situation": "shopping_culture",
+    "french": "Je peux vous montrer comment ce tissu est fabriqué.",
+    "lao": "ຂ້ອຍສາມາດສະແດງໃຫ້ເບິ່ງວິທີທໍຜ້ານີ້ໄດ້.",
+    "phoneticLao": "ຊ ເປີ ວູ ມົງຕເຣ ໂກມົງ ເຊີ ຕີຊູ ແອ ຝາບຣິເກ.",
+    "difficulty": "avance",
+    "tags": [
+      "artisanat",
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-027",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "C'est une pièce unique.",
+    "lao": "ອັນນີ້ແມ່ນຊິ້ນດຽວ, ບໍ່ມີອັນທີສອງ.",
+    "phoneticLao": "ເຊ ຕູນ ປີແອສ ອູນີກ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "unique"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-013",
+    "categoryId": "argent",
+    "situation": "argent_banque",
+    "french": "La banque la plus proche ferme à seize heures.",
+    "lao": "ທະນາຄານໃກ້ທີ່ສຸດປິດຕອນສິບຫົກໂມງ.",
+    "phoneticLao": "ລາ ບັງກ ເລີ ພລູ ປໂຣຊ ແຝຣມ ອາ ແຊດ ເອີຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "banque",
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-014",
+    "categoryId": "argent",
+    "situation": "argent_change",
+    "french": "Vous perdez de l'argent en changeant ici.",
+    "lao": "ທ່ານຈະເສຍເງິນຖ້າແລກຢູ່ນີ້.",
+    "phoneticLao": "ວູ ແປຣເດ ເດີ ລາຣຊັງ ອັງ ຊັງຊັງ ອິຊິ.",
+    "difficulty": "avance",
+    "tags": [
+      "change",
+      "conseil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-015",
+    "categoryId": "argent",
+    "situation": "argent_change",
+    "french": "Le bureau de change est ouvert le dimanche aussi.",
+    "lao": "ຮ້ານແລກປ່ຽນເງິນເປີດວັນອາທິດນຳ.",
+    "phoneticLao": "ເລີ ບູໂຣ ເດີ ຊັງຊ ແອ ອູແວຣ ເລີ ດີມັງຊ ໂອຊີ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "change",
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-016",
+    "categoryId": "argent",
+    "situation": "argent_budget",
+    "french": "Votre budget total pour la journée est de cinquante dollars.",
+    "lao": "ງົບປະມານທັງໝົດຂອງທ່ານມື້ນີ້ແມ່ນຫ້າສິບໂດລາ.",
+    "phoneticLao": "ໂວຕຣ ບູດແຊ ໂຕຕາລ ປູຣ ລາ ຊູຣເນ ແອ ເດີ ແຊງກັງດ ໂດລາຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "budget"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-017",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Souhaitez-vous une facture détaillée ?",
+    "lao": "ທ່ານຕ້ອງການໃບເກັບເງິນລະອຽດບໍ?",
+    "phoneticLao": "ຊູແອເຕ ວູ ອູນ ຝາກຕູຣ ເດຕາຢີເຢ ?",
+    "difficulty": "avance",
+    "tags": [
+      "facture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-018",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "Ce prix est déjà négocié pour vous.",
+    "lao": "ລາຄານີ້ຕໍ່ໃຫ້ແລ້ວສຳລັບທ່ານ.",
+    "phoneticLao": "ເຊີ ປຣີ ແອ ເດຊາ ເນໂກຊິເອ ປູຣ ວູ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "negociation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-019",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Nous vous facturons uniquement ce que vous avez consommé.",
+    "lao": "ພວກເຮົາເກັບເງິນສະເພາະສິ່ງທີ່ທ່ານໄດ້ໃຊ້.",
+    "phoneticLao": "ນູ ວູ ຝາກຕູໂຣງ ອູນິກມັງ ເຊີ ເກີ ວູ ອາເວ ກົງໂຊເມ.",
+    "difficulty": "avance",
+    "tags": [
+      "facture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-013",
+    "categoryId": "urgences",
+    "situation": "urgence_documents",
+    "french": "Avez-vous une assurance voyage ?",
+    "lao": "ທ່ານມີປະກັນໄພການເດີນທາງບໍ?",
+    "phoneticLao": "ອາເວ ວູ ອູນ ອາສູຣັງສ ວົວຢາຊ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "assurance"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-014",
+    "categoryId": "urgences",
+    "situation": "urgence_transport",
+    "french": "Le bus est tombé en panne, un autre arrive.",
+    "lao": "ລົດເມເສຍ, ຄັນໃໝ່ກຳລັງມາ.",
+    "phoneticLao": "ເລີ ບຸດ ແອ ຕົງເບ ອັງ ປານ, ອັງ ໂອຕຣ ອາຣີວ.",
+    "difficulty": "avance",
+    "tags": [
+      "transport",
+      "panne"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-015",
+    "categoryId": "urgences",
+    "situation": "urgence_securite",
+    "french": "Faites attention en traversant la route.",
+    "lao": "ລະວັງເວລາຂ້າມຖະໜົນ.",
+    "phoneticLao": "ເຟດ ອາຕັງຊິອົງ ອັງ ຕຣາເວຣຊັງ ລາ ຣຸດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "securite",
+      "route"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-016",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Avez-vous une trousse de premiers secours ?",
+    "lao": "ທ່ານມີກ່ອງປະຖົມພະຍາບານບໍ?",
+    "phoneticLao": "ອາເວ ວູ ອູນ ຕຣູສ ເດີ ປເຣມີເອ ເຊກູຣ ?",
+    "difficulty": "avance",
+    "tags": [
+      "sante",
+      "materiel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-017",
+    "categoryId": "urgences",
+    "situation": "urgence_reconfort",
+    "french": "Ne vous inquiétez pas, tout est sous contrôle.",
+    "lao": "ຢ່າກັງວົນ, ທຸກຢ່າງຢູ່ພາຍໃຕ້ການຄວບຄຸມ.",
+    "phoneticLao": "ເນີ ວູ ັງກີເອເຕ ປາ, ຕູ ແອ ຊູ ກົງໂຕຣລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "reconfort"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-018",
+    "categoryId": "urgences",
+    "situation": "urgence_objet",
+    "french": "Votre sac a été retrouvé à la réception.",
+    "lao": "ຖົງຂອງທ່ານພົບຄືນຢູ່ໂຕະຕ້ອນຮັບ.",
+    "phoneticLao": "ໂວຕຣ ຊາກ ອາ ເອເຕ ເຣຕຣູເວ ອາ ລາ ເຣເຊບຊິອົງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "objet"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-019",
+    "categoryId": "urgences",
+    "situation": "urgence_securite",
+    "french": "Nous devons évacuer le bâtiment, suivez-moi.",
+    "lao": "ພວກເຮົາຕ້ອງອອກຈາກຕຶກ, ຕິດຕາມຂ້ອຍມາ.",
+    "phoneticLao": "ນູ ເດວົງ ເອວາກູເອ ເລີ ບາຕີມັງ, ຊຢູວີ ມົວ.",
+    "difficulty": "avance",
+    "tags": [
+      "evacuation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-020",
+    "categoryId": "urgences",
+    "situation": "urgence_reconfort",
+    "french": "Il n'y a pas de quoi s'inquiéter.",
+    "lao": "ບໍ່ມີຫຍັງໃຫ້ກັງວົນ.",
+    "phoneticLao": "ອິລ ນີຢາ ປາ ເດີ ກົວ ັງກີເອເຕ.",
+    "difficulty": "debutant",
+    "tags": [
+      "reconfort"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-021",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Le vétérinaire est loin, pour un animal blessé par exemple.",
+    "lao": "ໝໍປົວສັດຢູ່ໄກ, ໃນກໍລະນີສັດຖືກບາດເຈັບ.",
+    "phoneticLao": "ເລີ ເວເຕຣີແນຣ ແອ ລົວັງ.",
+    "difficulty": "avance",
+    "tags": [
+      "cas_particulier"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-022",
+    "categoryId": "urgences",
+    "situation": "urgence_documents",
+    "french": "Composez le zéro pour joindre la réception à toute heure.",
+    "lao": "ກົດເລກສູນເພື່ອຕິດຕໍ່ໂຕະຕ້ອນຮັບຕະຫຼອດເວລາ.",
+    "phoneticLao": "ກົງໂປເຊ ເລີ ເຊໂຣ ປູຣ ຊົວັງດຣ ລາ ເຣເຊບຊິອົງ.",
+    "difficulty": "avance",
+    "tags": [
+      "numero",
+      "hotel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-016",
+    "categoryId": "conversation",
+    "situation": "conv_famille",
+    "french": "Avez-vous des enfants ?",
+    "lao": "ທ່ານມີລູກບໍ?",
+    "phoneticLao": "ອາເວ ວູ ເດ ັງຝັງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "famille"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-017",
+    "categoryId": "conversation",
+    "situation": "conv_travail",
+    "french": "Qu'est-ce que vous faites dans la vie ?",
+    "lao": "ທ່ານເຮັດວຽກຫຍັງ?",
+    "phoneticLao": "ແກສ ເກີ ວູ ແຝດ ດັງ ລາ ວີ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "travail"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-018",
+    "categoryId": "conversation",
+    "situation": "conv_smalltalk",
+    "french": "J'adore votre pays aussi.",
+    "lao": "ຂ້ອຍຮັກປະເທດຂອງທ່ານຄືກັນ.",
+    "phoneticLao": "ຊາໂດຣ ໂວຕຣ ເປອີ ໂອຊີ.",
+    "difficulty": "debutant",
+    "tags": [
+      "compliment"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-019",
+    "categoryId": "conversation",
+    "situation": "conv_culture",
+    "french": "Le Laos est un pays très accueillant.",
+    "lao": "ລາວແມ່ນປະເທດທີ່ຕ້ອນຮັບແຂກດີຫຼາຍ.",
+    "phoneticLao": "ເລີ ລາໂອ ແອ ຕັງ ເປອີ ຕເຣ ອາກູເອຢັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-020",
+    "categoryId": "conversation",
+    "situation": "conv_nourriture",
+    "french": "Avez-vous déjà goûté le riz gluant ?",
+    "lao": "ທ່ານເຄີຍກິນເຂົ້າໜຽວແລ້ວບໍ?",
+    "phoneticLao": "ອາເວ ວູ ເດຊາ ກູເຕ ເລີ ຣີ ກລູອັງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "nourriture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-021",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Prévoyez-vous d'autres voyages en Asie ?",
+    "lao": "ທ່ານມີແຜນໄປທ່ຽວປະເທດອື່ນໃນອາຊີບໍ?",
+    "phoneticLao": "ປເຣວົວເຢ ວູ ໂດຕຣ ວົວຢາຊ ອັງ ອາຊີ ?",
+    "difficulty": "avance",
+    "tags": [
+      "voyage"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-022",
+    "categoryId": "conversation",
+    "situation": "conv_culture",
+    "french": "Le sourire est très important dans notre culture.",
+    "lao": "ຮອຍຍິ້ມສຳຄັນຫຼາຍໃນວັດທະນະທຳຂອງພວກເຮົາ.",
+    "phoneticLao": "ເລີ ຊູຣີຣ ແອ ຕເຣ ອັງປອຣຕັງ ດັງ ໂນຕຣ ກູລຕູຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-023",
+    "categoryId": "conversation",
+    "situation": "conv_recommandation",
+    "french": "Vous devez essayer le café lao, il est excellent.",
+    "lao": "ທ່ານຕ້ອງລອງກາເຟລາວ, ແຊບຫຼາຍ.",
+    "phoneticLao": "ວູ ເດເວ ແອເຊເຢ ເລີ ກາເຝ ລາໂອ, ອິລ ແອ ແອກເຊລັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "nourriture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-024",
+    "categoryId": "conversation",
+    "situation": "conv_culture",
+    "french": "Nous sommes fiers de vous faire découvrir notre culture.",
+    "lao": "ພວກເຮົາພູມໃຈທີ່ໄດ້ແນະນຳວັດທະນະທຳຂອງພວກເຮົາໃຫ້ທ່ານ.",
+    "phoneticLao": "ນູ ໂຊມ ຝິແອຣ ເດີ ວູ ແຟຣ ເດກູວຣີຣ ໂນຕຣ ກູລຕູຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture",
+      "fierte"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-025",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "Votre visite nous fait vraiment plaisir.",
+    "lao": "ການມາຢ້ຽມຢາມຂອງທ່ານເຮັດໃຫ້ພວກເຮົາດີໃຈຫຼາຍ.",
+    "phoneticLao": "ໂວຕຣ ວີຊິດ ນູ ແຟ ວເຣມັງ ເປຼຊິຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-011",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Comment ça se prononce ?",
+    "lao": "ອອກສຽງແນວໃດ?",
+    "phoneticLao": "ໂກມົງ ຊາ ເຊີ ປໂຣນົງສ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-012",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Je vais l'écrire dans mon carnet.",
+    "lao": "ຂ້ອຍຊິຈົດໃສ່ປື້ມບັນທຶກ.",
+    "phoneticLao": "ຊ ວາ ເລກຣີຣ ດັງ ໂມງ ກາຣເນ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-013",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Quel est le mot pour dire merci ?",
+    "lao": "ຄຳວ່າຂອບໃຈເວົ້າແນວໃດເປັນພາສາຝຣັ່ງ?",
+    "phoneticLao": "ແກລ ແອ ເລີ ໂມ ປູຣ ດີຣ ແມກຊິ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "vocabulaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-014",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Je progresse petit à petit en français.",
+    "lao": "ຂ້ອຍພັດທະນາພາສາຝຣັ່ງເທື່ອລະໜ້ອຍ.",
+    "phoneticLao": "ຊ ປໂຣກເຣສ ເປຕີ ອາ ເປຕີ ອັງ ຝຣັງແຊ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "progression"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-015",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Merci de corriger ma prononciation.",
+    "lao": "ກະລຸນາແກ້ໄຂການອອກສຽງຂອງຂ້ອຍໃຫ້ແດ່.",
+    "phoneticLao": "ແມກຊິ ເດີ ກໍຣິເຊ ມາ ປໂຣນົງຊິອາຊິອົງ.",
+    "difficulty": "avance",
+    "tags": [
+      "progression"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-016",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "C'est une phrase que j'utilise souvent.",
+    "lao": "ອັນນີ້ແມ່ນປະໂຫຍກທີ່ຂ້ອຍໃຊ້ເລື້ອຍໆ.",
+    "phoneticLao": "ເຊ ຕູນ ຝຣາຊ ເກີ ຊູຕີລີຊ ຊູວັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "usage"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-037",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "Comment vous appelez-vous ?",
+    "lao": "ທ່ານຊື່ຫຍັງ?",
+    "phoneticLao": "ໂກມົງ ວູ ອາປເລ ວູ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "presentation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-038",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "Je m'appelle Somchai, je serai votre guide.",
+    "lao": "ຂ້ອຍຊື່ສົມໄຊ, ຂ້ອຍຈະເປັນໄກ້ນຳທ່ຽວຂອງທ່ານ.",
+    "phoneticLao": "ຊ ມາປແລ ສົມໄຊ, ຊ ຊເຣ ໂວຕຣ ກີດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "presentation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-039",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "Voici votre programme pour les prochains jours.",
+    "lao": "ນີ້ແມ່ນໂປຣແກຣມຂອງທ່ານສຳລັບມື້ຕໍ່ໆໄປ.",
+    "phoneticLao": "ວົວອາຊິ ໂວຕຣ ປໂຣກຣາມ ປູຣ ເລ ປໂຣຊັງ ຊູຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "programme"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-040",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "N'hésitez pas à me contacter à tout moment.",
+    "lao": "ຢ່າລັງເລທີ່ຈະຕິດຕໍ່ຂ້ອຍໄດ້ທຸກເວລາ.",
+    "phoneticLao": "ເນເຊເຕ ປາ ອາ ມ ກົງຕັກເຕ ອາ ຕູ ໂມມັງ.",
+    "difficulty": "debutant",
+    "tags": [
+      "disponibilite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-041",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "Avez-vous besoin de vous reposer un peu ?",
+    "lao": "ທ່ານຢາກພັກຜ່ອນແດ່ບໍ?",
+    "phoneticLao": "ອາເວ ວູ ເບີຊວັງ ເດີ ວູ ເຣໂປເຊ ອັງ ເປີ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "repos"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-042",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "Le décalage horaire peut être fatigant.",
+    "lao": "ຄວາມແຕກຕ່າງເວລາອາດເຮັດໃຫ້ເມື່ອຍ.",
+    "phoneticLao": "ເລີ ເດກາລາຊ ໂອຣແອຣ ເປີ ແອຕຣ ຝາຕີກັງ.",
+    "difficulty": "avance",
+    "tags": [
+      "fatigue"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-043",
+    "categoryId": "accueil",
+    "situation": "accueil_general",
+    "french": "Nous partons demain matin à huit heures.",
+    "lao": "ພວກເຮົາຊິອອກເດີນທາງມື້ອື່ນເຊົ້າແປດໂມງ.",
+    "phoneticLao": "ນູ ປາຣຕົງ ດມັງ ມາຕັງ ອາ ວີດ ເອີຣ.",
+    "difficulty": "debutant",
+    "tags": [
+      "horaire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-044",
+    "categoryId": "accueil",
+    "situation": "accueil_hotel",
+    "french": "Votre chambre est au deuxième étage.",
+    "lao": "ຫ້ອງຂອງທ່ານຢູ່ຊັ້ນສອງ.",
+    "phoneticLao": "ໂວຕຣ ຊັງບຣ ແອ ໂອ ດູຊຽມ ເອຕາຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "hotel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "acc-045",
+    "categoryId": "accueil",
+    "situation": "accueil_hotel",
+    "french": "L'ascenseur est juste à côté.",
+    "lao": "ລິບຢູ່ຕິດນຳ.",
+    "phoneticLao": "ລາຊັງເຊີ ແອ ຊຸດ ອາ ໂກເຕ.",
+    "difficulty": "debutant",
+    "tags": [
+      "hotel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-026",
+    "categoryId": "restaurant",
+    "situation": "restaurant_culture",
+    "french": "Ce plat se mange avec les doigts, traditionnellement.",
+    "lao": "ອາຫານຈານນີ້ກິນດ້ວຍມືຕາມປະເພນີ.",
+    "phoneticLao": "ເຊີ ປລາ ເຊີ ມັງຊ ອາເວກ ເລ ດວາ, ຕຣາດີຊິອນແນລມັງ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture",
+      "tradition"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-027",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Voulez-vous du riz gluant ou du riz blanc ?",
+    "lao": "ທ່ານຢາກກິນເຂົ້າໜຽວ ຫຼື ເຂົ້າຈ້າວ?",
+    "phoneticLao": "ວູເລ ວູ ດູ ຣີ ກລູອັງ ູ ດູ ຣີ ບລັງ ?",
+    "difficulty": "debutant",
+    "tags": [
+      "riz"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-028",
+    "categoryId": "restaurant",
+    "situation": "restaurant_culture",
+    "french": "La cuisine lao utilise beaucoup d'herbes fraîches.",
+    "lao": "ອາຫານລາວໃຊ້ຜັກສົດຫຼາຍ.",
+    "phoneticLao": "ລາ ກູອີຊິນ ລາໂອ ອູຕີລີຊ ໂບກູ ເດຣບ ຝເຣຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-029",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Ce plat n'est pas épicé du tout, ne vous inquiétez pas.",
+    "lao": "ຈານນີ້ບໍ່ເຜັດເລີຍ, ບໍ່ຕ້ອງກັງວົນ.",
+    "phoneticLao": "ເຊີ ປລາ ເນ ປາ ເອປີເຊ ດູ ຕູ, ເນີ ວູ ັງກີເອເຕ ປາ.",
+    "difficulty": "debutant",
+    "tags": [
+      "piment"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-030",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Souhaitez-vous partager plusieurs plats ?",
+    "lao": "ທ່ານຢາກສັ່ງຫຼາຍຈານມາແບ່ງກັນກິນບໍ?",
+    "phoneticLao": "ຊູແອເຕ ວູ ປາຣຕາຊເຣ ພລູຊິເອີຣ ປລາ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "partage"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-031",
+    "categoryId": "restaurant",
+    "situation": "restaurant_culture",
+    "french": "Le café lao se boit avec du lait concentré sucré.",
+    "lao": "ກາເຟລາວດື່ມຄຽງກັບນົມຂົ້ນຫວານ.",
+    "phoneticLao": "ເລີ ກາເຝ ລາໂອ ເຊີ ບົວ ອາເວກ ດູ ແລ ກົງຊັງເຕຣ ຊູກເຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "boisson",
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-032",
+    "categoryId": "restaurant",
+    "situation": "restaurant_paiement",
+    "french": "Je vous apporte l'addition tout de suite.",
+    "lao": "ຂ້ອຍຈະເອົາໃບບິນມາໃຫ້ດຽວນີ້.",
+    "phoneticLao": "ຊ ວູ ອາປໍຣຕ ລາດີຊິອົງ ຕູດ ຊູອີດ.",
+    "difficulty": "debutant",
+    "tags": [
+      "addition"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-033",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "C'était délicieux, merci beaucoup.",
+    "lao": "ແຊບຫຼາຍ, ຂອບໃຈຫຼາຍໆ.",
+    "phoneticLao": "ເຊເຕ ເດລີຊິເອີ, ແມກຊິ ໂບກູ.",
+    "difficulty": "debutant",
+    "tags": [
+      "compliment"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-034",
+    "categoryId": "restaurant",
+    "situation": "restaurant_commande",
+    "french": "Nous n'avons plus ce plat aujourd'hui, désolé.",
+    "lao": "ມື້ນີ້ຈານນີ້ໝົດແລ້ວ, ຂໍໂທດ.",
+    "phoneticLao": "ນູ ນາວົງ ພລູ ເຊີ ປລາ ໂອຊູຣດຫຼີ, ເດໂຊເລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "excuse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-035",
+    "categoryId": "restaurant",
+    "situation": "restaurant_service",
+    "french": "Puis-je vous resservir un peu de riz ?",
+    "lao": "ຂໍຕັກເຂົ້າໃຫ້ອີກໜ້ອຍໜຶ່ງໄດ້ບໍ?",
+    "phoneticLao": "ປວີ ຊ ວູ ເຣເຊຣວີຣ ອັງ ເປີ ເດີ ຣີ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "service"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "res-036",
+    "categoryId": "restaurant",
+    "situation": "restaurant_recommandation",
+    "french": "Le poisson du Mékong est notre spécialité.",
+    "lao": "ປາຈາກແມ່ນ້ຳຂອງແມ່ນອາຫານພິເສດຂອງພວກເຮົາ.",
+    "phoneticLao": "ເລີ ປົວຊົງ ດູ ເມກົງ ແອ ໂນຕຣ ສເປຊິອາລີເຕ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "specialite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-031",
+    "categoryId": "guide",
+    "situation": "guider_logistique",
+    "french": "Nous sommes à peu près à mi-parcours.",
+    "lao": "ພວກເຮົາໄປໄດ້ປະມານເຄິ່ງທາງແລ້ວ.",
+    "phoneticLao": "ນູ ໂຊມ ອາ ເປີ ປເຣ ອາ ມີ-ປາຣກູຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "itineraire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-032",
+    "categoryId": "guide",
+    "situation": "guider_histoire",
+    "french": "Ce pont a été construit par les Français.",
+    "lao": "ຂົວນີ້ສ້າງໂດຍຄົນຝຣັ່ງ.",
+    "phoneticLao": "ເຊີ ປົງ ອາ ເອເຕ ກົງສຕຣູອີ ປາຣ ເລ ຝຣັງແຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "histoire"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-033",
+    "categoryId": "guide",
+    "situation": "guider_activite",
+    "french": "Voulez-vous essayer de conduire une pirogue ?",
+    "lao": "ທ່ານຢາກລອງຂັບເຮືອບໍ?",
+    "phoneticLao": "ວູເລ ວູ ແອເຊເຢ ເດີ ກົງດູອີຣ ອູນ ປີໂຣກ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "activite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-034",
+    "categoryId": "guide",
+    "situation": "guider_culture",
+    "french": "Cette rivière alimente toute la région en eau.",
+    "lao": "ແມ່ນ້ຳນີ້ສະໜອງນ້ຳໃຫ້ທົ່ວທັງພາກພື້ນ.",
+    "phoneticLao": "ເຊດ ຣີວີແອຣ ອາລີມັງຕ ຕູດ ລາ ເຣຊິອົງ ອັງ ໂອ.",
+    "difficulty": "avance",
+    "tags": [
+      "nature"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-035",
+    "categoryId": "guide",
+    "situation": "guider_securite",
+    "french": "Restons ensemble pour traverser le pont suspendu.",
+    "lao": "ໃຫ້ຢູ່ນຳກັນເວລາຂ້າມຂົວແຂວນ.",
+    "phoneticLao": "ເຣສຕົງ ັງຊັງບລ ປູຣ ຕຣາເວຣເຊ ເລີ ປົງ ຊູສປັງດູ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "securite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-036",
+    "categoryId": "guide",
+    "situation": "guider_nature",
+    "french": "Cette forêt abrite de nombreuses espèces d'oiseaux.",
+    "lao": "ປ່າໄມ້ນີ້ມີນົກຫຼາຍຊະນິດອາໄສຢູ່.",
+    "phoneticLao": "ເຊດ ໂຝແຣ ອາບຣິຕ ເດີ ນົງບເຣີຊ ເອສແປສ ດົວຊົວ.",
+    "difficulty": "avance",
+    "tags": [
+      "nature"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-037",
+    "categoryId": "guide",
+    "situation": "guider_activite",
+    "french": "Nous verrons des éléphants dans ce village.",
+    "lao": "ພວກເຮົາຊິໄດ້ເຫັນຊ້າງຢູ່ບ້ານນີ້.",
+    "phoneticLao": "ນູ ເວໂຣງ ເດ ເອເລຝັງ ດັງ ເຊີ ວີລາຊ.",
+    "difficulty": "debutant",
+    "tags": [
+      "animaux"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-038",
+    "categoryId": "guide",
+    "situation": "guider_regles",
+    "french": "Merci de ne pas nourrir les animaux.",
+    "lao": "ກະລຸນາຢ່າໃຫ້ອາຫານສັດ.",
+    "phoneticLao": "ແມກຊິ ເດີ ເນີ ປາ ນູຣີຣ ເລ ອານີໂມ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "regle",
+      "animaux"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "gui-039",
+    "categoryId": "guide",
+    "situation": "guider_culture",
+    "french": "La saison sèche est la meilleure période pour visiter.",
+    "lao": "ລະດູແລ້ງແມ່ນຊ່ວງເວລາທີ່ດີທີ່ສຸດສຳລັບການທ່ຽວ.",
+    "phoneticLao": "ລາ ແຊຊົງ ແຊຊ ແອ ລາ ເມຢເອີຣ ເປຣິອຸດ ປູຣ ວີຊິເຕ.",
+    "difficulty": "avance",
+    "tags": [
+      "climat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-023",
+    "categoryId": "temples",
+    "situation": "temple_histoire",
+    "french": "Ce stupa doré est le symbole de la ville.",
+    "lao": "ທາດຄຳນີ້ແມ່ນສັນຍາລັກຂອງເມືອງ.",
+    "phoneticLao": "ເຊີ ສຕູປາ ໂດເຣ ແອ ເລີ ັງບໂຣລ ເດີ ລາ ວີລ.",
+    "difficulty": "avance",
+    "tags": [
+      "symbole"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-024",
+    "categoryId": "temples",
+    "situation": "temple_culture",
+    "french": "Les novices étudient ici dès leur plus jeune âge.",
+    "lao": "ສາມະເນນຮຽນຢູ່ນີ້ຕັ້ງແຕ່ອາຍຸຍັງນ້ອຍ.",
+    "phoneticLao": "ເລ ໂນວີສ ເອຕູດີອັງ ອິຊິ ແດ ເລີ ພລູ ຊັງ ອາຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "moines"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-025",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Merci de ne pas escalader les ruines.",
+    "lao": "ກະລຸນາຢ່າປີນຂຶ້ນສາກປັກຫັກພັງ.",
+    "phoneticLao": "ແມກຊິ ເດີ ເນີ ປາ ແອສກາລາເດ ເລ ຣູອີນ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-026",
+    "categoryId": "temples",
+    "situation": "temple_culture",
+    "french": "Ce festival attire des milliers de visiteurs chaque année.",
+    "lao": "ງານບຸນນີ້ດຶງດູດນັກທ່ອງທ່ຽວຫຼາຍພັນຄົນທຸກປີ.",
+    "phoneticLao": "ເຊີ ເຝສຕີວາລ ອາຕີຣ ເດ ມີລີເອ ເດີ ວີຊິເຕີຣ ຊາກ ອານເນ.",
+    "difficulty": "avance",
+    "tags": [
+      "festival"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-027",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Nous éteignons nos téléphones dans la salle de prière.",
+    "lao": "ພວກເຮົາປິດໂທລະສັບຢູ່ໃນຫ້ອງສວດມົນ.",
+    "phoneticLao": "ນູ ເອເຕນົງ ໂນ ເຕເລໂຝນ ດັງ ລາ ຊາລ ເດີ ປຣີແອຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-028",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Ce café est cultivé sur le plateau des Bolovens.",
+    "lao": "ກາເຟນີ້ປູກຢູ່ພູພຽງບໍລະເວນ.",
+    "phoneticLao": "ເຊີ ກາເຝ ແອ ກູລຕີເວ ຊູຣ ເລີ ປລາໂຕ ເດ ໂບໂລເວນ.",
+    "difficulty": "avance",
+    "tags": [
+      "cafe",
+      "specialite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-029",
+    "categoryId": "shopping",
+    "situation": "shopping_prix",
+    "french": "Souhaitez-vous une réduction pour plusieurs pièces ?",
+    "lao": "ທ່ານຢາກໄດ້ສ່ວນຫຼຸດຖ້າຊື້ຫຼາຍອັນບໍ?",
+    "phoneticLao": "ຊູແອເຕ ວູ ອູນ ເຣດູກຊິອົງ ປູຣ ພລູຊິເອີຣ ປີແອສ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "negociation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-030",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Ce panier peut être expédié chez vous.",
+    "lao": "ກະຕ່າໃບນີ້ສາມາດສົ່ງໄປບ້ານທ່ານໄດ້.",
+    "phoneticLao": "ເຊີ ປານິເອ ເປີ ແອຕຣ ແອກສເປດີເອ ເຊ ວູ.",
+    "difficulty": "avance",
+    "tags": [
+      "livraison"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-031",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Voici notre carte de visite si vous voulez recommander.",
+    "lao": "ນີ້ແມ່ນນາມບັດຮ້ານຂອງພວກເຮົາ ຖ້າທ່ານຢາກແນະນຳ.",
+    "phoneticLao": "ວົວອາຊິ ໂນຕຣ ກາຣດ ເດີ ວີຊິດ ຊີ ວູ ວູເລ ເຣກໍມັງດ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "carte"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-032",
+    "categoryId": "shopping",
+    "situation": "shopping_culture",
+    "french": "Ce motif traditionnel représente la fleur de lotus.",
+    "lao": "ລວດລາຍດັ້ງເດີມນີ້ແມ່ນຮູບດອກບົວ.",
+    "phoneticLao": "ເຊີ ໂມຕິຝ ຕຣາດີຊິອນແນລ ເຣເປເຊັງຕ ລາ ຝເລີ ເດີ ໂລຕູສ.",
+    "difficulty": "avance",
+    "tags": [
+      "motif",
+      "culture"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-033",
+    "categoryId": "shopping",
+    "situation": "shopping_service",
+    "french": "Nous pouvons vous montrer d'autres couleurs en arrière-boutique.",
+    "lao": "ພວກເຮົາສາມາດເອົາສີອື່ນມາໃຫ້ເບິ່ງທາງຫຼັງຮ້ານໄດ້.",
+    "phoneticLao": "ນູ ປູວົງ ວູ ມົງຕເຣ ໂດຕຣ ກູເລີຣ ອັງ ອາຣີແອຣ-ບູຕີກ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "choix"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-034",
+    "categoryId": "shopping",
+    "situation": "shopping_produit",
+    "french": "Cette sculpture en bois a demandé un mois de travail.",
+    "lao": "ຮູບແກະສະຫຼັກໄມ້ນີ້ໃຊ້ເວລາເຮັດໜຶ່ງເດືອນ.",
+    "phoneticLao": "ເຊດ ສກຸລປຕູຣ ອັງ ບົວ ອາ ດມັງເດ ອັງ ໂມ ເດີ ຕຣາວາຢ.",
+    "difficulty": "avance",
+    "tags": [
+      "artisanat"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "sho-035",
+    "categoryId": "shopping",
+    "situation": "shopping_prix",
+    "french": "Ce n'est pas cher pour la qualité que vous avez.",
+    "lao": "ອັນນີ້ບໍ່ແພງເລີຍທຽບກັບຄຸນນະພາບ.",
+    "phoneticLao": "ເຊ ເນ ປາ ແຊຣ ປູຣ ລາ ກາລີເຕ ເກີ ວູ ອາເວ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "negociation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-020",
+    "categoryId": "argent",
+    "situation": "argent_change",
+    "french": "Le kip n'est pas toujours accepté en dehors du Laos.",
+    "lao": "ເງິນກີບບໍ່ໄດ້ຮັບຢູ່ນອກປະເທດລາວສະເໝີ.",
+    "phoneticLao": "ເລີ ກີບ ເນແອ ປາ ຕູຊູຣ ອາກແຊບເຕ ອັງ ດເອໂອຣ ດູ ລາໂອ.",
+    "difficulty": "avance",
+    "tags": [
+      "monnaie",
+      "conseil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-021",
+    "categoryId": "argent",
+    "situation": "argent_conseil",
+    "french": "Gardez toujours un peu de monnaie locale sur vous.",
+    "lao": "ຄວນເກັບເງິນທ້ອງຖິ່ນນຳໂຕຢູ່ສະເໝີ.",
+    "phoneticLao": "ການເດ ຕູຊູຣ ອັງ ເປີ ເດີ ໂມແນ ໂລກາລ ຊູຣ ວູ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "conseil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-022",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "Le prix affiché est en dollars américains.",
+    "lao": "ລາຄາທີ່ຕິດປະກາດແມ່ນເປັນໂດລາອາເມຣິກາ.",
+    "phoneticLao": "ເລີ ປຣີ ອາຝິເຊ ແອ ຕັງ ໂດລາຣ ອາເມຣິກັງ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "monnaie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-023",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Nous pouvons diviser l'addition en plusieurs parts.",
+    "lao": "ພວກເຮົາສາມາດແບ່ງໃບບິນອອກເປັນຫຼາຍສ່ວນໄດ້.",
+    "phoneticLao": "ນູ ປູວົງ ດີວີເຊ ລາດີຊິອົງ ອັງ ພລູຊິເອີຣ ປາຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "partage"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-024",
+    "categoryId": "argent",
+    "situation": "argent_conseil",
+    "french": "Il est plus prudent de payer en espèces au marché.",
+    "lao": "ຈ່າຍເງິນສົດຢູ່ຕະຫຼາດປອດໄພກວ່າ.",
+    "phoneticLao": "ອິລ ແອ ພລູ ປຣູດັງ ເດີ ເປເຢ ອັງ ແອສແປສ ໂອ ມາເຣເຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "conseil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-023",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Avez-vous une allergie à un médicament ?",
+    "lao": "ທ່ານແພ້ຢາຊະນິດໃດບໍ?",
+    "phoneticLao": "ອາເວ ວູ ອູນ ອາແລຣຊີ ອາ ອັງ ເມດີກາມັງ ?",
+    "difficulty": "avance",
+    "tags": [
+      "sante",
+      "allergie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-024",
+    "categoryId": "urgences",
+    "situation": "urgence_hotel",
+    "french": "Le climatiseur ne fonctionne pas, nous allons le réparer.",
+    "lao": "ແອບໍ່ເຮັດວຽກ, ພວກເຮົາຊິສ້ອມແປງໃຫ້.",
+    "phoneticLao": "ເລີ ກລີມາຕີເຊີຣ ເນີ ຝົງກຊິອນ ປາ, ນູ ຊາລົງ ເລີ ເຣປາເຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "hotel",
+      "panne"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-025",
+    "categoryId": "urgences",
+    "situation": "urgence_transport",
+    "french": "Le vol a du retard à cause de la météo.",
+    "lao": "ຖ້ຽວບິນລ່າຊ້າຍ້ອນອາກາດ.",
+    "phoneticLao": "ເລີ ໂວລ ອາ ດູ ເຣຕາຣ ອາ ໂກສ ເດີ ລາ ເມເຕໂອ.",
+    "difficulty": "avance",
+    "tags": [
+      "avion",
+      "meteo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-026",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Nous allons vous accompagner jusqu'à l'hôpital.",
+    "lao": "ພວກເຮົາຊິໄປສົ່ງທ່ານຮອດໂຮງໝໍ.",
+    "phoneticLao": "ນູ ຊາລົງ ວູ ອາກົງປາຢັງ ຊູສກາ ໂລປີຕາລ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "accompagnement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-027",
+    "categoryId": "urgences",
+    "situation": "urgence_securite",
+    "french": "Signalez tout objet suspect à la sécurité.",
+    "lao": "ແຈ້ງໃຫ້ຝ່າຍຄວາມປອດໄພຮູ້ຖ້າພົບເຫັນສິ່ງຜິດປົກກະຕິ.",
+    "phoneticLao": "ຊິນຢາເລ ຕູ ອອບເຊ ຊູສແປ ອາ ລາ ເຊກູຣິເຕ.",
+    "difficulty": "avance",
+    "tags": [
+      "securite"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-026",
+    "categoryId": "conversation",
+    "situation": "conv_famille",
+    "french": "Quel âge a votre plus jeune enfant ?",
+    "lao": "ລູກນ້ອຍສຸດຂອງທ່ານອາຍຸເທົ່າໃດ?",
+    "phoneticLao": "ແກລ ອາຊ ອາ ໂວຕຣ ພລູ ຊັງ ັງຝັງ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "famille"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-027",
+    "categoryId": "conversation",
+    "situation": "conv_smalltalk",
+    "french": "Le rythme de vie ici est plus calme, non ?",
+    "lao": "ຈັງຫວະຊີວິດຢູ່ນີ້ຊ້າກວ່າ, ແມ່ນບໍ?",
+    "phoneticLao": "ເລີ ຣິດມ ເດີ ວີ ອິຊິ ແອ ພລູ ກາລມ, ນົງ ?",
+    "difficulty": "avance",
+    "tags": [
+      "mode_vie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-028",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Qu'avez-vous pensé du marché de nuit ?",
+    "lao": "ທ່ານຄິດແນວໃດກ່ຽວກັບຕະຫຼາດກາງຄືນ?",
+    "phoneticLao": "ກາເວ ວູ ປັງເຊ ດູ ມາເຣເຊ ເດີ ນູອີ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "marche"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-029",
+    "categoryId": "conversation",
+    "situation": "conv_politesse",
+    "french": "Je vous souhaite un excellent retour chez vous.",
+    "lao": "ຂ້ອຍຂໍໃຫ້ທ່ານເດີນທາງກັບບ້ານດ້ວຍດີ.",
+    "phoneticLao": "ຊ ວູ ຊູແອດ ອັງ ແອກເຊລັງ ເຣຕູຣ ເຊ ວູ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "adieu"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-030",
+    "categoryId": "conversation",
+    "situation": "conv_decouverte",
+    "french": "Racontez-moi un souvenir marquant de ce voyage.",
+    "lao": "ເລົ່າຄວາມຊົງຈຳໜຶ່ງທີ່ປະທັບໃຈຈາກທ່ຽວນີ້ໃຫ້ຟັງແດ່.",
+    "phoneticLao": "ຣາກົງເຕ ມົວ ອັງ ຊູເວນີຣ ມາຣກັງ ເດີ ເຊີ ວົວຢາຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "souvenir"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-017",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Je m'entraîne à parler français tous les jours.",
+    "lao": "ຂ້ອຍຝຶກເວົ້າພາສາຝຣັ່ງທຸກມື້.",
+    "phoneticLao": "ຊ ັງເຕຣແອນ ອາ ປາຣເລ ຝຣັງແຊ ຕູ ເລ ຊູຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "progression"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-018",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Cette expression est un peu familière.",
+    "lao": "ປະໂຫຍກນີ້ແມ່ນແບບກັນເອງໜ້ອຍໜຶ່ງ.",
+    "phoneticLao": "ເຊດ ແອກສປແຣສຊິອົງ ແອ ຕັງ ເປີ ຝາມິລີແອຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "registre"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-019",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Pouvez-vous m'aider avec cette phrase difficile ?",
+    "lao": "ຊ່ວຍຂ້ອຍກັບປະໂຫຍກຍາກອັນນີ້ແດ່ໄດ້ບໍ?",
+    "phoneticLao": "ປູເວ ວູ ເມເດ ອາເວກ ເຊດ ຝຣາຊ ດີຝິຊິລ ?",
+    "difficulty": "avance",
+    "tags": [
+      "difficulte"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-020",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Je préfère apprendre avec des exemples concrets.",
+    "lao": "ຂ້ອຍມັກຮຽນຜ່ານຕົວຢ່າງຈິງໆ.",
+    "phoneticLao": "ຊ ເປເຝແຣ ອາປຣັງດຣ ອາເວກ ເດ ແອກຊັງປລ ກົງກເຣ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "methode"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-021",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Est-ce que je prononce bien ce mot ?",
+    "lao": "ຂ້ອຍອອກສຽງຄຳນີ້ຖືກບໍ?",
+    "phoneticLao": "ແອສ ເກີ ຊ ປໂຣນົງສ ບຽງ ເຊີ ໂມ ?",
+    "difficulty": "intermediaire",
+    "tags": [
+      "survie"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-022",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Je note les mots nouveaux dans un petit carnet.",
+    "lao": "ຂ້ອຍຈົດຄຳສັບໃໝ່ໃສ່ປື້ມນ້ອຍ.",
+    "phoneticLao": "ຊ ໂນຕ ເລ ໂມ ນູໂວ ດັງ ອັງ ເປຕີ ກາຣເນ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "methode"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-023",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Le français a beaucoup de sons nasaux.",
+    "lao": "ພາສາຝຣັ່ງມີສຽງທາງດັງຫຼາຍ.",
+    "phoneticLao": "ເລີ ຝຣັງແຊ ອາ ໂບກູ ເດີ ຊົງ ນາໂຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "phonetique"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-024",
+    "categoryId": "apprendre",
+    "situation": "apprendre_survie",
+    "french": "Merci de m'écouter avec patience.",
+    "lao": "ຂອບໃຈທີ່ຟັງຂ້ອຍດ້ວຍຄວາມອົດທົນ.",
+    "phoneticLao": "ແມກຊິ ເດີ ເມກູເຕ ອາເວກ ປາຊັງສ.",
+    "difficulty": "debutant",
+    "tags": [
+      "politesse"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "apr-025",
+    "categoryId": "apprendre",
+    "situation": "apprendre_progression",
+    "french": "Chaque jour, j'apprends une nouvelle phrase.",
+    "lao": "ທຸກມື້ ຂ້ອຍຮຽນປະໂຫຍກໃໝ່ໜຶ່ງ.",
+    "phoneticLao": "ຊາກ ຊູຣ, ຊາປຣັງ ອູນ ນູແວລ ຝຣາຊ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "progression"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-025",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Ce billet est déchiré, en avez-vous un autre ?",
+    "lao": "ໃບເງິນນີ້ຂາດ, ມີໃບອື່ນບໍ?",
+    "phoneticLao": "ເຊີ ບີເຢ ແອ ເດຊິເຣ, ອັງ ອາເວ ວູ ອັງ ໂອຕຣ ?",
+    "difficulty": "avance",
+    "tags": [
+      "billet"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-026",
+    "categoryId": "argent",
+    "situation": "argent_prix",
+    "french": "Le prix varie selon la saison touristique.",
+    "lao": "ລາຄາປ່ຽນແປງຕາມລະດູການທ່ອງທ່ຽວ.",
+    "phoneticLao": "ເລີ ປຣີ ວາຣີ ເຊລົງ ລາ ແຊຊົງ ຕູຣິສຕີກ.",
+    "difficulty": "avance",
+    "tags": [
+      "saison"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-027",
+    "categoryId": "argent",
+    "situation": "argent_conseil",
+    "french": "Les petites coupures sont plus pratiques au marché.",
+    "lao": "ໃບເງິນມູນຄ່ານ້ອຍໃຊ້ສະດວກກວ່າຢູ່ຕະຫຼາດ.",
+    "phoneticLao": "ເລ ເປຕີດ ກູປູຣ ຊົງ ພລູ ປຣາຕີກ ໂອ ມາເຣເຊ.",
+    "difficulty": "avance",
+    "tags": [
+      "conseil"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "arg-028",
+    "categoryId": "argent",
+    "situation": "argent_paiement",
+    "french": "Vous pouvez payer en plusieurs fois si besoin.",
+    "lao": "ທ່ານສາມາດຈ່າຍເປັນຫຼາຍງວດໄດ້ຖ້າຈຳເປັນ.",
+    "phoneticLao": "ວູ ປູເວ ເປເຢ ອັງ ພລູຊິເອີຣ ຝົວ ຊີ ເບີຊວັງ.",
+    "difficulty": "avance",
+    "tags": [
+      "paiement"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-028",
+    "categoryId": "temples",
+    "situation": "temple_histoire",
+    "french": "Ce temple abrite la relique la plus sacrée du pays.",
+    "lao": "ວັດນີ້ເກັບຮັກສາພະທາດທີ່ສັກສິດທີ່ສຸດຂອງປະເທດ.",
+    "phoneticLao": "ເຊີ ຕັງປລ ອາບຣິຕ ລາ ເຣລີກ ລາ ພລູ ຊາເກຣ ດູ ເປອີ.",
+    "difficulty": "avance",
+    "tags": [
+      "histoire",
+      "religion"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-029",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "On enlève son chapeau avant d'entrer dans la salle.",
+    "lao": "ຖອດໝວກອອກກ່ອນເຂົ້າຫ້ອງ.",
+    "phoneticLao": "ອົງ ອັງເລວ ຊົງ ຊາໂປ ອາວັງ ດັງເຕຣ ດັງ ລາ ຊາລ.",
+    "difficulty": "debutant",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-030",
+    "categoryId": "temples",
+    "situation": "temple_culture",
+    "french": "Ce jardin a été créé pour la méditation.",
+    "lao": "ສວນນີ້ສ້າງຂຶ້ນສຳລັບການນັ່ງສະມາທິ.",
+    "phoneticLao": "ເຊີ ຊາຣດັງ ອາ ເອເຕ ເກຣເອ ປູຣ ລາ ເມດີຕາຊິອົງ.",
+    "difficulty": "avance",
+    "tags": [
+      "meditation"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "tem-031",
+    "categoryId": "temples",
+    "situation": "temple_regles",
+    "french": "Merci de respecter le silence dans cette zone.",
+    "lao": "ກະລຸນາຮັກສາຄວາມງຽບໃນເຂດນີ້.",
+    "phoneticLao": "ແມກຊິ ເດີ ເຣສແປກເຕ ເລີ ຊີລັງສ ດັງ ເຊດ ໂຊນ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "regle"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-031",
+    "categoryId": "urgences",
+    "situation": "urgence_documents",
+    "french": "Avez-vous un double de votre passeport ?",
+    "lao": "ທ່ານມີສຳເນົາໜັງສືຜ່ານແດນບໍ?",
+    "phoneticLao": "ອາເວ ວູ ອັງ ດູບລ ເດີ ໂວຕຣ ປາສປໍຣ ?",
+    "difficulty": "avance",
+    "tags": [
+      "documents"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-028",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "La piqûre de moustique n'est pas dangereuse ici.",
+    "lao": "ແມງໄຮກັດບໍ່ອັນຕະລາຍຢູ່ນີ້.",
+    "phoneticLao": "ລາ ປີກູຣ ເດີ ມູສຕີກ ເນແອ ປາ ດັງເຊເຣີຊ ອິຊິ.",
+    "difficulty": "avance",
+    "tags": [
+      "sante"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-029",
+    "categoryId": "urgences",
+    "situation": "urgence_sante",
+    "french": "Nous avons un kit de premiers secours dans le bus.",
+    "lao": "ພວກເຮົາມີກ່ອງປະຖົມພະຍາບານຢູ່ໃນລົດເມ.",
+    "phoneticLao": "ນູ ອາວົງ ອັງ ກິດ ເດີ ປເຣມີເອ ເຊກູຣ ດັງ ເລີ ບຸດ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "materiel"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "urg-030",
+    "categoryId": "urgences",
+    "situation": "urgence_securite",
+    "french": "Prévenez-moi immédiatement en cas de problème.",
+    "lao": "ແຈ້ງໃຫ້ຂ້ອຍຮູ້ທັນທີຖ້າມີບັນຫາ.",
+    "phoneticLao": "ປເຣເວເນ ມົວ ອີເມດີອາຕມັງ ອັງ ກາ ເດີ ໂປຣບແລມ.",
+    "difficulty": "intermediaire",
+    "tags": [
+      "consigne"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-031",
+    "categoryId": "conversation",
+    "situation": "conv_smalltalk",
+    "french": "Vous avez un bel appareil photo, vous aimez la photographie ?",
+    "lao": "ກ້ອງຖ່າຍຮູບຂອງທ່ານງາມແທ້, ທ່ານມັກຖ່າຍຮູບບໍ?",
+    "phoneticLao": "ວູ ອາເວ ອັງ ແບລ ອາປາເຣຍ ໂຟໂຕ, ວູ ແອເມ ລາ ໂຟໂຕກຣາຝີ ?",
+    "difficulty": "avance",
+    "tags": [
+      "photo"
+    ],
+    "needsReview": true
+  },
+  {
+    "id": "con-032",
+    "categoryId": "conversation",
+    "situation": "conv_culture",
+    "french": "Chaque région du Laos a sa propre spécialité culinaire.",
+    "lao": "ແຕ່ລະແຂວງໃນລາວມີອາຫານພິເສດປະຈຳຕົນ.",
+    "phoneticLao": "ຊາກ ເຣຊິອົງ ດູ ລາໂອ ອາ ຊາ ໂປຣປຣ ສເປຊິອາລີເຕ ກູລີແນຣ.",
+    "difficulty": "avance",
+    "tags": [
+      "culture",
+      "nourriture"
+    ],
     "needsReview": true
   }
 ]
