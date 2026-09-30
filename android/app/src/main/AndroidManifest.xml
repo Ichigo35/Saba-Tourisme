@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Nécessaire uniquement pour le mode Conversation IA (proxy Cloudflare
+         -> Gemini) : seule fonctionnalité de l'app qui n'est pas 100% hors-ligne. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="sabai_tourisme"
         android:name="${applicationName}"

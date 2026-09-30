@@ -46,6 +46,10 @@ dependencies:
   # Partage simple d'état (favoris, etc.) à travers l'arbre de widgets
   provider: ^6.1.5
 
+  # Appels réseau vers le proxy Cloudflare (mode Conversation IA, seule
+  # fonctionnalité de l'app qui nécessite Internet)
+  http: ^1.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

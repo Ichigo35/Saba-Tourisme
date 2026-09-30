@@ -1,0 +1,8 @@
+name = "sabai-tourisme-conversation-proxy"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Secrets (jamais dans ce fichier, définis via `wrangler secret put`) :
+#   GEMINI_API_KEY  - clé API Google AI Studio (Gemini)
+#   APP_SHARED_SECRET - secret partagé avec l'app Flutter (limite les abus,
+#                        pas une vraie authentification : voir README)
