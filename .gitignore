@@ -44,5 +44,10 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Clé de signature release (jamais dans le repo — perdre ce fichier ou son
+# mot de passe empêcherait de republier une mise à jour signée pareil).
+/android/key.properties
+/android/keystore/
+
 # Widget Preview related
 .widget_preview/

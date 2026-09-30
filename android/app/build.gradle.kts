@@ -1,7 +1,20 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+}
+
+// Clé de signature release : lue depuis android/key.properties (jamais
+// committé, voir .gitignore). Absent en CI/environnement neuf -> le build
+// release retombe sur la clé debug (comportement du template Flutter
+// d'origine) plutôt que d'échouer.
+val keystorePropertiesFile = rootProject.file("key.properties")
+val keystoreProperties = Properties()
+val hasReleaseKeystore = keystorePropertiesFile.exists()
+if (hasReleaseKeystore) {
+    keystoreProperties.load(keystorePropertiesFile.inputStream())
 }
 
 android {
@@ -29,11 +42,32 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        if (hasReleaseKeystore) {
+            create("release") {
+                storeFile = rootProject.file(keystoreProperties["storeFile"] as String)
+                storePassword = keystoreProperties["storePassword"] as String
+                keyAlias = keystoreProperties["keyAlias"] as String
+                keyPassword = keystoreProperties["keyPassword"] as String
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            // Signé avec la vraie clé release quand android/key.properties existe
+            // (voir signingConfigs ci-dessus) ; sinon retombe sur la clé debug
+            // (comportement du template Flutter d'origine, pour que `flutter run
+            // --release` continue de fonctionner sur un poste sans keystore).
+            // Un APK signé avec la clé debug (CN=Android Debug, visible via
+            // `apksigner verify --print-certs`) est refusé à l'installation par
+            // certains téléphones (constaté sur MIUI/Xiaomi : "le package semble
+            // ne pas être valide") — d'où l'importance de la vraie clé ici.
+            signingConfig = if (hasReleaseKeystore) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
