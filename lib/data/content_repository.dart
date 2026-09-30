@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/category.dart';
+import '../models/dialogue.dart';
 import '../models/lesson.dart';
 import '../models/phrase.dart';
 import '../models/quiz_item.dart';
@@ -20,6 +21,7 @@ class ContentRepository {
   List<VocabWord> vocabWords = [];
   List<Lesson> lessons = [];
   List<QuizItem> quizItems = [];
+  List<Dialogue> dialogues = [];
 
   bool _loaded = false;
   bool get isLoaded => _loaded;
@@ -33,6 +35,8 @@ class ContentRepository {
     final vocabRaw = await rootBundle.loadString('assets/data/vocab.json');
     final lessonsRaw = await rootBundle.loadString('assets/data/lessons.json');
     final quizRaw = await rootBundle.loadString('assets/data/quiz.json');
+    final dialoguesRaw =
+        await rootBundle.loadString('assets/data/dialogues.json');
 
     categories = (jsonDecode(categoriesRaw) as List<dynamic>)
         .map((e) => Category.fromJson(e as Map<String, dynamic>))
@@ -53,6 +57,10 @@ class ContentRepository {
 
     quizItems = (jsonDecode(quizRaw) as List<dynamic>)
         .map((e) => QuizItem.fromJson(e as Map<String, dynamic>))
+        .toList();
+
+    dialogues = (jsonDecode(dialoguesRaw) as List<dynamic>)
+        .map((e) => Dialogue.fromJson(e as Map<String, dynamic>))
         .toList();
 
     _loaded = true;

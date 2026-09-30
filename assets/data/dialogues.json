@@ -1,0 +1,174 @@
+[
+  {
+    "id": "dial_aeroport",
+    "titleFr": "Accueil à l'aéroport",
+    "emoji": "🛬",
+    "categoryId": "accueil",
+    "turns": [
+      {
+        "speaker": "touriste",
+        "textFr": "Bonjour ! Je crois que vous êtes venu nous chercher ?",
+        "meaningLao": "ສະບາຍດີ! ທ່ານມາຮັບພວກເຮົາແມ່ນບໍ?"
+      },
+      { "speaker": "toi", "phraseId": "acc-012" },
+      {
+        "speaker": "touriste",
+        "textFr": "Oui, c'est bien nous, merci !",
+        "meaningLao": "ແມ່ນແລ້ວ, ຂອບໃຈ!"
+      },
+      { "speaker": "toi", "phraseId": "acc-013" },
+      {
+        "speaker": "touriste",
+        "textFr": "Oui, on a toutes nos valises.",
+        "meaningLao": "ແມ່ນ, ພວກເຮົາມີກະເປົາຄົບແລ້ວ."
+      },
+      { "speaker": "toi", "phraseId": "acc-015" },
+      {
+        "speaker": "touriste",
+        "textFr": "D'accord, on vous suit.",
+        "meaningLao": "ຕົກລົງ, ພວກເຮົາຕາມທ່ານໄປ."
+      },
+      { "speaker": "toi", "phraseId": "acc-016" },
+      {
+        "speaker": "touriste",
+        "textFr": "Parfait, merci beaucoup !",
+        "meaningLao": "ດີຫຼາຍ, ຂອບໃຈຫຼາຍໆ!"
+      }
+    ]
+  },
+  {
+    "id": "dial_hotel",
+    "titleFr": "Arrivée à l'hôtel",
+    "emoji": "🏨",
+    "categoryId": "accueil",
+    "turns": [
+      { "speaker": "toi", "phraseId": "acc-017" },
+      {
+        "speaker": "touriste",
+        "textFr": "Oh, c'est très joli !",
+        "meaningLao": "ໂອ້, ງາມຫຼາຍ!"
+      },
+      { "speaker": "toi", "phraseId": "acc-018" },
+      { "speaker": "toi", "phraseId": "acc-019" },
+      { "speaker": "toi", "phraseId": "acc-020" },
+      {
+        "speaker": "touriste",
+        "textFr": "Parfait, merci beaucoup !",
+        "meaningLao": "ດີຫຼາຍ, ຂອບໃຈຫຼາຍໆ!"
+      },
+      { "speaker": "toi", "phraseId": "acc-021" },
+      { "speaker": "toi", "phraseId": "acc-024" },
+      {
+        "speaker": "touriste",
+        "textFr": "Non merci, c'est parfait pour l'instant.",
+        "meaningLao": "ບໍ່ເປັນຫຍັງ ຂອບໃຈ, ຕອນນີ້ພໍແລ້ວ."
+      }
+    ]
+  },
+  {
+    "id": "dial_restaurant",
+    "titleFr": "Commande au restaurant",
+    "emoji": "🍜",
+    "categoryId": "restaurant",
+    "turns": [
+      { "speaker": "toi", "phraseId": "res-001" },
+      {
+        "speaker": "touriste",
+        "textFr": "Oui, on meurt de faim !",
+        "meaningLao": "ແມ່ນ, ຫິວຫຼາຍແລ້ວ!"
+      },
+      { "speaker": "toi", "phraseId": "res-009" },
+      { "speaker": "toi", "phraseId": "res-011" },
+      {
+        "speaker": "touriste",
+        "textFr": "Merci ! Qu'est-ce que vous recommandez ?",
+        "meaningLao": "ຂອບໃຈ! ທ່ານແນະນຳຫຍັງແດ່?"
+      },
+      { "speaker": "toi", "phraseId": "res-015" },
+      {
+        "speaker": "touriste",
+        "textFr": "Est-ce que c'est épicé ?",
+        "meaningLao": "ອັນນີ້ເຜັດບໍ?"
+      },
+      { "speaker": "toi", "phraseId": "res-013" },
+      {
+        "speaker": "touriste",
+        "textFr": "Parfait, on va prendre ça alors !",
+        "meaningLao": "ດີເລີດ, ພວກເຮົາເອົາອັນນີ້ເລີຍ!"
+      },
+      { "speaker": "toi", "phraseId": "res-024" }
+    ]
+  },
+  {
+    "id": "dial_shopping",
+    "titleFr": "Au marché artisanal",
+    "emoji": "🛍️",
+    "categoryId": "shopping",
+    "turns": [
+      { "speaker": "toi", "phraseId": "sho-001" },
+      {
+        "speaker": "touriste",
+        "textFr": "C'est magnifique, il y a plein de belles choses !",
+        "meaningLao": "ງາມຫຼາຍ, ມີຂອງງາມໆຫຼາຍຢ່າງເລີຍ!"
+      },
+      { "speaker": "toi", "phraseId": "sho-002" },
+      {
+        "speaker": "touriste",
+        "textFr": "Combien ça coûte ?",
+        "meaningLao": "ອັນນີ້ລາຄາເທົ່າໃດ?"
+      },
+      { "speaker": "toi", "phraseId": "sho-016" },
+      {
+        "speaker": "touriste",
+        "textFr": "Est-ce qu'on peut négocier un peu ?",
+        "meaningLao": "ຕໍ່ລາຄາໄດ້ບໍ່?"
+      },
+      { "speaker": "toi", "phraseId": "sho-003" },
+      {
+        "speaker": "touriste",
+        "textFr": "D'accord, je le prends !",
+        "meaningLao": "ຕົກລົງ, ຂ້ອຍເອົາອັນນີ້!"
+      },
+      { "speaker": "toi", "phraseId": "sho-006" },
+      {
+        "speaker": "touriste",
+        "textFr": "Parfait, voici le paiement.",
+        "meaningLao": "ດີແລ້ວ, ນີ້ແມ່ນເງິນ."
+      }
+    ]
+  },
+  {
+    "id": "dial_urgence",
+    "titleFr": "Petit souci de santé",
+    "emoji": "🚨",
+    "categoryId": "urgences",
+    "turns": [
+      { "speaker": "toi", "phraseId": "urg-001" },
+      {
+        "speaker": "touriste",
+        "textFr": "Pas très bien, j'ai mal au ventre.",
+        "meaningLao": "ບໍ່ດີປານໃດ, ຂ້ອຍເຈັບທ້ອງ."
+      },
+      { "speaker": "toi", "phraseId": "urg-002" },
+      {
+        "speaker": "touriste",
+        "textFr": "Je ne sais pas, peut-être juste besoin de repos.",
+        "meaningLao": "ບໍ່ຮູ້ຄືກັນ, ອາດຕ້ອງການພັກຜ່ອນ."
+      },
+      { "speaker": "toi", "phraseId": "urg-008" },
+      {
+        "speaker": "touriste",
+        "textFr": "D'accord, on peut y aller ?",
+        "meaningLao": "ຕົກລົງ, ໄປໄດ້ບໍ່?"
+      },
+      { "speaker": "toi", "phraseId": "urg-009" },
+      { "speaker": "toi", "phraseId": "urg-012" },
+      {
+        "speaker": "touriste",
+        "textFr": "Merci, ça va un peu mieux.",
+        "meaningLao": "ຂອບໃຈ, ດີຂຶ້ນແດ່ແລ້ວ."
+      },
+      { "speaker": "toi", "phraseId": "urg-017" }
+    ]
+  }
+]
