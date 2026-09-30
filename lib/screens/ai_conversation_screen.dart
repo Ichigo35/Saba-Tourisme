@@ -35,6 +35,12 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
   final _speech = stt.SpeechToText();
   final List<_ChatMessage> _messages = [];
   final List<AiChatTurn> _history = [];
+  late final AudioService _audioService;
+
+  // Index du message actuellement lu à voix haute (un seul à la fois), pour
+  // que retoucher le même bouton volume interrompe la lecture au lieu d'en
+  // relancer une par-dessus.
+  int? _speakingIndex;
 
   // Traductions lao demandées à la volée, indexées par position dans
   // `_messages` (pas stockées sur `_ChatMessage` pour garder ce dernier
@@ -66,6 +72,7 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
   @override
   void initState() {
     super.initState();
+    _audioService = context.read<AudioService>();
     _startConversation();
     _initSpeech();
   }
@@ -73,9 +80,30 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
   @override
   void dispose() {
     _speech.stop();
+    _audioService.stop();
     _controller.dispose();
     _scrollController.dispose();
     super.dispose();
+  }
+
+  /// Bascule lecture/arrêt : retoucher le bouton volume du message en cours
+  /// de lecture l'interrompt au lieu d'en relancer une par-dessus.
+  Future<void> _toggleSpeak(int index, String text) async {
+    if (_speakingIndex == index) {
+      await _audioService.stop();
+      if (mounted) setState(() => _speakingIndex = null);
+      return;
+    }
+    await _audioService.stop();
+    setState(() => _speakingIndex = index);
+    await _audioService.speak(
+      text,
+      onComplete: () {
+        if (mounted && _speakingIndex == index) {
+          setState(() => _speakingIndex = null);
+        }
+      },
+    );
   }
 
   Future<void> _initSpeech() async {
@@ -219,8 +247,6 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final audioService = context.read<AudioService>();
-
     return Scaffold(
       appBar: AppBar(title: Text('${widget.dialogue.emoji}  ${widget.dialogue.titleFr}')),
       body: SafeArea(
@@ -235,7 +261,8 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
                   final m = _messages[index];
                   return _ChatBubble(
                     message: m,
-                    onListen: () => audioService.speak(m.text),
+                    onListen: () => _toggleSpeak(index, m.text),
+                    isSpeaking: _speakingIndex == index,
                     translation: _translations[index],
                     translating: _translating.contains(index),
                     onTranslate: () => _translate(index, m.text),
@@ -268,6 +295,10 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
                     child: TextField(
                       controller: _controller,
                       enabled: !_loading,
+                      minLines: 1,
+                      maxLines: 5,
+                      keyboardType: TextInputType.multiline,
+                      textInputAction: TextInputAction.newline,
                       decoration: InputDecoration(
                         hintText: _listening
                             ? 'Je vous écoute…'
@@ -278,7 +309,6 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
                         contentPadding: const EdgeInsets.symmetric(
                             horizontal: 14, vertical: 10),
                       ),
-                      onSubmitted: (_) => _send(),
                     ),
                   ),
                   const SizedBox(width: 8),
@@ -313,6 +343,7 @@ class _ChatBubble extends StatelessWidget {
   const _ChatBubble({
     required this.message,
     required this.onListen,
+    required this.isSpeaking,
     required this.translation,
     required this.translating,
     required this.onTranslate,
@@ -320,6 +351,7 @@ class _ChatBubble extends StatelessWidget {
 
   final _ChatMessage message;
   final VoidCallback onListen;
+  final bool isSpeaking;
   final String? translation;
   final bool translating;
   final VoidCallback onTranslate;
@@ -376,10 +408,12 @@ class _ChatBubble extends StatelessWidget {
                         children: [
                           InkWell(
                             onTap: onListen,
-                            child: const Icon(
-                              Icons.volume_up,
+                            child: Icon(
+                              isSpeaking ? Icons.stop_circle : Icons.volume_up,
                               size: 18,
-                              color: AppColors.primary,
+                              color: isSpeaking
+                                  ? AppColors.danger
+                                  : AppColors.primary,
                             ),
                           ),
                           if (message.model != null) ...[

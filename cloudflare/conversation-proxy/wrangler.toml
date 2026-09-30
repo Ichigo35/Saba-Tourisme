@@ -6,3 +6,17 @@ compatibility_date = "2025-01-01"
 #   GEMINI_API_KEY  - clé API Google AI Studio (Gemini)
 #   APP_SHARED_SECRET - secret partagé avec l'app Flutter (limite les abus,
 #                        pas une vraie authentification : voir README)
+
+# Durable Object `GeminiCaller` : épingle l'appel sortant vers Gemini sur une
+# région Cloudflare fixe ("wnam" via locationHint dans le code), pour éviter
+# l'erreur géographique "User location is not supported for the API use" que
+# renvoie Gemini quand le Worker s'exécute par hasard depuis un datacenter
+# dans un pays non supporté par l'API gratuite. Pas de stockage persisté :
+# juste un point d'exécution stable.
+[[durable_objects.bindings]]
+name = "GEMINI_CALLER"
+class_name = "GeminiCaller"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["GeminiCaller"]

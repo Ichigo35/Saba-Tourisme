@@ -20,12 +20,20 @@ class AudioService {
   static const double _normalRate = 0.5;
   static const double _slowRate = 0.28;
 
-  Future<void> speak(String text) async {
+  /// [onComplete] est appelé quand la phrase se termine naturellement OU
+  /// quand elle est interrompue par [stop] (utile pour un bouton
+  /// lecture/stop qui doit remettre son icône à l'état "arrêté" dans les
+  /// deux cas).
+  Future<void> speak(String text, {void Function()? onComplete}) async {
+    _tts.setCompletionHandler(onComplete ?? () {});
+    _tts.setCancelHandler(onComplete ?? () {});
     await _tts.setSpeechRate(_normalRate);
     await _tts.speak(text);
   }
 
-  Future<void> speakSlowly(String text) async {
+  Future<void> speakSlowly(String text, {void Function()? onComplete}) async {
+    _tts.setCompletionHandler(onComplete ?? () {});
+    _tts.setCancelHandler(onComplete ?? () {});
     await _tts.setSpeechRate(_slowRate);
     await _tts.speak(text);
   }

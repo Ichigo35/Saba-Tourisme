@@ -9,10 +9,26 @@
  *
  * Bascule automatique entre modèles gratuits : on essaie les modèles dans
  * l'ordre de MODEL_FALLBACK_CHAIN, et on passe au suivant dès qu'un modèle
- * répond "quota dépassé" (429 / RESOURCE_EXHAUSTED). Pas d'état persisté
- * nécessaire : l'API Gemini elle-même nous dit quand un modèle est à sec,
- * donc une bascule par requête suffit (pas besoin de Neon ou d'une autre
- * base pour suivre la consommation).
+ * échoue, quelle que soit la raison. Pas d'état persisté nécessaire : l'API
+ * Gemini elle-même nous dit à chaque requête quels modèles répondent, donc
+ * une bascule par requête suffit (pas besoin de Neon ou d'une autre base
+ * pour suivre la consommation).
+ *
+ * Astuce non évidente (diagnostiquée le 2026-09-30 via des logs temporaires
+ * `wrangler tail`) : un Worker Cloudflare classique s'exécute depuis le
+ * datacenter le plus proche du client à CHAQUE requête, qui peut varier d'un
+ * appel à l'autre. Or l'API Gemini gratuite (clé AI Studio) refuse les
+ * requêtes venant de certains pays avec l'erreur trompeuse "User location is
+ * not supported for the API use" (HTTP 400 FAILED_PRECONDITION — rien à voir
+ * avec le quota). Ça donnait l'impression d'une bascule de modèles cassée :
+ * en réalité TOUS les modèles échouaient à cause du datacenter Cloudflare du
+ * moment, et ça ne remarchait que quand le hasard retombait sur un
+ * datacenter dans un pays accepté par Google. D'où l'appel à Gemini
+ * maintenant fait depuis le Durable Object `GeminiCaller` ci-dessous, épinglé
+ * une fois pour toutes sur la région "wnam" (Amérique du Nord Ouest,
+ * acceptée par Gemini) via `locationHint` — le point d'entrée du Worker peut
+ * toujours répondre depuis le datacenter le plus proche du client, seul
+ * l'appel sortant vers Gemini est stabilisé.
  */
 
 // Du plus généreux au moins généreux, uniquement des modèles éligibles au
@@ -21,14 +37,15 @@
 // Vérifié en direct le 2026-09-30 via /v1beta/models avec la clé du projet :
 // "gemini-2.5-flash-lite" (demandé initialement) est déprécié pour les
 // nouvelles clés ("no longer available to new users", message renvoyé par
-// l'API elle-même, qui recommande gemini-3.5-flash-lite). La liste
-// ci-dessous reflète l'état réel de l'API à cette date, pas une supposition
-// figée — à revérifier si Google fait encore évoluer sa gamme de modèles.
+// l'API elle-même, qui recommande gemini-3.5-flash-lite). "gemini-2.5-flash"
+// est déprécié de la même façon depuis (message renvoyé par l'API :
+// recommande gemini-3.8-flash), remplacé ci-dessous. Liste à revérifier si
+// Google fait encore évoluer sa gamme de modèles.
 const MODEL_FALLBACK_CHAIN = [
   "gemini-3.5-flash-lite", // confirmé fonctionnel en test direct
   "gemini-flash-lite-latest", // alias Google vers le "lite" du moment (reste à jour tout seul)
   "gemini-3.1-flash-lite",
-  "gemini-2.5-flash",
+  "gemini-3.8-flash", // remplace gemini-2.5-flash, déprécié (404 confirmé le 2026-09-30)
   "gemini-flash-latest",
 ];
 
@@ -198,6 +215,41 @@ async function tryModels(callFn) {
   };
 }
 
+/**
+ * Durable Object dont le seul rôle est d'épingler l'appel sortant vers l'API
+ * Gemini sur une région Cloudflare fixe (voir le commentaire en haut de
+ * fichier sur l'erreur "User location is not supported"). Aucun état stocké
+ * : c'est juste un point d'exécution stable, pas une base de données.
+ */
+export class GeminiCaller {
+  constructor(state, env) {
+    this.env = env;
+  }
+
+  async fetch(request) {
+    const { model, systemPrompt, history, userMessage } = await request.json();
+    const result = await callGemini(
+      model,
+      this.env.GEMINI_API_KEY,
+      systemPrompt,
+      history,
+      userMessage,
+    );
+    return new Response(JSON.stringify(result));
+  }
+}
+
+/** Relaie l'appel Gemini au Durable Object épinglé sur "wnam" (voir plus haut). */
+async function callGeminiPinned(env, model, systemPrompt, history, userMessage) {
+  const id = env.GEMINI_CALLER.idFromName("singleton");
+  const stub = env.GEMINI_CALLER.get(id, { locationHint: "wnam" });
+  const res = await stub.fetch("https://gemini-caller.internal/", {
+    method: "POST",
+    body: JSON.stringify({ model, systemPrompt, history, userMessage }),
+  });
+  return res.json();
+}
+
 export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
@@ -234,7 +286,7 @@ export default {
         "translittération et sans aucun commentaire ni guillemets : " +
         "réponds uniquement avec la traduction.";
       const result = await tryModels((model) =>
-        callGemini(model, env.GEMINI_API_KEY, translatePrompt, [], text),
+        callGeminiPinned(env, model, translatePrompt, [], text),
       );
       if (!result.ok) return jsonResponse({ error: result.error }, result.status);
       return jsonResponse({ translation: result.text.trim(), model: result.model });
@@ -250,7 +302,7 @@ export default {
     const safeHistory = Array.isArray(history) ? history : [];
 
     const result = await tryModels((model) =>
-      callGemini(model, env.GEMINI_API_KEY, systemPrompt, safeHistory, userMessage),
+      callGeminiPinned(env, model, systemPrompt, safeHistory, userMessage),
     );
     if (!result.ok) return jsonResponse({ error: result.error }, result.status);
     return jsonResponse({ reply: result.text, model: result.model });
