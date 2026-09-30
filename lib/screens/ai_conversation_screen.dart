@@ -48,6 +48,13 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
   bool _listening = false;
   String? _error;
 
+  // Texte déjà présent dans le champ avant le début de la dictée en cours
+  // (dicté ou tapé lors d'un appui précédent sur le micro). Permet de
+  // rallumer le micro sans effacer ce qui a déjà été transcrit : chaque
+  // nouveau résultat de reconnaissance vient s'ajouter après ce texte plutôt
+  // que de le remplacer.
+  String _dictationBase = '';
+
   String get _systemPrompt =>
       'Tu incarnes un touriste francophone dans cette situation : '
       '"${widget.dialogue.titleFr}". Réponds toujours en français, dans un '
@@ -100,6 +107,7 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
       setState(() => _listening = false);
       return;
     }
+    _dictationBase = _controller.text.trimRight();
     setState(() {
       _listening = true;
       _error = null;
@@ -108,7 +116,9 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
       listenOptions: stt.SpeechListenOptions(localeId: 'fr_FR'),
       onResult: (result) {
         setState(() {
-          _controller.text = result.recognizedWords;
+          _controller.text = _dictationBase.isEmpty
+              ? result.recognizedWords
+              : '$_dictationBase ${result.recognizedWords}';
           _controller.selection =
               TextSelection.collapsed(offset: _controller.text.length);
         });

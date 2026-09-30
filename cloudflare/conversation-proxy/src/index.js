@@ -159,19 +159,33 @@ function formatResetMessage(resetDate) {
  * bascule/quota-épuisé est identique dans les deux cas.
  */
 async function tryModels(callFn) {
+  let sawQuotaExceeded = false;
+  let lastNonQuotaError = null;
+
   for (const model of MODEL_FALLBACK_CHAIN) {
     const result = await callFn(model);
     if (result.ok) {
       return { ok: true, text: result.text, model };
     }
-    if (!result.quotaExceeded) {
-      return {
-        ok: false,
-        status: 502,
-        error: `Erreur du modèle ${model} (statut ${result.status}).`,
-      };
+    if (result.quotaExceeded) {
+      sawQuotaExceeded = true;
+    } else {
+      // Erreur ponctuelle sur ce modèle précis (404 sur un nom de modèle
+      // déprécié, 400, etc.) : on ne s'arrête pas là pour autant. D'autres
+      // modèles de la chaîne peuvent avoir un quota encore disponible, donc
+      // on continue à essayer le suivant plutôt que d'abandonner sur le
+      // premier accroc. On ne renvoie cette erreur que si aucun modèle de la
+      // chaîne n'a fini par répondre.
+      lastNonQuotaError = { model, status: result.status };
     }
-    // Quota épuisé pour ce modèle : on essaie le suivant de la chaîne.
+  }
+
+  if (!sawQuotaExceeded && lastNonQuotaError) {
+    return {
+      ok: false,
+      status: 502,
+      error: `Erreur du modèle ${lastNonQuotaError.model} (statut ${lastNonQuotaError.status}).`,
+    };
   }
 
   const reset = nextPacificMidnightUtc(new Date());
