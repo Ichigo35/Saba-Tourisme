@@ -1,0 +1,56 @@
+[
+  {
+    "id": "accueil",
+    "nameFr": "Accueillir un touriste",
+    "nameLao": "ຕ້ອນຮັບນັກທ່ອງທ່ຽວ",
+    "emoji": "👋"
+  },
+  {
+    "id": "guide",
+    "nameFr": "Guider un touriste",
+    "nameLao": "ນຳທ່ຽວ",
+    "emoji": "🗺️"
+  },
+  {
+    "id": "restaurant",
+    "nameFr": "Restaurant",
+    "nameLao": "ຮ້ານອາຫານ",
+    "emoji": "🍜"
+  },
+  {
+    "id": "temples",
+    "nameFr": "Visite & temples",
+    "nameLao": "ວັດ ແລະ ສະຖານທີ່ທ່ອງທ່ຽວ",
+    "emoji": "🛕"
+  },
+  {
+    "id": "shopping",
+    "nameFr": "Shopping",
+    "nameLao": "ຊື້ເຄື່ອງ",
+    "emoji": "🛍️"
+  },
+  {
+    "id": "argent",
+    "nameFr": "Argent & paiement",
+    "nameLao": "ເງິນ ແລະ ການຈ່າຍເງິນ",
+    "emoji": "💰"
+  },
+  {
+    "id": "urgences",
+    "nameFr": "Problèmes / urgences",
+    "nameLao": "ບັນຫາ ແລະ ສຸກເສີນ",
+    "emoji": "🚨"
+  },
+  {
+    "id": "conversation",
+    "nameFr": "Conversation",
+    "nameLao": "ການສົນທະນາ",
+    "emoji": "💬"
+  },
+  {
+    "id": "apprendre",
+    "nameFr": "Apprendre le français",
+    "nameLao": "ຮຽນພາສາຝຣັ່ງ",
+    "emoji": "📚"
+  }
+]
