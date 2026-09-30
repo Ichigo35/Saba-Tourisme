@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content_repository.dart';
 import '../widgets/category_card.dart';
+import 'assistant_screen.dart';
 import 'category_phrases_screen.dart';
 import 'dialogues_screen.dart';
 import 'favorites_screen.dart';
@@ -29,6 +30,13 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Sabai Tourisme'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.support_agent),
+            tooltip: 'Assistant IA (parler / comprendre en direct)',
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const AssistantScreen()),
+            ),
+          ),
           IconButton(
             icon: const Icon(Icons.theater_comedy),
             tooltip: 'Simulation de conversation',

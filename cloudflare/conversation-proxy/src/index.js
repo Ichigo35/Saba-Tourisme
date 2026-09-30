@@ -49,6 +49,23 @@ const MODEL_FALLBACK_CHAIN = [
   "gemini-flash-latest",
 ];
 
+// Rappel explicite anti-dérive vers le thaï : le lao et le thaï sont deux
+// langues distinctes avec deux alphabets Unicode différents (lao : U+0E80 à
+// U+0EFF ; thaï : U+0E00 à U+0E7F) mais proches (phonologie et vocabulaire
+// voisins, très peu de contenu lao dans les données d'entraînement des LLM
+// comparé au thaï). Observé en direct le 2026-09-30 : sans ce garde-fou,
+// Gemini répond occasionnellement en écriture THAÏE alors que le prompt
+// demande du lao — un professionnel lao ne pourrait pas le lire. Ce rappel
+// est ajouté à tous les prompts qui demandent une sortie en lao.
+const LAO_NOT_THAI_GUARD =
+  " IMPORTANT : le lao (ພາສາລາວ) et le thaï (ภาษาไทย) sont deux langues et " +
+  "deux alphabets DIFFÉRENTS, même s'ils se ressemblent. N'utilise JAMAIS " +
+  "l'alphabet thaï, même pour un seul mot. Utilise UNIQUEMENT l'alphabet " +
+  "lao (par exemple : ສະບາຍດີ, ຂອບໃຈ, ເດີນທາງ — jamais ภาษาไทย, สวัสดี ni " +
+  "เดินทาง). Si un mot te vient spontanément en thaï, cherche le mot lao " +
+  "correct à la place. Relis ta réponse avant de la donner : elle ne doit " +
+  "contenir STRICTEMENT AUCUN caractère thaï, pas même un seul.";
+
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
@@ -72,7 +89,14 @@ function toGeminiContents(history, userMessage) {
   return contents;
 }
 
-async function callGemini(model, apiKey, systemPrompt, history, userMessage) {
+async function callGemini(
+  model,
+  apiKey,
+  systemPrompt,
+  history,
+  userMessage,
+  generationConfigOverrides = {},
+) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   const res = await fetch(url, {
     method: "POST",
@@ -80,7 +104,11 @@ async function callGemini(model, apiKey, systemPrompt, history, userMessage) {
     body: JSON.stringify({
       systemInstruction: { parts: [{ text: systemPrompt }] },
       contents: toGeminiContents(history, userMessage),
-      generationConfig: { temperature: 0.9, maxOutputTokens: 200 },
+      generationConfig: {
+        temperature: 0.9,
+        maxOutputTokens: 200,
+        ...generationConfigOverrides,
+      },
     }),
   });
 
@@ -227,25 +255,40 @@ export class GeminiCaller {
   }
 
   async fetch(request) {
-    const { model, systemPrompt, history, userMessage } = await request.json();
+    const { model, systemPrompt, history, userMessage, generationConfigOverrides } =
+      await request.json();
     const result = await callGemini(
       model,
       this.env.GEMINI_API_KEY,
       systemPrompt,
       history,
       userMessage,
+      generationConfigOverrides ?? {},
     );
     return new Response(JSON.stringify(result));
   }
 }
 
 /** Relaie l'appel Gemini au Durable Object épinglé sur "wnam" (voir plus haut). */
-async function callGeminiPinned(env, model, systemPrompt, history, userMessage) {
+async function callGeminiPinned(
+  env,
+  model,
+  systemPrompt,
+  history,
+  userMessage,
+  generationConfigOverrides = {},
+) {
   const id = env.GEMINI_CALLER.idFromName("singleton");
   const stub = env.GEMINI_CALLER.get(id, { locationHint: "wnam" });
   const res = await stub.fetch("https://gemini-caller.internal/", {
     method: "POST",
-    body: JSON.stringify({ model, systemPrompt, history, userMessage }),
+    body: JSON.stringify({
+      model,
+      systemPrompt,
+      history,
+      userMessage,
+      generationConfigOverrides,
+    }),
   });
   return res.json();
 }
@@ -284,12 +327,63 @@ export default {
         "Tu es un traducteur français vers lao. Traduis fidèlement la " +
         "phrase suivante en lao, en écriture lao uniquement, sans " +
         "translittération et sans aucun commentaire ni guillemets : " +
-        "réponds uniquement avec la traduction.";
+        "réponds uniquement avec la traduction." +
+        LAO_NOT_THAI_GUARD;
       const result = await tryModels((model) =>
         callGeminiPinned(env, model, translatePrompt, [], text),
       );
       if (!result.ok) return jsonResponse({ error: result.error }, result.status);
       return jsonResponse({ translation: result.text.trim(), model: result.model });
+    }
+
+    // Mode "compose" : mode "🆘 Je dois parler français" côté app — le pro
+    // décrit ce qu'il veut dire (situation ou idée approximative, en
+    // français), l'IA formule la phrase française correcte à prononcer, sa
+    // phonétique en écriture lao (pour la prononcer) et sa traduction lao
+    // (pour vérifier le sens). Réponse forcée en JSON (responseMimeType) pour
+    // rester structurée et facile à afficher côté app.
+    if (mode === "compose") {
+      if (typeof text !== "string" || !text.trim()) {
+        return jsonResponse({ error: "Champ requis manquant (text)." }, 400);
+      }
+      const composePrompt =
+        "Tu aides un professionnel lao du tourisme à formuler une phrase " +
+        "en français correcte et naturelle à dire à un touriste " +
+        "francophone, à partir d'une description approximative de ce " +
+        "qu'il veut dire (en français ou en lao). Réponds UNIQUEMENT avec " +
+        "un objet JSON, sans texte autour, avec exactement ces clés : " +
+        '"french" (la phrase en français à dire, naturelle et polie), ' +
+        '"phonetic" (transcription en écriture lao de la PRONONCIATION de ' +
+        "cette phrase française, pour aider un lecteur lao à la " +
+        'prononcer), "meaning" (traduction du sens de cette phrase en lao, ' +
+        "en écriture lao normale)." +
+        LAO_NOT_THAI_GUARD;
+      const result = await tryModels((model) =>
+        callGeminiPinned(env, model, composePrompt, [], text, {
+          responseMimeType: "application/json",
+          maxOutputTokens: 300,
+        }),
+      );
+      if (!result.ok) return jsonResponse({ error: result.error }, result.status);
+      let parsed;
+      try {
+        parsed = JSON.parse(result.text);
+      } catch {
+        return jsonResponse({ error: "Réponse invalide de l'IA." }, 502);
+      }
+      if (
+        typeof parsed.french !== "string" ||
+        typeof parsed.phonetic !== "string" ||
+        typeof parsed.meaning !== "string"
+      ) {
+        return jsonResponse({ error: "Réponse incomplète de l'IA." }, 502);
+      }
+      return jsonResponse({
+        french: parsed.french.trim(),
+        phonetic: parsed.phonetic.trim(),
+        meaning: parsed.meaning.trim(),
+        model: result.model,
+      });
     }
 
     if (typeof systemPrompt !== "string" || typeof userMessage !== "string") {

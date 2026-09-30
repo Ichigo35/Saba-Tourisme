@@ -133,4 +133,65 @@ class AiConversationService {
     }
     return data['translation'] as String;
   }
+
+  /// Mode "🆘 Je dois parler français" : à partir d'une description
+  /// approximative de ce que le pro veut dire (mode `compose` du proxy),
+  /// obtient la phrase française à prononcer, sa phonétique en écriture lao
+  /// et sa traduction lao.
+  Future<ComposedPhrase> composePhrase(String situation) async {
+    http.Response response;
+    try {
+      response = await http
+          .post(
+            Uri.parse(_endpoint),
+            headers: {
+              'Content-Type': 'application/json',
+              'X-App-Secret': _appSecret,
+            },
+            body: jsonEncode({'mode': 'compose', 'text': situation}),
+          )
+          .timeout(const Duration(seconds: 25));
+    } catch (_) {
+      throw AiConversationException(
+        'Impossible de contacter le service. Vérifiez votre connexion Internet.',
+      );
+    }
+
+    Map<String, dynamic> data;
+    try {
+      data = jsonDecode(response.body) as Map<String, dynamic>;
+    } catch (_) {
+      throw AiConversationException('Réponse invalide du service.');
+    }
+
+    if (response.statusCode != 200) {
+      throw AiConversationException(
+        data['error'] as String? ?? 'Erreur inconnue du service.',
+      );
+    }
+    return ComposedPhrase(
+      french: data['french'] as String,
+      phonetic: data['phonetic'] as String,
+      meaning: data['meaning'] as String,
+      model: data['model'] as String? ?? '?',
+    );
+  }
+}
+
+/// Résultat du mode "🆘 Je dois parler français" : phrase française générée
+/// par l'IA à partir d'une situation décrite par le pro, avec sa phonétique
+/// en écriture lao et sa traduction — toujours à considérer comme
+/// `needsReview` (générée à la volée, jamais relue par un locuteur natif).
+class ComposedPhrase {
+  const ComposedPhrase({
+    required this.french,
+    required this.phonetic,
+    required this.meaning,
+    required this.model,
+  });
+
+  final String french;
+  final String phonetic;
+  final String meaning;
+  final String model;
 }
