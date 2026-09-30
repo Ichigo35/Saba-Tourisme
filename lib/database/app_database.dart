@@ -62,4 +62,40 @@ class AppDatabase {
     final db = await database;
     await db.delete('favorites', where: 'phrase_id = ?', whereArgs: [phraseId]);
   }
+
+  /// Progression de toutes les mini-leçons : lessonId -> (completed, bestScore).
+  Future<Map<String, (bool completed, int bestScore)>>
+      getAllLessonProgress() async {
+    final db = await database;
+    final rows = await db.query('lesson_progress');
+    return {
+      for (final r in rows)
+        r['lesson_id'] as String: (
+          (r['completed'] as int) == 1,
+          r['best_score'] as int,
+        ),
+    };
+  }
+
+  /// Enregistre le résultat d'un quiz de leçon : marque la leçon comme
+  /// terminée et conserve le meilleur score obtenu.
+  Future<void> saveLessonResult(String lessonId, int score) async {
+    final db = await database;
+    final existing = await db.query(
+      'lesson_progress',
+      where: 'lesson_id = ?',
+      whereArgs: [lessonId],
+    );
+    final previousBest =
+        existing.isEmpty ? 0 : existing.first['best_score'] as int;
+    await db.insert(
+      'lesson_progress',
+      {
+        'lesson_id': lessonId,
+        'completed': 1,
+        'best_score': score > previousBest ? score : previousBest,
+      },
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
+  }
 }

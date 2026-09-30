@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "quiz_accueil_acc-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Bonjour, bienvenue au Laos !",
+    "choices": [
+      "ຢ່າລັງເລທີ່ຈະຖາມຂ້ອຍ.",
+      "ສະບາຍດີ, ຍິນດີຕ້ອນຮັບສູ່ປະເທດລາວ!",
+      "ຄວາມແຕກຕ່າງເວລາອາດເຮັດໃຫ້ເມື່ອຍ.",
+      "ການເດີນທາງຂອງທ່ານເປັນແນວໃດ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-001"
+  },
+  {
+    "id": "quiz_accueil_acc-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ສະບາຍດີ, ຍິນດີຕ້ອນຮັບສູ່ປະເທດລາວ!",
+    "choices": [
+      "Bonjour, bienvenue au Laos !",
+      "Si vous avez besoin de quelque chose, dites-le-moi.",
+      "L'ascenseur est juste à côté.",
+      "Bienvenue à l'aéroport."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "acc-001"
+  },
+  {
+    "id": "quiz_accueil_acc-006_frToLao",
+    "type": "frToLao",
+    "prompt": "Je m'appelle...",
+    "choices": [
+      "ຂ້ອຍຊື່ວ່າ...",
+      "ຂ້ອຍຈະໄປນຳທ່ານຕະຫຼອດການພັກຢູ່ນີ້.",
+      "ການເດີນທາງຂອງທ່ານເປັນແນວໃດ?",
+      "ທ່ານສະບາຍດີບໍ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "acc-006"
+  },
+  {
+    "id": "quiz_accueil_acc-006_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂ້ອຍຊື່ວ່າ...",
+    "choices": [
+      "Nous partons demain matin à huit heures.",
+      "Où est votre valise ?",
+      "Comment vous appelez-vous ?",
+      "Je m'appelle..."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "acc-006"
+  },
+  {
+    "id": "quiz_accueil_acc-011_frToLao",
+    "type": "frToLao",
+    "prompt": "Je viens vous chercher.",
+    "choices": [
+      "ນີ້ແມ່ນໂປຣແກຣມຂອງທ່ານສຳລັບມື້ຕໍ່ໆໄປ.",
+      "ຂ້ອຍມາຮັບທ່ານ.",
+      "ສະບາຍດີ, ຍິນດີຕ້ອນຮັບສູ່ປະເທດລາວ!",
+      "ອາຫານເຊົ້າໃຫ້ບໍລິການແຕ່ 7 ໂມງຫາ 10 ໂມງ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-011"
+  },
+  {
+    "id": "quiz_accueil_acc-011_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂ້ອຍມາຮັບທ່ານ.",
+    "choices": [
+      "Bienvenue à l'aéroport.",
+      "L'ascenseur est à droite.",
+      "Je viens vous chercher.",
+      "Le petit-déjeuner est servi de 7h à 10h."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "acc-011"
+  },
+  {
+    "id": "quiz_accueil_acc-016_frToLao",
+    "type": "frToLao",
+    "prompt": "Le trajet jusqu'à l'hôtel prendra environ 30 minutes.",
+    "choices": [
+      "ຂ້ອຍຊື່ວ່າ...",
+      "ການເດີນທາງໄປໂຮງແຮມໃຊ້ເວລາປະມານ 30 ນາທີ.",
+      "ຄົນຂັບລົດຂອງທ່ານລໍຖ້າຢູ່ຂ້າງນອກ.",
+      "ຂ້ອຍຈະໄປນຳທ່ານຕະຫຼອດການພັກຢູ່ນີ້."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-016"
+  },
+  {
+    "id": "quiz_accueil_acc-016_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ການເດີນທາງໄປໂຮງແຮມໃຊ້ເວລາປະມານ 30 ນາທີ.",
+    "choices": [
+      "Il fait très chaud aujourd'hui, buvez beaucoup d'eau.",
+      "Le trajet jusqu'à l'hôtel prendra environ 30 minutes.",
+      "Le wifi est gratuit dans tout l'hôtel.",
+      "Avez-vous fait bon voyage ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-016"
+  },
+  {
+    "id": "quiz_accueil_acc-021_frToLao",
+    "type": "frToLao",
+    "prompt": "Voici votre clé.",
+    "choices": [
+      "ອາຫານເຊົ້າໃຫ້ບໍລິການແຕ່ 7 ໂມງຫາ 10 ໂມງ.",
+      "ທ່ານຊື່ຫຍັງ?",
+      "ນີ້ແມ່ນກະແຈຂອງທ່ານ.",
+      "ຄວາມແຕກຕ່າງເວລາອາດເຮັດໃຫ້ເມື່ອຍ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "acc-021"
+  },
+  {
+    "id": "quiz_accueil_acc-021_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ນີ້ແມ່ນກະແຈຂອງທ່ານ.",
+    "choices": [
+      "Votre chambre est au deuxième étage.",
+      "Je suis votre guide.",
+      "Voici votre clé.",
+      "Avez-vous fait bon voyage ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "acc-021"
+  },
+  {
+    "id": "quiz_accueil_acc-026_frToLao",
+    "type": "frToLao",
+    "prompt": "Votre chauffeur vous attend dehors.",
+    "choices": [
+      "ພວກເຮົາຈະໄປຫາລົດນຳກັນ.",
+      "ຄົນຂັບລົດຂອງທ່ານລໍຖ້າຢູ່ຂ້າງນອກ.",
+      "ຂ້ອຍຈະໄປນຳທ່ານຕະຫຼອດການພັກຢູ່ນີ້.",
+      "ການເດີນທາງຂອງທ່ານເປັນແນວໃດ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-026"
+  },
+  {
+    "id": "quiz_accueil_acc-026_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຄົນຂັບລົດຂອງທ່ານລໍຖ້າຢູ່ຂ້າງນອກ.",
+    "choices": [
+      "Je viens vous chercher.",
+      "Votre chauffeur vous attend dehors.",
+      "L'ascenseur est à droite.",
+      "Avez-vous besoin d'autre chose ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-026"
+  },
+  {
+    "id": "quiz_accueil_acc-031_frToLao",
+    "type": "frToLao",
+    "prompt": "Le wifi est gratuit dans tout l'hôtel.",
+    "choices": [
+      "ວາຍຟາຍໃຫ້ບໍລິການຟຣີທົ່ວໂຮງແຮມ.",
+      "ລິບຢູ່ຕິດນຳ.",
+      "ຂ້ອຍແມ່ນຜູ້ນຳທ່ຽວຂອງທ່ານ.",
+      "ພວກເຮົາຊິອອກເດີນທາງມື້ອື່ນເຊົ້າແປດໂມງ."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "acc-031"
+  },
+  {
+    "id": "quiz_accueil_acc-031_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ວາຍຟາຍໃຫ້ບໍລິການຟຣີທົ່ວໂຮງແຮມ.",
+    "choices": [
+      "Voici la clé de votre chambre.",
+      "Je viens vous chercher.",
+      "Le wifi est gratuit dans tout l'hôtel.",
+      "Avez-vous fait bon voyage ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "acc-031"
+  },
+  {
+    "id": "quiz_accueil_acc-036_frToLao",
+    "type": "frToLao",
+    "prompt": "Il fait très chaud aujourd'hui, buvez beaucoup d'eau.",
+    "choices": [
+      "ການເດີນທາງຂອງທ່ານໄປໄດ້ດີບໍ?",
+      "ມື້ນີ້ອາກາດຮ້ອນຫຼາຍ, ດື່ມນ້ຳຫຼາຍໆ.",
+      "ລິບຢູ່ຕິດນຳ.",
+      "ນີ້ແມ່ນກະແຈຂອງທ່ານ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-036"
+  },
+  {
+    "id": "quiz_accueil_acc-036_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ມື້ນີ້ອາກາດຮ້ອນຫຼາຍ, ດື່ມນ້ຳຫຼາຍໆ.",
+    "choices": [
+      "Votre chauffeur vous attend dehors.",
+      "Il fait très chaud aujourd'hui, buvez beaucoup d'eau.",
+      "Je suis votre guide.",
+      "Voici votre chambre."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "acc-036"
+  },
+  {
+    "id": "quiz_guide_gui-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Nous allons visiter le centre-ville.",
+    "choices": [
+      "ມີທາງຂຶ້ນໜ້ອຍໜຶ່ງ, ຄ່ອຍໆເດີນ.",
+      "ທ່ານຢາກລອງຂັບເຮືອບໍ?",
+      "ຢ່າລັງເລທີ່ຈະຖາມຂ້ອຍ.",
+      "ພວກເຮົາຊິໄປທ່ຽວໃຈກາງເມືອງ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "gui-001"
+  },
+  {
+    "id": "quiz_guide_gui-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພວກເຮົາຊິໄປທ່ຽວໃຈກາງເມືອງ.",
+    "choices": [
+      "Nous reprenons la route dans cinq minutes.",
+      "Nous changeons légèrement le programme à cause de la pluie.",
+      "Nous allons visiter le centre-ville.",
+      "Nous verrons des éléphants dans ce village."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "gui-001"
+  },
+  {
+    "id": "quiz_guide_gui-005_frToLao",
+    "type": "frToLao",
+    "prompt": "Nous avons deux heures de visite ici.",
+    "choices": [
+      "ໄກ້ນຳທ່ຽວທ້ອງຖິ່ນຊິມາພົບພວກເຮົາຢູ່ນີ້.",
+      "ພວກເຮົາມີເວລາທ່ຽວຢູ່ນີ້ສອງຊົ່ວໂມງ.",
+      "ລະດູແລ້ງແມ່ນຊ່ວງເວລາທີ່ດີທີ່ສຸດສຳລັບການທ່ຽວ.",
+      "ມີທາງຂຶ້ນໜ້ອຍໜຶ່ງ, ຄ່ອຍໆເດີນ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "gui-005"
+  },
+  {
+    "id": "quiz_guide_gui-005_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພວກເຮົາມີເວລາທ່ຽວຢູ່ນີ້ສອງຊົ່ວໂມງ.",
+    "choices": [
+      "Nous avons deux heures de visite ici.",
+      "Le prochain arrêt est le marché du matin.",
+      "Il y a des toilettes juste ici.",
+      "Attention à la marche."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "gui-005"
+  },
+  {
+    "id": "quiz_guide_gui-009_frToLao",
+    "type": "frToLao",
+    "prompt": "Il y a des toilettes juste ici.",
+    "choices": [
+      "ບ້ານນີ້ດຳລົງຊີວິດຕົ້ນຕໍດ້ວຍການກະສິກຳ.",
+      "ພວກເຮົາມີເວລາທ່ຽວຢູ່ນີ້ສອງຊົ່ວໂມງ.",
+      "ກະລຸນາໃສ່ບັດຊື່ຂອງກຸ່ມ.",
+      "ມີຫ້ອງນ້ຳຢູ່ຕິດນີ້."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "gui-009"
+  },
+  {
+    "id": "quiz_guide_gui-009_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ມີຫ້ອງນ້ຳຢູ່ຕິດນີ້.",
+    "choices": [
+      "Prenons cinq minutes de pause.",
+      "Il y a des toilettes juste ici.",
+      "Nous verrons des éléphants dans ce village.",
+      "Restons ensemble pour traverser le pont suspendu."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "gui-009"
+  },
+  {
+    "id": "quiz_guide_gui-013_frToLao",
+    "type": "frToLao",
+    "prompt": "Faites attention aux motos.",
+    "choices": [
+      "ລະວັງລົດຈັກ.",
+      "ພວກເຮົາຊິໄປຮອດບ່ອນໝາຍໃນໄວໆນີ້.",
+      "ທ່ານສາມາດຖ່າຍຮູບຢູ່ນີ້ໄດ້, ວິວສວຍຫຼາຍ.",
+      "ປ່າໄມ້ນີ້ມີນົກຫຼາຍຊະນິດອາໄສຢູ່."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "gui-013"
+  },
+  {
+    "id": "quiz_guide_gui-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ລະວັງລົດຈັກ.",
+    "choices": [
+      "Nous sommes à peu près à mi-parcours.",
+      "Voici le point de rendez-vous.",
+      "Faites attention aux motos.",
+      "Nous allons visiter le centre-ville."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "gui-013"
+  },
+  {
+    "id": "quiz_guide_gui-017_frToLao",
+    "type": "frToLao",
+    "prompt": "Nous changeons légèrement le programme à cause de la pluie.",
+    "choices": [
+      "ກະລຸນາປິດສຽງໂທລະສັບ.",
+      "ພວກເຮົາຊິປ່ຽນໂປຣແກຣມແດ່ໜ້ອຍໜຶ່ງຍ້ອນຝົນ.",
+      "ແມ່ນ້ຳນີ້ສະໜອງນ້ຳໃຫ້ທົ່ວທັງພາກພື້ນ.",
+      "ບ່ອນຢຸດຕໍ່ໄປແມ່ນຕະຫຼາດເຊົ້າ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "gui-017"
+  },
+  {
+    "id": "quiz_guide_gui-017_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພວກເຮົາຊິປ່ຽນໂປຣແກຣມແດ່ໜ້ອຍໜຶ່ງຍ້ອນຝົນ.",
+    "choices": [
+      "Nous changeons légèrement le programme à cause de la pluie.",
+      "Cette forêt abrite de nombreuses espèces d'oiseaux.",
+      "Restons ensemble pour traverser le pont suspendu.",
+      "Voici le point de rendez-vous."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "gui-017"
+  },
+  {
+    "id": "quiz_guide_gui-021_frToLao",
+    "type": "frToLao",
+    "prompt": "Merci de mettre votre téléphone en silencieux.",
+    "choices": [
+      "ກະລຸນາປິດສຽງໂທລະສັບ.",
+      "ທ່ານຢາກລອງຂັບເຮືອບໍ?",
+      "ລົດເມອອກໃນອີກສິບນາທີ.",
+      "ກະລຸນາຢູ່ນຳກັນເປັນກຸ່ມ."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "gui-021"
+  },
+  {
+    "id": "quiz_guide_gui-021_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ກະລຸນາປິດສຽງໂທລະສັບ.",
+    "choices": [
+      "Merci de ne pas nourrir les animaux.",
+      "Le programme d'aujourd'hui comprend trois visites.",
+      "Merci de mettre votre téléphone en silencieux.",
+      "Attention à la marche."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "gui-021"
+  },
+  {
+    "id": "quiz_guide_gui-025_frToLao",
+    "type": "frToLao",
+    "prompt": "Le guide local va nous rejoindre ici.",
+    "choices": [
+      "ພວກເຮົາມີເວລາທ່ຽວຢູ່ນີ້ສອງຊົ່ວໂມງ.",
+      "ໄກ້ນຳທ່ຽວທ້ອງຖິ່ນຊິມາພົບພວກເຮົາຢູ່ນີ້.",
+      "ມີຫ້ອງນ້ຳຢູ່ຕິດນີ້.",
+      "ປ່າໄມ້ນີ້ມີນົກຫຼາຍຊະນິດອາໄສຢູ່."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "gui-025"
+  },
+  {
+    "id": "quiz_guide_gui-025_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ໄກ້ນຳທ່ຽວທ້ອງຖິ່ນຊິມາພົບພວກເຮົາຢູ່ນີ້.",
+    "choices": [
+      "Voici le point de rendez-vous.",
+      "Nous changeons légèrement le programme à cause de la pluie.",
+      "Nous verrons des éléphants dans ce village.",
+      "Le guide local va nous rejoindre ici."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "gui-025"
+  },
+  {
+    "id": "quiz_guide_gui-029_frToLao",
+    "type": "frToLao",
+    "prompt": "Ce village vit principalement de l'agriculture.",
+    "choices": [
+      "ນັບເບິ່ງ: ພວກເຮົາມາພ້ອມກັນບໍ?",
+      "ກະລຸນາໃສ່ບັດຊື່ຂອງກຸ່ມ.",
+      "ບ່ອນນີ້ແມ່ນຈຸດທີ່ດີທີ່ສຸດເບິ່ງຕາເວັນຕົກ.",
+      "ບ້ານນີ້ດຳລົງຊີວິດຕົ້ນຕໍດ້ວຍການກະສິກຳ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "gui-029"
+  },
+  {
+    "id": "quiz_guide_gui-029_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ບ້ານນີ້ດຳລົງຊີວິດຕົ້ນຕໍດ້ວຍການກະສິກຳ.",
+    "choices": [
+      "N'hésitez pas à me poser des questions.",
+      "Ce village vit principalement de l'agriculture.",
+      "Le programme d'aujourd'hui comprend trois visites.",
+      "Restez groupés, s'il vous plaît."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "gui-029"
+  },
+  {
+    "id": "quiz_restaurant_res-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Avez-vous faim ?",
+    "choices": [
+      "ທ່ານຢາກກິນຫຍັງ?",
+      "ທ່ານແພ້ອາຫານຫຍັງບໍ?",
+      "ທ່ານຫິວເຂົ້າບໍ?",
+      "ຂໍໃບບິນແດ່."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "res-001"
+  },
+  {
+    "id": "quiz_restaurant_res-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານຫິວເຂົ້າບໍ?",
+    "choices": [
+      "Ce plat est épicé.",
+      "Êtes-vous allergique à quelque chose ?",
+      "Avez-vous faim ?",
+      "Avez-vous une option végétarienne ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "res-001"
+  },
+  {
+    "id": "quiz_restaurant_res-005_frToLao",
+    "type": "frToLao",
+    "prompt": "Ce plat n'est pas épicé.",
+    "choices": [
+      "ເກັບເງິນແດ່.",
+      "ປາຈາກແມ່ນ້ຳຂອງແມ່ນອາຫານພິເສດຂອງພວກເຮົາ.",
+      "ຂ້ອຍຂໍແນະນຳອາຫານຈານນີ້.",
+      "ອາຫານຈານນີ້ບໍ່ເຜັດ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "res-005"
+  },
+  {
+    "id": "quiz_restaurant_res-005_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ອາຫານຈານນີ້ບໍ່ເຜັດ.",
+    "choices": [
+      "Ce plat n'est pas épicé.",
+      "Voulez-vous quelque chose à boire ?",
+      "Voulez-vous de l'eau ?",
+      "La cuisine lao utilise beaucoup d'herbes fraîches."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "res-005"
+  },
+  {
+    "id": "quiz_restaurant_res-009_frToLao",
+    "type": "frToLao",
+    "prompt": "Voici le menu.",
+    "choices": [
+      "ຈານນີ້ບໍ່ເຜັດເລີຍ, ບໍ່ຕ້ອງກັງວົນ.",
+      "ກິນໃຫ້ແຊບເດີ້!",
+      "ອາຫານລາວໃຊ້ຜັກສົດຫຼາຍ.",
+      "ນີ້ແມ່ນເມນູ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "res-009"
+  },
+  {
+    "id": "quiz_restaurant_res-009_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ນີ້ແມ່ນເມນູ.",
+    "choices": [
+      "Ce plat est épicé.",
+      "Voici le menu.",
+      "Voulez-vous du riz ?",
+      "Voulez-vous du riz gluant ou du riz blanc ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "res-009"
+  },
+  {
+    "id": "quiz_restaurant_res-013_frToLao",
+    "type": "frToLao",
+    "prompt": "Ce plat est un peu épicé.",
+    "choices": [
+      "ທ່ານຢາກສັ່ງຫຼາຍຈານມາແບ່ງກັນກິນບໍ?",
+      "ທ່ານຢາກດື່ມຫຍັງບໍ?",
+      "ອາຫານຈານນີ້ແຊບແຕ່ອາດເຜັດ.",
+      "ປາຈາກແມ່ນ້ຳຂອງແມ່ນອາຫານພິເສດຂອງພວກເຮົາ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "res-013"
+  },
+  {
+    "id": "quiz_restaurant_res-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ອາຫານຈານນີ້ແຊບແຕ່ອາດເຜັດ.",
+    "choices": [
+      "Le service est-il inclus ?",
+      "Ce plat est un peu épicé.",
+      "Le café lao se boit avec du lait concentré sucré.",
+      "Voulez-vous goûter un dessert lao ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "res-013"
+  },
+  {
+    "id": "quiz_restaurant_res-017_frToLao",
+    "type": "frToLao",
+    "prompt": "Le service est-il inclus ?",
+    "choices": [
+      "ປາຈາກແມ່ນ້ຳຂອງແມ່ນອາຫານພິເສດຂອງພວກເຮົາ.",
+      "ທ່ານຫິວເຂົ້າບໍ?",
+      "ຄ່າບໍລິການລວມແລ້ວບໍ?",
+      "ອາຫານຈານນີ້ເຜັດ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "res-017"
+  },
+  {
+    "id": "quiz_restaurant_res-017_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຄ່າບໍລິການລວມແລ້ວບໍ?",
+    "choices": [
+      "Je vous apporte l'addition tout de suite.",
+      "La cuisine lao utilise beaucoup d'herbes fraîches.",
+      "Le service est-il inclus ?",
+      "C'était délicieux, merci beaucoup."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "res-017"
+  },
+  {
+    "id": "quiz_restaurant_res-021_frToLao",
+    "type": "frToLao",
+    "prompt": "Prenez votre temps pour choisir.",
+    "choices": [
+      "ນີ້ແມ່ນເມນູພາສາຝຣັ່ງ.",
+      "ທ່ານຫິວເຂົ້າບໍ?",
+      "ອາຫານຈານນີ້ກິນດ້ວຍມືຕາມປະເພນີ.",
+      "ໃຊ້ເວລາເລືອກໄດ້ຕາມສະບາຍ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "res-021"
+  },
+  {
+    "id": "quiz_restaurant_res-021_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ໃຊ້ເວລາເລືອກໄດ້ຕາມສະບາຍ.",
+    "choices": [
+      "C'était délicieux, merci beaucoup.",
+      "Prenez votre temps pour choisir.",
+      "Voulez-vous goûter un dessert lao ?",
+      "Ce plat n'est pas épicé du tout, ne vous inquiétez pas."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "res-021"
+  },
+  {
+    "id": "quiz_restaurant_res-025_frToLao",
+    "type": "frToLao",
+    "prompt": "Voici votre eau, elle est gratuite.",
+    "choices": [
+      "ນີ້ແມ່ນນ້ຳຂອງທ່ານ, ຟຣີບໍ່ເສຍຄ່າ.",
+      "ອາຫານຈານນີ້ເຜັດ.",
+      "ປາຈາກແມ່ນ້ຳຂອງແມ່ນອາຫານພິເສດຂອງພວກເຮົາ.",
+      "ທ່ານຢາກດື່ມຫຍັງບໍ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "res-025"
+  },
+  {
+    "id": "quiz_restaurant_res-025_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ນີ້ແມ່ນນ້ຳຂອງທ່ານ, ຟຣີບໍ່ເສຍຄ່າ.",
+    "choices": [
+      "Voici votre eau, elle est gratuite.",
+      "Nous n'avons plus ce plat aujourd'hui, désolé.",
+      "Ce plat est épicé.",
+      "Je vous apporte l'addition tout de suite."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "res-025"
+  },
+  {
+    "id": "quiz_restaurant_res-029_frToLao",
+    "type": "frToLao",
+    "prompt": "Ce plat n'est pas épicé du tout, ne vous inquiétez pas.",
+    "choices": [
+      "ອາຫານຈານນີ້ບໍ່ເຜັດ.",
+      "ຂໍໃບບິນແດ່.",
+      "ທ່ານແພ້ອາຫານຫຍັງບໍ?",
+      "ຈານນີ້ບໍ່ເຜັດເລີຍ, ບໍ່ຕ້ອງກັງວົນ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "res-029"
+  },
+  {
+    "id": "quiz_restaurant_res-029_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຈານນີ້ບໍ່ເຜັດເລີຍ, ບໍ່ຕ້ອງກັງວົນ.",
+    "choices": [
+      "Ce plat n'est pas épicé du tout, ne vous inquiétez pas.",
+      "Voulez-vous manger épicé ?",
+      "Êtes-vous allergique à quelque chose ?",
+      "Voulez-vous du riz gluant ou du riz blanc ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "res-029"
+  },
+  {
+    "id": "quiz_temples_tem-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Merci d'enlever vos chaussures avant d'entrer.",
+    "choices": [
+      "ທາດຄຳນີ້ແມ່ນສັນຍາລັກຂອງເມືອງ.",
+      "ທ່ານສາມາດບໍລິຈາກໄດ້ຖ້າທ່ານຕ້ອງການ.",
+      "ກະລຸນາຖອດເກີບກ່ອນເຂົ້າ.",
+      "ສາມະເນນຮຽນຢູ່ນີ້ຕັ້ງແຕ່ອາຍຸຍັງນ້ອຍ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-001"
+  },
+  {
+    "id": "quiz_temples_tem-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ກະລຸນາຖອດເກີບກ່ອນເຂົ້າ.",
+    "choices": [
+      "Ce bouddha est très important pour les Laotiens.",
+      "Merci d'enlever vos chaussures avant d'entrer.",
+      "Ce stupa doré est le symbole de la ville.",
+      "Ce marché des moines a lieu tous les matins à l'aube."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "tem-001"
+  },
+  {
+    "id": "quiz_temples_tem-004_frToLao",
+    "type": "frToLao",
+    "prompt": "Merci de parler doucement, c'est un lieu sacré.",
+    "choices": [
+      "ວັດນີ້ມີອາຍຸຫຼາຍກວ່າສາມຮ້ອຍປີ.",
+      "ກະລຸນາເວົ້າແຜ່ວໆ, ນີ້ແມ່ນສະຖານທີ່ສັກສິດ.",
+      "ງານບຸນນີ້ດຶງດູດນັກທ່ອງທ່ຽວຫຼາຍພັນຄົນທຸກປີ.",
+      "ກະລຸນາຮັກສາຄວາມງຽບໃນເຂດນີ້."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "tem-004"
+  },
+  {
+    "id": "quiz_temples_tem-004_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ກະລຸນາເວົ້າແຜ່ວໆ, ນີ້ແມ່ນສະຖານທີ່ສັກສິດ.",
+    "choices": [
+      "Merci de parler doucement, c'est un lieu sacré.",
+      "Cette fresque raconte la vie de Bouddha.",
+      "Ce temple a plus de trois cents ans.",
+      "Nous retirons nos chapeaux par respect."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "tem-004"
+  },
+  {
+    "id": "quiz_temples_tem-007_frToLao",
+    "type": "frToLao",
+    "prompt": "Il est interdit de toucher les statues.",
+    "choices": [
+      "ຫ້າມແຕະຮູບປັ້ນ.",
+      "ສວນນີ້ສ້າງຂຶ້ນສຳລັບການນັ່ງສະມາທິ.",
+      "ວັດນີ້ມີອາຍຸຫຼາຍກວ່າສາມຮ້ອຍປີ.",
+      "ພຣະສົງຈະອະທິບາຍປະຫວັດວັດໃຫ້ພວກເຮົາຟັງ."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "tem-007"
+  },
+  {
+    "id": "quiz_temples_tem-007_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຫ້າມແຕະຮູບປັ້ນ.",
+    "choices": [
+      "Ce temple abrite la relique la plus sacrée du pays.",
+      "Marchez pieds nus dans la salle principale.",
+      "Il est interdit de toucher les statues.",
+      "Cette fresque raconte la vie de Bouddha."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-007"
+  },
+  {
+    "id": "quiz_temples_tem-010_frToLao",
+    "type": "frToLao",
+    "prompt": "Merci de rester sur le chemin balisé.",
+    "choices": [
+      "ວັດນີ້ເກັບຮັກສາພະທາດທີ່ສັກສິດທີ່ສຸດຂອງປະເທດ.",
+      "ທາດຄຳນີ້ແມ່ນສັນຍາລັກຂອງເມືອງ.",
+      "ກະລຸນາຍ່າງຕາມເສັ້ນທາງທີ່ກຳນົດ.",
+      "ຮູບແຕ້ມນີ້ບອກເລົ່າຊີວິດຂອງພະພຸດທະເຈົ້າ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-010"
+  },
+  {
+    "id": "quiz_temples_tem-010_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ກະລຸນາຍ່າງຕາມເສັ້ນທາງທີ່ກຳນົດ.",
+    "choices": [
+      "Vous pouvez prendre des photos ici, mais pas à l'intérieur.",
+      "Le moine va nous expliquer l'histoire du temple.",
+      "Merci de rester sur le chemin balisé.",
+      "Ce jardin a été créé pour la méditation."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-010"
+  },
+  {
+    "id": "quiz_temples_tem-013_frToLao",
+    "type": "frToLao",
+    "prompt": "Le moine va vous donner une bénédiction.",
+    "choices": [
+      "ພຣະສົງຈະອະທິບາຍປະຫວັດວັດໃຫ້ພວກເຮົາຟັງ.",
+      "ພຣະສົງຊິໃຫ້ພອນແກ່ທ່ານ.",
+      "ຕາເວັນຂຶ້ນຢູ່ວັດນີ້ງາມຫຼາຍ.",
+      "ກະລຸນາຍ່າງຕາມເສັ້ນທາງທີ່ກຳນົດ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "tem-013"
+  },
+  {
+    "id": "quiz_temples_tem-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພຣະສົງຊິໃຫ້ພອນແກ່ທ່ານ.",
+    "choices": [
+      "Il est interdit de toucher les statues.",
+      "Ce stupa doré est le symbole de la ville.",
+      "Le moine va vous donner une bénédiction.",
+      "Ce marché des moines a lieu tous les matins à l'aube."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-013"
+  },
+  {
+    "id": "quiz_temples_tem-016_frToLao",
+    "type": "frToLao",
+    "prompt": "Marchez pieds nus dans la salle principale.",
+    "choices": [
+      "ກະລຸນາຮັກສາຄວາມງຽບໃນເຂດນີ້.",
+      "ສວນນີ້ສ້າງຂຶ້ນສຳລັບການນັ່ງສະມາທິ.",
+      "ຍ່າງຕີນເປົ່າຢູ່ໃນຫ້ອງໃຫຍ່.",
+      "ພຣະສົງຈະອະທິບາຍປະຫວັດວັດໃຫ້ພວກເຮົາຟັງ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-016"
+  },
+  {
+    "id": "quiz_temples_tem-016_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຍ່າງຕີນເປົ່າຢູ່ໃນຫ້ອງໃຫຍ່.",
+    "choices": [
+      "Les épaules doivent être couvertes dans le temple.",
+      "Marchez pieds nus dans la salle principale.",
+      "Le moine va nous expliquer l'histoire du temple.",
+      "Ce temple abrite la relique la plus sacrée du pays."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "tem-016"
+  },
+  {
+    "id": "quiz_temples_tem-019_frToLao",
+    "type": "frToLao",
+    "prompt": "Cette fresque raconte la vie de Bouddha.",
+    "choices": [
+      "ການຕັກບາດຂອງພຣະສົງມີທຸກເຊົ້າຕອນແຈ້ງ.",
+      "ພຣະສົງຈະອະທິບາຍປະຫວັດວັດໃຫ້ພວກເຮົາຟັງ.",
+      "ພະພຸດທະຮູບນີ້ສຳຄັນຫຼາຍສຳລັບຄົນລາວ.",
+      "ຮູບແຕ້ມນີ້ບອກເລົ່າຊີວິດຂອງພະພຸດທະເຈົ້າ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "tem-019"
+  },
+  {
+    "id": "quiz_temples_tem-019_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຮູບແຕ້ມນີ້ບອກເລົ່າຊີວິດຂອງພະພຸດທະເຈົ້າ.",
+    "choices": [
+      "Merci d'enlever vos chaussures avant d'entrer.",
+      "Cette fresque raconte la vie de Bouddha.",
+      "Merci de parler doucement, c'est un lieu sacré.",
+      "Les femmes ne doivent pas toucher les moines."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "tem-019"
+  },
+  {
+    "id": "quiz_temples_tem-022_frToLao",
+    "type": "frToLao",
+    "prompt": "Ce marché des moines a lieu tous les matins à l'aube.",
+    "choices": [
+      "ບ່າໄຫລ່ຕ້ອງຖືກປົກປິດໃນວັດ.",
+      "ແມ່ຍິງຫ້າມແຕະພຣະສົງ.",
+      "ການຕັກບາດຂອງພຣະສົງມີທຸກເຊົ້າຕອນແຈ້ງ.",
+      "ວັດນີ້ເກັບຮັກສາພະທາດທີ່ສັກສິດທີ່ສຸດຂອງປະເທດ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "tem-022"
+  },
+  {
+    "id": "quiz_temples_tem-022_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ການຕັກບາດຂອງພຣະສົງມີທຸກເຊົ້າຕອນແຈ້ງ.",
+    "choices": [
+      "Ce marché des moines a lieu tous les matins à l'aube.",
+      "Vous pouvez allumer de l'encens ici.",
+      "Vous pouvez prendre des photos ici, mais pas à l'intérieur.",
+      "Les épaules doivent être couvertes dans le temple."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "tem-022"
+  },
+  {
+    "id": "quiz_shopping_sho-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Bienvenue dans ce marché artisanal.",
+    "choices": [
+      "ຍິນດີຕ້ອນຮັບສູ່ຕະຫຼາດຫັດຖະກຳ.",
+      "ທ່ານມີໄຊສ໌ໃຫຍ່ກວ່ານີ້ບໍ?",
+      "ຂ້ອຍຫໍ່ເປັນຂອງຂວັນໃຫ້ໄດ້.",
+      "ກະຕ່າໃບນີ້ສານດ້ວຍໄມ້ໄຜ່."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "sho-001"
+  },
+  {
+    "id": "quiz_shopping_sho-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຍິນດີຕ້ອນຮັບສູ່ຕະຫຼາດຫັດຖະກຳ.",
+    "choices": [
+      "Faites attention, c'est fragile.",
+      "C'est notre spécialité locale.",
+      "Bienvenue dans ce marché artisanal.",
+      "Avez-vous une taille plus grande ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "sho-001"
+  },
+  {
+    "id": "quiz_shopping_sho-005_frToLao",
+    "type": "frToLao",
+    "prompt": "Voulez-vous essayer ce vêtement ?",
+    "choices": [
+      "ກາເຟນີ້ປູກຢູ່ພູພຽງບໍລະເວນ.",
+      "ທ່ານໃສ່ໄຊສ໌ຫຍັງ?",
+      "ທ່ານຢາກລອງເສື້ອຜ້າຊຸດນີ້ບໍ?",
+      "ທ່ານຢາກເບິ່ງແບບອື່ນອີກບໍ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "sho-005"
+  },
+  {
+    "id": "quiz_shopping_sho-005_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານຢາກລອງເສື້ອຜ້າຊຸດນີ້ບໍ?",
+    "choices": [
+      "Je peux vous montrer comment ce tissu est fabriqué.",
+      "Vous pouvez négocier le prix ici.",
+      "Ce sac est en soie naturelle.",
+      "Voulez-vous essayer ce vêtement ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "sho-005"
+  },
+  {
+    "id": "quiz_shopping_sho-009_frToLao",
+    "type": "frToLao",
+    "prompt": "Vous voulez un sac pour vos achats ?",
+    "choices": [
+      "ທ່ານຢາກໄດ້ຖົງໃສ່ເຄື່ອງບໍ?",
+      "ຂໍເບິ່ງອັນທີ່ຢູ່ໃນຕູ້ໂຊວ໌ໄດ້ບໍ?",
+      "ນີ້ແມ່ນນາມບັດຮ້ານຂອງພວກເຮົາ ຖ້າທ່ານຢາກແນະນຳ.",
+      "ກະຕ່າໃບນີ້ສານດ້ວຍໄມ້ໄຜ່."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "sho-009"
+  },
+  {
+    "id": "quiz_shopping_sho-009_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານຢາກໄດ້ຖົງໃສ່ເຄື່ອງບໍ?",
+    "choices": [
+      "Vous voulez un sac pour vos achats ?",
+      "C'est une pièce unique.",
+      "Cette couleur vous va très bien.",
+      "Voulez-vous voir d'autres modèles ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "sho-009"
+  },
+  {
+    "id": "quiz_shopping_sho-013_frToLao",
+    "type": "frToLao",
+    "prompt": "Quelle taille faites-vous ?",
+    "choices": [
+      "ຮູບແກະສະຫຼັກໄມ້ນີ້ໃຊ້ເວລາເຮັດໜຶ່ງເດືອນ.",
+      "ທ່ານໃສ່ໄຊສ໌ຫຍັງ?",
+      "ກະຕ່າໃບນີ້ສານດ້ວຍໄມ້ໄຜ່.",
+      "ອັນນີ້ແມ່ນຊິ້ນດຽວ, ບໍ່ມີອັນທີສອງ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "sho-013"
+  },
+  {
+    "id": "quiz_shopping_sho-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານໃສ່ໄຊສ໌ຫຍັງ?",
+    "choices": [
+      "Quelle taille faites-vous ?",
+      "Faites attention, c'est fragile.",
+      "Vous pouvez négocier le prix ici.",
+      "Ce n'est pas fabriqué en usine, c'est fait main."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "sho-013"
+  },
+  {
+    "id": "quiz_shopping_sho-017_frToLao",
+    "type": "frToLao",
+    "prompt": "Avez-vous une taille plus grande ?",
+    "choices": [
+      "ທ່ານຢາກໄດ້ສ່ວນຫຼຸດຖ້າຊື້ຫຼາຍອັນບໍ?",
+      "ທ່ານມີໄຊສ໌ໃຫຍ່ກວ່ານີ້ບໍ?",
+      "ລາຄາຄົງທີ່ຢູ່ຮ້ານນີ້.",
+      "ກະຕ່າໃບນີ້ສານດ້ວຍໄມ້ໄຜ່."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "sho-017"
+  },
+  {
+    "id": "quiz_shopping_sho-017_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມີໄຊສ໌ໃຫຍ່ກວ່ານີ້ບໍ?",
+    "choices": [
+      "Vous pouvez négocier le prix ici.",
+      "Avez-vous une taille plus grande ?",
+      "Souhaitez-vous une réduction pour plusieurs pièces ?",
+      "Ce n'est pas fabriqué en usine, c'est fait main."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "sho-017"
+  },
+  {
+    "id": "quiz_shopping_sho-021_frToLao",
+    "type": "frToLao",
+    "prompt": "Puis-je voir celui qui est dans la vitrine ?",
+    "choices": [
+      "ພວກເຮົາຊິປິດຮ້ານໃນອີກໜຶ່ງຊົ່ວໂມງ.",
+      "ທ່ານຢາກໄດ້ສ່ວນຫຼຸດຖ້າຊື້ຫຼາຍອັນບໍ?",
+      "ຂໍເບິ່ງອັນທີ່ຢູ່ໃນຕູ້ໂຊວ໌ໄດ້ບໍ?",
+      "ທ່ານຢາກລອງເສື້ອຜ້າຊຸດນີ້ບໍ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "sho-021"
+  },
+  {
+    "id": "quiz_shopping_sho-021_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂໍເບິ່ງອັນທີ່ຢູ່ໃນຕູ້ໂຊວ໌ໄດ້ບໍ?",
+    "choices": [
+      "Ce sac est en soie naturelle.",
+      "Ce collier est en argent véritable.",
+      "Puis-je voir celui qui est dans la vitrine ?",
+      "Cette sculpture en bois a demandé un mois de travail."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "sho-021"
+  },
+  {
+    "id": "quiz_shopping_sho-025_frToLao",
+    "type": "frToLao",
+    "prompt": "Nous fermons dans une heure.",
+    "choices": [
+      "ຂອບໃຈທີ່ຊື້, ແວະມາອີກເດີ້!",
+      "ພວກເຮົາຊິປິດຮ້ານໃນອີກໜຶ່ງຊົ່ວໂມງ.",
+      "ຂໍເບິ່ງອັນທີ່ຢູ່ໃນຕູ້ໂຊວ໌ໄດ້ບໍ?",
+      "ອັນນີ້ແມ່ນຊິ້ນດຽວ, ບໍ່ມີອັນທີສອງ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "sho-025"
+  },
+  {
+    "id": "quiz_shopping_sho-025_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພວກເຮົາຊິປິດຮ້ານໃນອີກໜຶ່ງຊົ່ວໂມງ.",
+    "choices": [
+      "Faites attention, c'est fragile.",
+      "Je peux vous montrer comment ce tissu est fabriqué.",
+      "Ce collier est en argent véritable.",
+      "Nous fermons dans une heure."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "sho-025"
+  },
+  {
+    "id": "quiz_shopping_sho-029_frToLao",
+    "type": "frToLao",
+    "prompt": "Souhaitez-vous une réduction pour plusieurs pièces ?",
+    "choices": [
+      "ສາຍຄໍນີ້ແມ່ນເງິນແທ້.",
+      "ຂອບໃຈທີ່ຊື້, ແວະມາອີກເດີ້!",
+      "ສີນີ້ເໝາະກັບທ່ານຫຼາຍ.",
+      "ທ່ານຢາກໄດ້ສ່ວນຫຼຸດຖ້າຊື້ຫຼາຍອັນບໍ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "sho-029"
+  },
+  {
+    "id": "quiz_shopping_sho-029_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານຢາກໄດ້ສ່ວນຫຼຸດຖ້າຊື້ຫຼາຍອັນບໍ?",
+    "choices": [
+      "Ce panier peut être expédié chez vous.",
+      "Voici notre carte de visite si vous voulez recommander.",
+      "Cette couleur vous va très bien.",
+      "Souhaitez-vous une réduction pour plusieurs pièces ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "sho-029"
+  },
+  {
+    "id": "quiz_argent_arg-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Combien ça coûte ?",
+    "choices": [
+      "ນີ້ແມ່ນເງິນທອນຂອງທ່ານ.",
+      "ອັນນີ້ລາຄາເທົ່າໃດ?",
+      "ພວກເຮົາສາມາດແບ່ງໃບບິນອອກເປັນຫຼາຍສ່ວນໄດ້.",
+      "ທິບບໍ່ແມ່ນຂໍ້ບັງຄັບ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "arg-001"
+  },
+  {
+    "id": "quiz_argent_arg-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ອັນນີ້ລາຄາເທົ່າໃດ?",
+    "choices": [
+      "Combien ça coûte ?",
+      "Y a-t-il des frais supplémentaires ?",
+      "Nous pouvons diviser l'addition en plusieurs parts.",
+      "Le pourboire n'est pas obligatoire."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "arg-001"
+  },
+  {
+    "id": "quiz_argent_arg-004_frToLao",
+    "type": "frToLao",
+    "prompt": "Voici votre monnaie.",
+    "choices": [
+      "ນີ້ແມ່ນເງິນທອນຂອງທ່ານ.",
+      "ທ່ານຕ້ອງການໃບເກັບເງິນລະອຽດບໍ?",
+      "ມີຄ່າໃຊ້ຈ່າຍເພີ່ມເຕີມບໍ?",
+      "ທ່ານສາມາດຈ່າຍດ້ວຍບັດໄດ້."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "arg-004"
+  },
+  {
+    "id": "quiz_argent_arg-004_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ນີ້ແມ່ນເງິນທອນຂອງທ່ານ.",
+    "choices": [
+      "Le prix affiché est en dollars américains.",
+      "C'est le prix pour deux personnes.",
+      "Le kip n'est pas toujours accepté en dehors du Laos.",
+      "Voici votre monnaie."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-004"
+  },
+  {
+    "id": "quiz_argent_arg-007_frToLao",
+    "type": "frToLao",
+    "prompt": "Le prix inclut le transport.",
+    "choices": [
+      "ລາຄາທີ່ຕິດປະກາດແມ່ນເປັນໂດລາອາເມຣິກາ.",
+      "ອັດຕາແລກປ່ຽນເງິນຕິດປະກາດຢູ່ນີ້.",
+      "ລາຄານີ້ລວມຄ່າລົດແລ້ວ.",
+      "ມີຄ່າໃຊ້ຈ່າຍເພີ່ມເຕີມບໍ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "arg-007"
+  },
+  {
+    "id": "quiz_argent_arg-007_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ລາຄານີ້ລວມຄ່າລົດແລ້ວ.",
+    "choices": [
+      "Il y a un distributeur automatique là-bas.",
+      "Les petites coupures sont plus pratiques au marché.",
+      "Y a-t-il des frais supplémentaires ?",
+      "Le prix inclut le transport."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-007"
+  },
+  {
+    "id": "quiz_argent_arg-010_frToLao",
+    "type": "frToLao",
+    "prompt": "Gardez votre reçu, s'il vous plaît.",
+    "choices": [
+      "ນີ້ແມ່ນເງິນທອນຂອງທ່ານ.",
+      "ງົບປະມານທັງໝົດຂອງທ່ານມື້ນີ້ແມ່ນຫ້າສິບໂດລາ.",
+      "ອັດຕາແລກປ່ຽນເງິນຕິດປະກາດຢູ່ນີ້.",
+      "ກະລຸນາເກັບໃບບິນໄວ້."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-010"
+  },
+  {
+    "id": "quiz_argent_arg-010_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ກະລຸນາເກັບໃບບິນໄວ້.",
+    "choices": [
+      "Le prix varie selon la saison touristique.",
+      "Votre budget total pour la journée est de cinquante dollars.",
+      "Gardez toujours un peu de monnaie locale sur vous.",
+      "Gardez votre reçu, s'il vous plaît."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-010"
+  },
+  {
+    "id": "quiz_argent_arg-013_frToLao",
+    "type": "frToLao",
+    "prompt": "La banque la plus proche ferme à seize heures.",
+    "choices": [
+      "ທ່ານຕ້ອງການໃບເກັບເງິນລະອຽດບໍ?",
+      "ມີຕູ້ ATM ຢູ່ທາງນັ້ນ.",
+      "ໃບເງິນນີ້ຂາດ, ມີໃບອື່ນບໍ?",
+      "ທະນາຄານໃກ້ທີ່ສຸດປິດຕອນສິບຫົກໂມງ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-013"
+  },
+  {
+    "id": "quiz_argent_arg-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທະນາຄານໃກ້ທີ່ສຸດປິດຕອນສິບຫົກໂມງ.",
+    "choices": [
+      "Le prix affiché est en dollars américains.",
+      "Vous pouvez payer en plusieurs fois si besoin.",
+      "Y a-t-il des frais supplémentaires ?",
+      "La banque la plus proche ferme à seize heures."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-013"
+  },
+  {
+    "id": "quiz_argent_arg-016_frToLao",
+    "type": "frToLao",
+    "prompt": "Votre budget total pour la journée est de cinquante dollars.",
+    "choices": [
+      "ງົບປະມານທັງໝົດຂອງທ່ານມື້ນີ້ແມ່ນຫ້າສິບໂດລາ.",
+      "ຮ້ານແລກປ່ຽນເງິນເປີດວັນອາທິດນຳ.",
+      "ມີຄ່າໃຊ້ຈ່າຍເພີ່ມເຕີມບໍ?",
+      "ພວກເຮົາຮັບແຕ່ເງິນສົດເທົ່ານັ້ນ."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "arg-016"
+  },
+  {
+    "id": "quiz_argent_arg-016_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ງົບປະມານທັງໝົດຂອງທ່ານມື້ນີ້ແມ່ນຫ້າສິບໂດລາ.",
+    "choices": [
+      "Votre budget total pour la journée est de cinquante dollars.",
+      "Nous n'acceptons que les espèces.",
+      "Le pourboire n'est pas obligatoire.",
+      "Nous vous facturons uniquement ce que vous avez consommé."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "arg-016"
+  },
+  {
+    "id": "quiz_argent_arg-019_frToLao",
+    "type": "frToLao",
+    "prompt": "Nous vous facturons uniquement ce que vous avez consommé.",
+    "choices": [
+      "ອັດຕາແລກປ່ຽນເງິນຕິດປະກາດຢູ່ນີ້.",
+      "ພວກເຮົາເກັບເງິນສະເພາະສິ່ງທີ່ທ່ານໄດ້ໃຊ້.",
+      "ທະນາຄານໃກ້ທີ່ສຸດປິດຕອນສິບຫົກໂມງ.",
+      "ຈ່າຍເງິນສົດຢູ່ຕະຫຼາດປອດໄພກວ່າ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "arg-019"
+  },
+  {
+    "id": "quiz_argent_arg-019_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພວກເຮົາເກັບເງິນສະເພາະສິ່ງທີ່ທ່ານໄດ້ໃຊ້.",
+    "choices": [
+      "Ce prix est déjà négocié pour vous.",
+      "Vous perdez de l'argent en changeant ici.",
+      "Le pourboire n'est pas obligatoire.",
+      "Nous vous facturons uniquement ce que vous avez consommé."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-019"
+  },
+  {
+    "id": "quiz_argent_arg-022_frToLao",
+    "type": "frToLao",
+    "prompt": "Le prix affiché est en dollars américains.",
+    "choices": [
+      "ທ່ານສາມາດຈ່າຍເປັນຫຼາຍງວດໄດ້ຖ້າຈຳເປັນ.",
+      "ລາຄານີ້ລວມຄ່າລົດແລ້ວ.",
+      "ທ່ານຈະເສຍເງິນຖ້າແລກຢູ່ນີ້.",
+      "ລາຄາທີ່ຕິດປະກາດແມ່ນເປັນໂດລາອາເມຣິກາ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-022"
+  },
+  {
+    "id": "quiz_argent_arg-022_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ລາຄາທີ່ຕິດປະກາດແມ່ນເປັນໂດລາອາເມຣິກາ.",
+    "choices": [
+      "La banque la plus proche ferme à seize heures.",
+      "Nous vous facturons uniquement ce que vous avez consommé.",
+      "Le prix varie selon la saison touristique.",
+      "Le prix affiché est en dollars américains."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "arg-022"
+  },
+  {
+    "id": "quiz_urgences_urg-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Est-ce que tout va bien ?",
+    "choices": [
+      "ພວກເຮົາຊິໄປສົ່ງທ່ານຮອດໂຮງໝໍ.",
+      "ພວກເຮົາຊິຕິດຕໍ່ສະຖານທູດຂອງທ່ານ.",
+      "ລົດເມເສຍ, ຄັນໃໝ່ກຳລັງມາ.",
+      "ທຸກຢ່າງດີບໍ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "urg-001"
+  },
+  {
+    "id": "quiz_urgences_urg-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທຸກຢ່າງດີບໍ?",
+    "choices": [
+      "Le numéro d'urgence est le cent quatre-vingt-onze.",
+      "Ne vous inquiétez pas, tout est sous contrôle.",
+      "Buvez de l'eau, il fait très chaud.",
+      "Est-ce que tout va bien ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "urg-001"
+  },
+  {
+    "id": "quiz_urgences_urg-004_frToLao",
+    "type": "frToLao",
+    "prompt": "Avez-vous perdu quelque chose ?",
+    "choices": [
+      "ນັ່ງລົງກ່ອນ, ບໍ່ເປັນຫຍັງ.",
+      "ລົດເມເສຍ, ຄັນໃໝ່ກຳລັງມາ.",
+      "ທ່ານແພ້ຢາຊະນິດໃດບໍ?",
+      "ທ່ານເສຍເຄື່ອງຫຍັງໄປບໍ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "urg-004"
+  },
+  {
+    "id": "quiz_urgences_urg-004_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານເສຍເຄື່ອງຫຍັງໄປບໍ?",
+    "choices": [
+      "Avez-vous perdu quelque chose ?",
+      "Avez-vous un double de votre passeport ?",
+      "Prévenez-moi immédiatement en cas de problème.",
+      "Avez-vous une trousse de premiers secours ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "urg-004"
+  },
+  {
+    "id": "quiz_urgences_urg-007_frToLao",
+    "type": "frToLao",
+    "prompt": "Avez-vous votre passeport avec vous ?",
+    "choices": [
+      "ບໍ່ມີຫຍັງໃຫ້ກັງວົນ.",
+      "ລົດເມເສຍ, ຄັນໃໝ່ກຳລັງມາ.",
+      "ທ່ານມີໜັງສືຜ່ານແດນຕິດຕົວບໍ?",
+      "ແຈ້ງໃຫ້ຂ້ອຍຮູ້ທັນທີຖ້າມີບັນຫາ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "urg-007"
+  },
+  {
+    "id": "quiz_urgences_urg-007_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມີໜັງສືຜ່ານແດນຕິດຕົວບໍ?",
+    "choices": [
+      "Avez-vous une trousse de premiers secours ?",
+      "Avez-vous votre passeport avec vous ?",
+      "Je vais appeler la police.",
+      "La piqûre de moustique n'est pas dangereuse ici."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-007"
+  },
+  {
+    "id": "quiz_urgences_urg-010_frToLao",
+    "type": "frToLao",
+    "prompt": "Le numéro d'urgence est le cent quatre-vingt-onze.",
+    "choices": [
+      "ລົດເມເສຍ, ຄັນໃໝ່ກຳລັງມາ.",
+      "ທ່ານມີໜັງສືຜ່ານແດນຕິດຕົວບໍ?",
+      "ນັ່ງລົງກ່ອນ, ບໍ່ເປັນຫຍັງ.",
+      "ເບີໂທສຸກເສີນແມ່ນ 191."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "urg-010"
+  },
+  {
+    "id": "quiz_urgences_urg-010_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ເບີໂທສຸກເສີນແມ່ນ 191.",
+    "choices": [
+      "Nous allons vous accompagner jusqu'à l'hôpital.",
+      "Le numéro d'urgence est le cent quatre-vingt-onze.",
+      "Nous avons un kit de premiers secours dans le bus.",
+      "Le bus est tombé en panne, un autre arrive."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-010"
+  },
+  {
+    "id": "quiz_urgences_urg-013_frToLao",
+    "type": "frToLao",
+    "prompt": "Avez-vous une assurance voyage ?",
+    "choices": [
+      "ໂຮງໝໍໃກ້ທີ່ສຸດຢູ່ຫ່າງອອກໄປສິບນາທີ.",
+      "ທ່ານມີປະກັນໄພການເດີນທາງບໍ?",
+      "ຢ່າກັງວົນ, ທຸກຢ່າງຢູ່ພາຍໃຕ້ການຄວບຄຸມ.",
+      "ທ່ານມີສຳເນົາໜັງສືຜ່ານແດນບໍ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-013"
+  },
+  {
+    "id": "quiz_urgences_urg-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມີປະກັນໄພການເດີນທາງບໍ?",
+    "choices": [
+      "Il y a une pharmacie juste là.",
+      "Avez-vous une assurance voyage ?",
+      "Composez le zéro pour joindre la réception à toute heure.",
+      "Asseyez-vous, ça va aller."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-013"
+  },
+  {
+    "id": "quiz_urgences_urg-016_frToLao",
+    "type": "frToLao",
+    "prompt": "Avez-vous une trousse de premiers secours ?",
+    "choices": [
+      "ທ່ານມີກ່ອງປະຖົມພະຍາບານບໍ?",
+      "ມີຮ້ານຂາຍຢາຢູ່ທາງນັ້ນ.",
+      "ພວກເຮົາຊິໄປສົ່ງທ່ານຮອດໂຮງໝໍ.",
+      "ທຸກຢ່າງດີບໍ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "urg-016"
+  },
+  {
+    "id": "quiz_urgences_urg-016_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມີກ່ອງປະຖົມພະຍາບານບໍ?",
+    "choices": [
+      "Je vais appeler la police.",
+      "Avez-vous une trousse de premiers secours ?",
+      "Ne vous inquiétez pas, tout est sous contrôle.",
+      "Il y a une pharmacie juste là."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-016"
+  },
+  {
+    "id": "quiz_urgences_urg-019_frToLao",
+    "type": "frToLao",
+    "prompt": "Nous devons évacuer le bâtiment, suivez-moi.",
+    "choices": [
+      "ແອບໍ່ເຮັດວຽກ, ພວກເຮົາຊິສ້ອມແປງໃຫ້.",
+      "ພວກເຮົາຕ້ອງອອກຈາກຕຶກ, ຕິດຕາມຂ້ອຍມາ.",
+      "ລະວັງເວລາຂ້າມຖະໜົນ.",
+      "ດື່ມນ້ຳແດ່, ອາກາດຮ້ອນຫຼາຍ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-019"
+  },
+  {
+    "id": "quiz_urgences_urg-019_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ພວກເຮົາຕ້ອງອອກຈາກຕຶກ, ຕິດຕາມຂ້ອຍມາ.",
+    "choices": [
+      "Avez-vous un double de votre passeport ?",
+      "Nous devons évacuer le bâtiment, suivez-moi.",
+      "Nous allons vous accompagner jusqu'à l'hôpital.",
+      "Restez calme, je vais vous aider."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-019"
+  },
+  {
+    "id": "quiz_urgences_urg-022_frToLao",
+    "type": "frToLao",
+    "prompt": "Composez le zéro pour joindre la réception à toute heure.",
+    "choices": [
+      "ພວກເຮົາຕ້ອງອອກຈາກຕຶກ, ຕິດຕາມຂ້ອຍມາ.",
+      "ແຈ້ງໃຫ້ຂ້ອຍຮູ້ທັນທີຖ້າມີບັນຫາ.",
+      "ເບີໂທສຸກເສີນແມ່ນ 191.",
+      "ກົດເລກສູນເພື່ອຕິດຕໍ່ໂຕະຕ້ອນຮັບຕະຫຼອດເວລາ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "urg-022"
+  },
+  {
+    "id": "quiz_urgences_urg-022_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ກົດເລກສູນເພື່ອຕິດຕໍ່ໂຕະຕ້ອນຮັບຕະຫຼອດເວລາ.",
+    "choices": [
+      "Le climatiseur ne fonctionne pas, nous allons le réparer.",
+      "Composez le zéro pour joindre la réception à toute heure.",
+      "L'hôpital le plus proche est à dix minutes.",
+      "Nous devons évacuer le bâtiment, suivez-moi."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "urg-022"
+  },
+  {
+    "id": "quiz_conversation_con-001_frToLao",
+    "type": "frToLao",
+    "prompt": "D'où venez-vous ?",
+    "choices": [
+      "ທ່ານຕ້ອງລອງກາເຟລາວ, ແຊບຫຼາຍ.",
+      "ທ່ານມາຈາກໃສ?",
+      "ທ່ານມີແຜນໄປທ່ຽວປະເທດອື່ນໃນອາຊີບໍ?",
+      "ຂ້ອຍຂໍໃຫ້ທ່ານເດີນທາງກັບບ້ານດ້ວຍດີ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "con-001"
+  },
+  {
+    "id": "quiz_conversation_con-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມາຈາກໃສ?",
+    "choices": [
+      "D'où venez-vous ?",
+      "Le Laos est un pays très accueillant.",
+      "C'est un plaisir de vous faire visiter.",
+      "Merci de votre confiance."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "con-001"
+  },
+  {
+    "id": "quiz_conversation_con-005_frToLao",
+    "type": "frToLao",
+    "prompt": "Qu'est-ce que vous aimez le plus ici ?",
+    "choices": [
+      "ຂອບໃຈສຳລັບຄວາມໄວ້ວາງໃຈ.",
+      "ຂ້ອຍຂໍໃຫ້ທ່ານເດີນທາງກັບບ້ານດ້ວຍດີ.",
+      "ທ່ານມາຈາກໃສ?",
+      "ທ່ານມັກຫຍັງທີ່ສຸດຢູ່ນີ້?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "con-005"
+  },
+  {
+    "id": "quiz_conversation_con-005_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມັກຫຍັງທີ່ສຸດຢູ່ນີ້?",
+    "choices": [
+      "C'est un plaisir de vous faire visiter.",
+      "Chaque région du Laos a sa propre spécialité culinaire.",
+      "Le sourire est très important dans notre culture.",
+      "Qu'est-ce que vous aimez le plus ici ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "con-005"
+  },
+  {
+    "id": "quiz_conversation_con-009_frToLao",
+    "type": "frToLao",
+    "prompt": "J'espère que vous passez un bon séjour.",
+    "choices": [
+      "ຂອບໃຈສຳລັບຄວາມໄວ້ວາງໃຈ.",
+      "ທ່ານຫິວເຂົ້າບໍ?",
+      "ຂ້ອຍຫວັງວ່າທ່ານຈະມີການເດີນທາງທີ່ດີ.",
+      "ການມາຢ້ຽມຢາມຂອງທ່ານເຮັດໃຫ້ພວກເຮົາດີໃຈຫຼາຍ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "con-009"
+  },
+  {
+    "id": "quiz_conversation_con-009_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂ້ອຍຫວັງວ່າທ່ານຈະມີການເດີນທາງທີ່ດີ.",
+    "choices": [
+      "J'espère que vous passez un bon séjour.",
+      "Avez-vous des enfants ?",
+      "Merci de votre confiance.",
+      "Qu'avez-vous pensé du marché de nuit ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "con-009"
+  },
+  {
+    "id": "quiz_conversation_con-013_frToLao",
+    "type": "frToLao",
+    "prompt": "C'est un plaisir de vous faire visiter.",
+    "choices": [
+      "ມັນເປັນຄວາມຍິນດີທີ່ໄດ້ພາທ່ານທ່ຽວຊົມ.",
+      "ທ່ານຄິດແນວໃດກ່ຽວກັບຕະຫຼາດກາງຄືນ?",
+      "ກ້ອງຖ່າຍຮູບຂອງທ່ານງາມແທ້, ທ່ານມັກຖ່າຍຮູບບໍ?",
+      "ນີ້ແມ່ນເທື່ອທຳອິດທີ່ທ່ານມາບໍ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "con-013"
+  },
+  {
+    "id": "quiz_conversation_con-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ມັນເປັນຄວາມຍິນດີທີ່ໄດ້ພາທ່ານທ່ຽວຊົມ.",
+    "choices": [
+      "Avez-vous déjà goûté le riz gluant ?",
+      "Quel âge a votre plus jeune enfant ?",
+      "Avez-vous des enfants ?",
+      "C'est un plaisir de vous faire visiter."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "con-013"
+  },
+  {
+    "id": "quiz_conversation_con-017_frToLao",
+    "type": "frToLao",
+    "prompt": "Qu'est-ce que vous faites dans la vie ?",
+    "choices": [
+      "ອາຫານຈານໃດທີ່ທ່ານມັກທີ່ສຸດຮອດຕອນນີ້?",
+      "ທ່ານມີລູກບໍ?",
+      "ທ່ານເຮັດວຽກຫຍັງ?",
+      "ຂ້ອຍຂໍໃຫ້ທ່ານເດີນທາງກັບບ້ານດ້ວຍດີ."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "con-017"
+  },
+  {
+    "id": "quiz_conversation_con-017_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານເຮັດວຽກຫຍັງ?",
+    "choices": [
+      "Vous reviendrez au Laos, j'espère !",
+      "Qu'est-ce que vous faites dans la vie ?",
+      "Le rythme de vie ici est plus calme, non ?",
+      "J'espère que vous passez un bon séjour."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "con-017"
+  },
+  {
+    "id": "quiz_conversation_con-021_frToLao",
+    "type": "frToLao",
+    "prompt": "Prévoyez-vous d'autres voyages en Asie ?",
+    "choices": [
+      "ທ່ານມີແຜນໄປທ່ຽວປະເທດອື່ນໃນອາຊີບໍ?",
+      "ທ່ານເຮັດວຽກຫຍັງ?",
+      "ຂ້ອຍຮັກປະເທດຂອງທ່ານຄືກັນ.",
+      "ທ່ານມາຈາກໃສ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "con-021"
+  },
+  {
+    "id": "quiz_conversation_con-021_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານມີແຜນໄປທ່ຽວປະເທດອື່ນໃນອາຊີບໍ?",
+    "choices": [
+      "Votre visite nous fait vraiment plaisir.",
+      "Prévoyez-vous d'autres voyages en Asie ?",
+      "Avez-vous des enfants ?",
+      "Comment trouvez-vous le Laos ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "con-021"
+  },
+  {
+    "id": "quiz_conversation_con-025_frToLao",
+    "type": "frToLao",
+    "prompt": "Votre visite nous fait vraiment plaisir.",
+    "choices": [
+      "ທ່ານຕ້ອງລອງກາເຟລາວ, ແຊບຫຼາຍ.",
+      "ທ່ານມີລູກບໍ?",
+      "ທ່ານມີແຜນໄປທ່ຽວປະເທດອື່ນໃນອາຊີບໍ?",
+      "ການມາຢ້ຽມຢາມຂອງທ່ານເຮັດໃຫ້ພວກເຮົາດີໃຈຫຼາຍ."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "con-025"
+  },
+  {
+    "id": "quiz_conversation_con-025_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ການມາຢ້ຽມຢາມຂອງທ່ານເຮັດໃຫ້ພວກເຮົາດີໃຈຫຼາຍ.",
+    "choices": [
+      "N'hésitez pas si vous avez des questions.",
+      "C'est un plaisir de vous faire visiter.",
+      "Votre visite nous fait vraiment plaisir.",
+      "Voulez-vous une photo souvenir ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "con-025"
+  },
+  {
+    "id": "quiz_conversation_con-029_frToLao",
+    "type": "frToLao",
+    "prompt": "Je vous souhaite un excellent retour chez vous.",
+    "choices": [
+      "ທ່ານມີລູກບໍ?",
+      "ຂ້ອຍຂໍໃຫ້ທ່ານເດີນທາງກັບບ້ານດ້ວຍດີ.",
+      "ຂ້ອຍຮັກປະເທດຂອງທ່ານຄືກັນ.",
+      "ທ່ານເຮັດວຽກຫຍັງ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "con-029"
+  },
+  {
+    "id": "quiz_conversation_con-029_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂ້ອຍຂໍໃຫ້ທ່ານເດີນທາງກັບບ້ານດ້ວຍດີ.",
+    "choices": [
+      "Vous reviendrez au Laos, j'espère !",
+      "Je vous souhaite un excellent retour chez vous.",
+      "Vous devez essayer le café lao, il est excellent.",
+      "Merci de votre confiance."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "con-029"
+  },
+  {
+    "id": "quiz_apprendre_apr-001_frToLao",
+    "type": "frToLao",
+    "prompt": "Pouvez-vous répéter, s'il vous plaît ?",
+    "choices": [
+      "ທຸກມື້ ຂ້ອຍຮຽນປະໂຫຍກໃໝ່ໜຶ່ງ.",
+      "ຮັບຊາບແລ້ວ, ຂອບໃຈ.",
+      "ທ່ານເວົ້າຄືນໄດ້ບໍ?",
+      "ທ່ານຂຽນຄຳສັບໃຫ້ໄດ້ບໍ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "apr-001"
+  },
+  {
+    "id": "quiz_apprendre_apr-001_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ທ່ານເວົ້າຄືນໄດ້ບໍ?",
+    "choices": [
+      "Pouvez-vous répéter, s'il vous plaît ?",
+      "Merci de m'écouter avec patience.",
+      "Chaque jour, j'apprends une nouvelle phrase.",
+      "Pouvez-vous m'aider avec cette phrase difficile ?"
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "apr-001"
+  },
+  {
+    "id": "quiz_apprendre_apr-004_frToLao",
+    "type": "frToLao",
+    "prompt": "Comment dit-on cela en français ?",
+    "choices": [
+      "ຂ້ອຍຝຶກເວົ້າພາສາຝຣັ່ງທຸກມື້.",
+      "ອັນນີ້ເວົ້າເປັນພາສາຝຣັ່ງແນວໃດ?",
+      "ທຸກມື້ ຂ້ອຍຮຽນປະໂຫຍກໃໝ່ໜຶ່ງ.",
+      "ຂໍເວລາບຶດໜຶ່ງ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "apr-004"
+  },
+  {
+    "id": "quiz_apprendre_apr-004_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ອັນນີ້ເວົ້າເປັນພາສາຝຣັ່ງແນວໃດ?",
+    "choices": [
+      "Quel est le mot pour dire merci ?",
+      "Comment ça se prononce ?",
+      "Comment dit-on cela en français ?",
+      "C'est noté, merci."
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "apr-004"
+  },
+  {
+    "id": "quiz_apprendre_apr-007_frToLao",
+    "type": "frToLao",
+    "prompt": "Excusez-moi, je n'ai pas bien entendu.",
+    "choices": [
+      "ຊ່ວຍຂ້ອຍກັບປະໂຫຍກຍາກອັນນີ້ແດ່ໄດ້ບໍ?",
+      "ຂໍໂທດ, ຂ້ອຍບໍ່ໄດ້ຍິນຈະແຈ້ງ.",
+      "ຂອບໃຈທີ່ຟັງຂ້ອຍດ້ວຍຄວາມອົດທົນ.",
+      "ທ່ານຂຽນຄຳສັບໃຫ້ໄດ້ບໍ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "apr-007"
+  },
+  {
+    "id": "quiz_apprendre_apr-007_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂໍໂທດ, ຂ້ອຍບໍ່ໄດ້ຍິນຈະແຈ້ງ.",
+    "choices": [
+      "Pouvez-vous m'aider avec cette phrase difficile ?",
+      "Excusez-moi, je n'ai pas bien entendu.",
+      "Merci de m'écouter avec patience.",
+      "Comment ça se prononce ?"
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "apr-007"
+  },
+  {
+    "id": "quiz_apprendre_apr-010_frToLao",
+    "type": "frToLao",
+    "prompt": "Un instant, s'il vous plaît.",
+    "choices": [
+      "ອັນນີ້ເວົ້າເປັນພາສາຝຣັ່ງແນວໃດ?",
+      "ຂໍເວລາບຶດໜຶ່ງ.",
+      "ທ່ານເວົ້າຄືນໄດ້ບໍ?",
+      "ຂ້ອຍມັກຮຽນຜ່ານຕົວຢ່າງຈິງໆ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "apr-010"
+  },
+  {
+    "id": "quiz_apprendre_apr-010_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂໍເວລາບຶດໜຶ່ງ.",
+    "choices": [
+      "Un instant, s'il vous plaît.",
+      "Je vais vérifier et je reviens vers vous.",
+      "Je vais l'écrire dans mon carnet.",
+      "C'est une phrase que j'utilise souvent."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "apr-010"
+  },
+  {
+    "id": "quiz_apprendre_apr-013_frToLao",
+    "type": "frToLao",
+    "prompt": "Quel est le mot pour dire merci ?",
+    "choices": [
+      "ຂ້ອຍບໍ່ເຂົ້າໃຈ.",
+      "ຂ້ອຍພັດທະນາພາສາຝຣັ່ງເທື່ອລະໜ້ອຍ.",
+      "ອັນນີ້ເວົ້າເປັນພາສາຝຣັ່ງແນວໃດ?",
+      "ຄຳວ່າຂອບໃຈເວົ້າແນວໃດເປັນພາສາຝຣັ່ງ?"
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "apr-013"
+  },
+  {
+    "id": "quiz_apprendre_apr-013_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຄຳວ່າຂອບໃຈເວົ້າແນວໃດເປັນພາສາຝຣັ່ງ?",
+    "choices": [
+      "Je préfère apprendre avec des exemples concrets.",
+      "Un instant, s'il vous plaît.",
+      "Quel est le mot pour dire merci ?",
+      "Pouvez-vous écrire le mot, s'il vous plaît ?"
+    ],
+    "correctIndex": 2,
+    "relatedPhraseId": "apr-013"
+  },
+  {
+    "id": "quiz_apprendre_apr-016_frToLao",
+    "type": "frToLao",
+    "prompt": "C'est une phrase que j'utilise souvent.",
+    "choices": [
+      "ຊ່ວຍຂ້ອຍກັບປະໂຫຍກຍາກອັນນີ້ແດ່ໄດ້ບໍ?",
+      "ອັນນີ້ແມ່ນປະໂຫຍກທີ່ຂ້ອຍໃຊ້ເລື້ອຍໆ.",
+      "ຂ້ອຍອອກສຽງຄຳນີ້ຖືກບໍ?",
+      "ຂ້ອຍພັດທະນາພາສາຝຣັ່ງເທື່ອລະໜ້ອຍ."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "apr-016"
+  },
+  {
+    "id": "quiz_apprendre_apr-016_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ອັນນີ້ແມ່ນປະໂຫຍກທີ່ຂ້ອຍໃຊ້ເລື້ອຍໆ.",
+    "choices": [
+      "Je préfère apprendre avec des exemples concrets.",
+      "Merci de corriger ma prononciation.",
+      "Un instant, s'il vous plaît.",
+      "C'est une phrase que j'utilise souvent."
+    ],
+    "correctIndex": 3,
+    "relatedPhraseId": "apr-016"
+  },
+  {
+    "id": "quiz_apprendre_apr-019_frToLao",
+    "type": "frToLao",
+    "prompt": "Pouvez-vous m'aider avec cette phrase difficile ?",
+    "choices": [
+      "ຊ່ວຍຂ້ອຍກັບປະໂຫຍກຍາກອັນນີ້ແດ່ໄດ້ບໍ?",
+      "ຂ້ອຍອອກສຽງຄຳນີ້ຖືກບໍ?",
+      "ອັນນີ້ເວົ້າເປັນພາສາຝຣັ່ງແນວໃດ?",
+      "ທຸກມື້ ຂ້ອຍຮຽນປະໂຫຍກໃໝ່ໜຶ່ງ."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "apr-019"
+  },
+  {
+    "id": "quiz_apprendre_apr-019_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຊ່ວຍຂ້ອຍກັບປະໂຫຍກຍາກອັນນີ້ແດ່ໄດ້ບໍ?",
+    "choices": [
+      "Pouvez-vous m'aider avec cette phrase difficile ?",
+      "Je ne comprends pas.",
+      "C'est noté, merci.",
+      "Le français a beaucoup de sons nasaux."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "apr-019"
+  },
+  {
+    "id": "quiz_apprendre_apr-022_frToLao",
+    "type": "frToLao",
+    "prompt": "Je note les mots nouveaux dans un petit carnet.",
+    "choices": [
+      "ຂ້ອຍຈົດຄຳສັບໃໝ່ໃສ່ປື້ມນ້ອຍ.",
+      "ຂ້ອຍຊິກວດເບິ່ງແລ້ວຈະກັບມາບອກທ່ານ.",
+      "ຂ້ອຍບໍ່ເຂົ້າໃຈ.",
+      "ປະໂຫຍກນີ້ແມ່ນແບບກັນເອງໜ້ອຍໜຶ່ງ."
+    ],
+    "correctIndex": 0,
+    "relatedPhraseId": "apr-022"
+  },
+  {
+    "id": "quiz_apprendre_apr-022_laoToFr",
+    "type": "laoToFr",
+    "prompt": "ຂ້ອຍຈົດຄຳສັບໃໝ່ໃສ່ປື້ມນ້ອຍ.",
+    "choices": [
+      "Je préfère apprendre avec des exemples concrets.",
+      "Je note les mots nouveaux dans un petit carnet.",
+      "Merci de m'écouter avec patience.",
+      "C'est une phrase que j'utilise souvent."
+    ],
+    "correctIndex": 1,
+    "relatedPhraseId": "apr-022"
+  }
+]

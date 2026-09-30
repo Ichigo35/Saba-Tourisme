@@ -3,7 +3,9 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/category.dart';
+import '../models/lesson.dart';
 import '../models/phrase.dart';
+import '../models/quiz_item.dart';
 import '../models/vocab_word.dart';
 
 /// Charge le catalogue de contenu (catégories, phrases) depuis les assets
@@ -16,6 +18,8 @@ class ContentRepository {
   List<Category> categories = [];
   List<Phrase> phrases = [];
   List<VocabWord> vocabWords = [];
+  List<Lesson> lessons = [];
+  List<QuizItem> quizItems = [];
 
   bool _loaded = false;
   bool get isLoaded => _loaded;
@@ -27,6 +31,8 @@ class ContentRepository {
         await rootBundle.loadString('assets/data/categories.json');
     final phrasesRaw = await rootBundle.loadString('assets/data/phrases.json');
     final vocabRaw = await rootBundle.loadString('assets/data/vocab.json');
+    final lessonsRaw = await rootBundle.loadString('assets/data/lessons.json');
+    final quizRaw = await rootBundle.loadString('assets/data/quiz.json');
 
     categories = (jsonDecode(categoriesRaw) as List<dynamic>)
         .map((e) => Category.fromJson(e as Map<String, dynamic>))
@@ -38,6 +44,15 @@ class ContentRepository {
 
     vocabWords = (jsonDecode(vocabRaw) as List<dynamic>)
         .map((e) => VocabWord.fromJson(e as Map<String, dynamic>))
+        .toList();
+
+    lessons = (jsonDecode(lessonsRaw) as List<dynamic>)
+        .map((e) => Lesson.fromJson(e as Map<String, dynamic>))
+        .toList()
+      ..sort((a, b) => a.order.compareTo(b.order));
+
+    quizItems = (jsonDecode(quizRaw) as List<dynamic>)
+        .map((e) => QuizItem.fromJson(e as Map<String, dynamic>))
         .toList();
 
     _loaded = true;
@@ -70,6 +85,22 @@ class ContentRepository {
       if (p.id == id) return p;
     }
     return null;
+  }
+
+  /// Phrases à réviser dans une mini-leçon, dans l'ordre défini par la leçon.
+  List<Phrase> phrasesForLesson(Lesson lesson) => lesson.phraseIds
+      .map(phraseById)
+      .whereType<Phrase>()
+      .toList();
+
+  /// Questions de quiz associées à une mini-leçon, dans l'ordre défini par
+  /// la leçon.
+  List<QuizItem> quizItemsForLesson(Lesson lesson) {
+    final byId = {for (final q in quizItems) q.id: q};
+    return lesson.quizIds
+        .map((id) => byId[id])
+        .whereType<QuizItem>()
+        .toList();
   }
 
   /// Recherche libre en français, en lao ou par situation (point 16 du cahier

@@ -4,6 +4,7 @@ import '../data/content_repository.dart';
 import '../widgets/category_card.dart';
 import 'category_phrases_screen.dart';
 import 'favorites_screen.dart';
+import 'lessons_screen.dart';
 import 'search_screen.dart';
 import 'vocab_screen.dart';
 
@@ -27,6 +28,13 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Sabai Tourisme'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.school),
+            tooltip: 'Mini-leçons',
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const LessonsScreen()),
+            ),
+          ),
           IconButton(
             icon: const Icon(Icons.menu_book),
             tooltip: 'Vocabulaire',
