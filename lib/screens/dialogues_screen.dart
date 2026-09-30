@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content_repository.dart';
 import '../utils/theme.dart';
+import '../widgets/empty_state.dart';
 import 'ai_conversation_screen.dart';
 import 'dialogue_screen.dart';
 
@@ -68,8 +69,9 @@ class _DialoguesScreenState extends State<DialoguesScreen> {
             ),
           Expanded(
             child: dialogues.isEmpty
-                ? const Center(
-                    child: Text('Aucun scénario disponible pour le moment.'),
+                ? const EmptyState(
+                    icon: Icons.theater_comedy_outlined,
+                    title: 'Aucun scénario disponible pour le moment',
                   )
                 : ListView.builder(
                     padding: const EdgeInsets.all(14),

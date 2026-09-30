@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'data/content_repository.dart';
 import 'database/app_database.dart';
-import 'screens/home_screen.dart';
+import 'screens/main_navigation_screen.dart';
 import 'services/audio_service.dart';
 import 'services/favorites_service.dart';
 import 'services/lesson_progress_service.dart';
@@ -55,7 +55,7 @@ class SabaiTourismeApp extends StatelessWidget {
         title: 'Sabai Tourisme',
         debugShowCheckedModeBanner: false,
         theme: buildAppTheme(),
-        home: const HomeScreen(),
+        home: const MainNavigationScreen(),
       ),
     );
   }

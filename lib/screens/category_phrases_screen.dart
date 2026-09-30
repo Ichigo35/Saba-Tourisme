@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content_repository.dart';
 import '../models/category.dart';
+import '../widgets/empty_state.dart';
 import '../widgets/phrase_card.dart';
 
 /// Liste des phrases d'une catégorie (point 5 du cahier des charges).
@@ -19,7 +20,10 @@ class CategoryPhrasesScreen extends StatelessWidget {
         title: Text('${category.emoji}  ${category.nameFr}'),
       ),
       body: phrases.isEmpty
-          ? const Center(child: Text('Aucune phrase pour cette catégorie.'))
+          ? const EmptyState(
+              icon: Icons.chat_bubble_outline,
+              title: 'Aucune phrase pour cette catégorie',
+            )
           : ListView.builder(
               padding: const EdgeInsets.all(14),
               itemCount: phrases.length,

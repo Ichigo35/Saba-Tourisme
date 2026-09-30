@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 
 import '../data/content_repository.dart';
+import '../utils/theme.dart';
 import '../widgets/category_card.dart';
-import 'assistant_screen.dart';
 import 'category_phrases_screen.dart';
-import 'dialogues_screen.dart';
-import 'favorites_screen.dart';
-import 'lessons_screen.dart';
 import 'search_screen.dart';
-import 'vocab_screen.dart';
 
-/// Écran d'accueil : grandes catégories, recherche et accès aux favoris
-/// (point 4 du cahier des charges).
+/// Écran d'accueil : grandes catégories et recherche (point 4 du cahier des
+/// charges). Les autres modes (Vocabulaire, Leçons, Dialogues, Plus) vivent
+/// désormais dans la barre de navigation du bas ([MainNavigationScreen]),
+/// donc l'AppBar ici reste dédiée au titre — elle portait auparavant 5
+/// icônes d'action entassées (point de vigilance noté depuis la Phase 4).
 ///
 /// La grille est pilotée par les données : seules les catégories qui
 /// possèdent déjà des phrases s'affichent, pour ne jamais proposer de
@@ -27,52 +26,18 @@ class HomeScreen extends StatelessWidget {
         .toList();
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Sabai Tourisme'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.support_agent),
-            tooltip: 'Assistant IA (parler / comprendre en direct)',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const AssistantScreen()),
-            ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.theater_comedy),
-            tooltip: 'Simulation de conversation',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const DialoguesScreen()),
-            ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.school),
-            tooltip: 'Mini-leçons',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const LessonsScreen()),
-            ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.menu_book),
-            tooltip: 'Vocabulaire',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const VocabScreen()),
-            ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.star),
-            tooltip: 'Mes phrases favorites',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const FavoritesScreen()),
-            ),
-          ),
-        ],
-      ),
+      appBar: AppBar(title: const Text('Sabai Tourisme')),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              const Text(
+                'ສະບາຍດີ 👋 Phrasebook franco-lao pour pros du tourisme',
+                style: TextStyle(fontSize: 13, color: AppColors.textMuted),
+              ),
+              const SizedBox(height: 14),
               _SearchEntry(
                 onTap: () => Navigator.of(context).push(
                   MaterialPageRoute(builder: (_) => const SearchScreen()),
@@ -92,6 +57,7 @@ class HomeScreen extends StatelessWidget {
                     final category = categories[index];
                     return CategoryCard(
                       category: category,
+                      phraseCount: repo.phrasesForCategory(category.id).length,
                       onTap: () => Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (_) =>

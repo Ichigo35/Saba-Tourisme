@@ -5,6 +5,7 @@ import '../data/content_repository.dart';
 import '../models/lesson.dart';
 import '../services/lesson_progress_service.dart';
 import '../utils/theme.dart';
+import '../widgets/empty_state.dart';
 import 'lesson_detail_screen.dart';
 
 /// Liste des mini-leçons : une par grande catégorie, avec quiz de révision
@@ -20,7 +21,10 @@ class LessonsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('📚 Mini-leçons')),
       body: lessons.isEmpty
-          ? const Center(child: Text('Aucune leçon disponible pour le moment.'))
+          ? const EmptyState(
+              icon: Icons.school_outlined,
+              title: 'Aucune leçon disponible pour le moment',
+            )
           : ListView.builder(
               padding: const EdgeInsets.all(14),
               itemCount: lessons.length,

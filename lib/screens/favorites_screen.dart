@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../data/content_repository.dart';
 import '../services/favorites_service.dart';
+import '../widgets/empty_state.dart';
 import '../widgets/phrase_card.dart';
 
 /// ⭐ Mes phrases : les phrases que le professionnel utilise souvent
@@ -22,15 +23,10 @@ class FavoritesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('⭐ Mes phrases favorites')),
       body: validPhrases.isEmpty
-          ? const Center(
-              child: Padding(
-                padding: EdgeInsets.all(24),
-                child: Text(
-                  'Aucune phrase favorite pour l\'instant.\n'
-                  'Appuyez sur ⭐ sur une phrase pour la garder ici.',
-                  textAlign: TextAlign.center,
-                ),
-              ),
+          ? const EmptyState(
+              icon: Icons.star_border,
+              title: 'Aucune phrase favorite',
+              subtitle: 'Appuie sur ⭐ sur une phrase pour la garder ici.',
             )
           : ListView.builder(
               padding: const EdgeInsets.all(14),

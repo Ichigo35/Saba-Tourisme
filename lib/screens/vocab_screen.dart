@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content_repository.dart';
 import '../utils/theme.dart';
+import '../widgets/empty_state.dart';
 import '../widgets/vocab_card.dart';
 
 const Map<String, String> _themeLabels = {
@@ -70,7 +71,10 @@ class _VocabScreenState extends State<VocabScreen> {
             ),
             Expanded(
               child: words.isEmpty
-                  ? const Center(child: Text('Aucun mot dans ce thème.'))
+                  ? const EmptyState(
+                      icon: Icons.menu_book_outlined,
+                      title: 'Aucun mot dans ce thème',
+                    )
                   : ListView.builder(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       itemCount: words.length,

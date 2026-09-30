@@ -51,7 +51,9 @@ class PhraseCard extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 12),
+            Divider(height: 1, color: AppColors.textMuted.withValues(alpha: 0.15)),
+            const SizedBox(height: 12),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

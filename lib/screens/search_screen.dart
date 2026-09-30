@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/content_repository.dart';
 import '../models/phrase.dart';
+import '../widgets/empty_state.dart';
 import '../widgets/phrase_card.dart';
 
 /// Recherche rapide en français, en lao ou par mot-clé de situation
@@ -50,10 +51,19 @@ class _SearchScreenState extends State<SearchScreen> {
             const SizedBox(height: 12),
             Expanded(
               child: _controller.text.isEmpty
-                  ? const Center(
-                      child: Text('Tapez un mot en français ou en lao.'))
+                  ? const EmptyState(
+                      icon: Icons.search,
+                      title: 'Cherche une phrase',
+                      subtitle: 'En français, en lao, ou par situation '
+                          '(ex : "aéroport", "prix"…).',
+                    )
                   : _results.isEmpty
-                      ? const Center(child: Text('Aucun résultat.'))
+                      ? const EmptyState(
+                          icon: Icons.search_off,
+                          title: 'Aucun résultat',
+                          subtitle: 'Essaie un autre mot ou une autre '
+                              'orthographe.',
+                        )
                       : ListView.builder(
                           itemCount: _results.length,
                           itemBuilder: (context, index) =>

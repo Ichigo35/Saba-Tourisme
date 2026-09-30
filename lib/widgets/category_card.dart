@@ -7,10 +7,21 @@ import '../utils/theme.dart';
 /// charges) : icône, nom lao en premier (public prioritaire), nom français
 /// en second.
 class CategoryCard extends StatelessWidget {
-  const CategoryCard({super.key, required this.category, required this.onTap});
+  const CategoryCard({
+    super.key,
+    required this.category,
+    required this.onTap,
+    this.phraseCount,
+  });
 
   final Category category;
   final VoidCallback onTap;
+
+  /// Nombre de phrases dans cette catégorie, affiché en petit sous le nom
+  /// pour donner un aperçu du contenu avant de taper dessus. `null` masque
+  /// l'indication (pas de recalcul silencieux à 0 si l'appelant ne l'a pas
+  /// fourni).
+  final int? phraseCount;
 
   @override
   Widget build(BuildContext context) {
@@ -44,6 +55,17 @@ class CategoryCard extends StatelessWidget {
                   color: AppColors.textMuted,
                 ),
               ),
+              if (phraseCount != null) ...[
+                const SizedBox(height: 6),
+                Text(
+                  '$phraseCount phrase${phraseCount == 1 ? '' : 's'}',
+                  style: const TextStyle(
+                    fontSize: 11,
+                    color: AppColors.accent,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
             ],
           ),
         ),
