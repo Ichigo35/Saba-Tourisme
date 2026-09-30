@@ -94,4 +94,43 @@ class AiConversationService {
       model: data['model'] as String? ?? '?',
     );
   }
+
+  /// Traduit une phrase française en lao via le même proxy (mode
+  /// `translate`), pour relire une réplique (celle du touriste IA ou la
+  /// tienne) et vérifier qu'elle veut bien dire ce qui était voulu — même
+  /// principe que la traduction repliée de la lecture guidée, mais générée à
+  /// la volée puisque le texte n'existe pas dans le contenu figé.
+  Future<String> translateToLao(String text) async {
+    http.Response response;
+    try {
+      response = await http
+          .post(
+            Uri.parse(_endpoint),
+            headers: {
+              'Content-Type': 'application/json',
+              'X-App-Secret': _appSecret,
+            },
+            body: jsonEncode({'mode': 'translate', 'text': text}),
+          )
+          .timeout(const Duration(seconds: 25));
+    } catch (_) {
+      throw AiConversationException(
+        'Impossible de contacter le service. Vérifiez votre connexion Internet.',
+      );
+    }
+
+    Map<String, dynamic> data;
+    try {
+      data = jsonDecode(response.body) as Map<String, dynamic>;
+    } catch (_) {
+      throw AiConversationException('Réponse invalide du service.');
+    }
+
+    if (response.statusCode != 200) {
+      throw AiConversationException(
+        data['error'] as String? ?? 'Erreur inconnue du service.',
+      );
+    }
+    return data['translation'] as String;
+  }
 }

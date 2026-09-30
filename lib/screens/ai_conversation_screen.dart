@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:speech_to_text/speech_to_text.dart' as stt;
 
 import '../models/dialogue.dart';
 import '../services/ai_conversation_service.dart';
@@ -7,7 +8,7 @@ import '../services/audio_service.dart';
 import '../utils/theme.dart';
 
 class _ChatMessage {
-  const _ChatMessage({required this.fromTourist, required this.text, this.model});
+  _ChatMessage({required this.fromTourist, required this.text, this.model});
 
   final bool fromTourist;
   final String text;
@@ -31,10 +32,20 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
   final _service = AiConversationService();
   final _controller = TextEditingController();
   final _scrollController = ScrollController();
+  final _speech = stt.SpeechToText();
   final List<_ChatMessage> _messages = [];
   final List<AiChatTurn> _history = [];
 
+  // Traductions lao demandées à la volée, indexées par position dans
+  // `_messages` (pas stockées sur `_ChatMessage` pour garder ce dernier
+  // simple ; conservées ici pour survivre au recyclage des widgets de la
+  // ListView pendant le scroll).
+  final Map<int, String> _translations = {};
+  final Set<int> _translating = {};
+
   bool _loading = true;
+  bool _speechAvailable = false;
+  bool _listening = false;
   String? _error;
 
   String get _systemPrompt =>
@@ -49,13 +60,60 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
   void initState() {
     super.initState();
     _startConversation();
+    _initSpeech();
   }
 
   @override
   void dispose() {
+    _speech.stop();
     _controller.dispose();
     _scrollController.dispose();
     super.dispose();
+  }
+
+  Future<void> _initSpeech() async {
+    final available = await _speech.initialize(
+      onStatus: (status) {
+        if (!mounted) return;
+        if (status == 'done' || status == 'notListening') {
+          setState(() => _listening = false);
+        }
+      },
+      onError: (_) {
+        if (mounted) setState(() => _listening = false);
+      },
+    );
+    if (mounted) setState(() => _speechAvailable = available);
+  }
+
+  /// Bascule micro : un appui démarre la dictée, l'appui suivant la termine
+  /// (le texte reconnu reste dans le champ, modifiable avant l'envoi).
+  Future<void> _toggleListening() async {
+    if (!_speechAvailable) {
+      setState(() {
+        _error = 'Reconnaissance vocale indisponible sur cet appareil.';
+      });
+      return;
+    }
+    if (_listening) {
+      await _speech.stop();
+      setState(() => _listening = false);
+      return;
+    }
+    setState(() {
+      _listening = true;
+      _error = null;
+    });
+    await _speech.listen(
+      listenOptions: stt.SpeechListenOptions(localeId: 'fr_FR'),
+      onResult: (result) {
+        setState(() {
+          _controller.text = result.recognizedWords;
+          _controller.selection =
+              TextSelection.collapsed(offset: _controller.text.length);
+        });
+      },
+    );
   }
 
   void _scrollToBottom() {
@@ -67,6 +125,27 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
         curve: Curves.easeOut,
       );
     });
+  }
+
+  Future<void> _translate(int index, String text) async {
+    if (_translations.containsKey(index) || _translating.contains(index)) {
+      return;
+    }
+    setState(() => _translating.add(index));
+    try {
+      final lao = await _service.translateToLao(text);
+      if (!mounted) return;
+      setState(() {
+        _translations[index] = lao;
+        _translating.remove(index);
+      });
+    } on AiConversationException catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _translating.remove(index);
+        _error = e.message;
+      });
+    }
   }
 
   Future<void> _startConversation() async {
@@ -147,6 +226,9 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
                   return _ChatBubble(
                     message: m,
                     onListen: () => audioService.speak(m.text),
+                    translation: _translations[index],
+                    translating: _translating.contains(index),
+                    onTranslate: () => _translate(index, m.text),
                   );
                 },
               ),
@@ -176,15 +258,29 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
                     child: TextField(
                       controller: _controller,
                       enabled: !_loading,
-                      decoration: const InputDecoration(
-                        hintText: 'Répondez en français…',
-                        border: OutlineInputBorder(
+                      decoration: InputDecoration(
+                        hintText: _listening
+                            ? 'Je vous écoute…'
+                            : 'Répondez en français…',
+                        border: const OutlineInputBorder(
                           borderRadius: BorderRadius.all(Radius.circular(14)),
                         ),
-                        contentPadding:
-                            EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                        contentPadding: const EdgeInsets.symmetric(
+                            horizontal: 14, vertical: 10),
                       ),
                       onSubmitted: (_) => _send(),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  IconButton.filled(
+                    onPressed: _loading ? null : _toggleListening,
+                    icon: Icon(_listening ? Icons.mic : Icons.mic_none),
+                    tooltip: _listening
+                        ? 'Terminer la dictée'
+                        : 'Parler au lieu d\'écrire',
+                    style: IconButton.styleFrom(
+                      backgroundColor:
+                          _listening ? AppColors.danger : AppColors.accent,
                     ),
                   ),
                   const SizedBox(width: 8),
@@ -204,10 +300,19 @@ class _AiConversationScreenState extends State<AiConversationScreen> {
 }
 
 class _ChatBubble extends StatelessWidget {
-  const _ChatBubble({required this.message, required this.onListen});
+  const _ChatBubble({
+    required this.message,
+    required this.onListen,
+    required this.translation,
+    required this.translating,
+    required this.onTranslate,
+  });
 
   final _ChatMessage message;
   final VoidCallback onListen;
+  final String? translation;
+  final bool translating;
+  final VoidCallback onTranslate;
 
   @override
   Widget build(BuildContext context) {
@@ -249,6 +354,12 @@ class _ChatBubble extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(message.text, style: const TextStyle(fontSize: 15)),
+                      const SizedBox(height: 8),
+                      _TranslationReveal(
+                        translation: translation,
+                        translating: translating,
+                        onTranslate: onTranslate,
+                      ),
                       const SizedBox(height: 6),
                       Row(
                         mainAxisSize: MainAxisSize.min,
@@ -281,6 +392,63 @@ class _ChatBubble extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+/// Traduction lao d'un message du chat (touriste IA ou toi), demandée à la
+/// volée au proxy et repliée par défaut — même logique et même rappel
+/// "à valider" que `_MeaningReveal` dans `DialogueScreen`, mais ici le texte
+/// est généré en direct donc traduit en direct plutôt que lu depuis le
+/// contenu figé.
+class _TranslationReveal extends StatelessWidget {
+  const _TranslationReveal({
+    required this.translation,
+    required this.translating,
+    required this.onTranslate,
+  });
+
+  final String? translation;
+  final bool translating;
+  final VoidCallback onTranslate;
+
+  @override
+  Widget build(BuildContext context) {
+    if (translating) {
+      return const Padding(
+        padding: EdgeInsets.symmetric(vertical: 4),
+        child: SizedBox(
+          width: 16,
+          height: 16,
+          child: CircularProgressIndicator(strokeWidth: 2),
+        ),
+      );
+    }
+    if (translation == null) {
+      return OutlinedButton.icon(
+        onPressed: onTranslate,
+        icon: const Icon(Icons.translate, size: 18),
+        label: const Text('Voir la traduction'),
+        style: OutlinedButton.styleFrom(
+          foregroundColor: AppColors.accent,
+          side: const BorderSide(color: AppColors.accent),
+          visualDensity: VisualDensity.compact,
+        ),
+      );
+    }
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          translation!,
+          style: const TextStyle(fontFamily: AppFonts.lao, fontSize: 14),
+        ),
+        const SizedBox(height: 4),
+        const Text(
+          '⚠️ Traduction indicative à valider',
+          style: TextStyle(fontSize: 11, color: AppColors.warning),
+        ),
+      ],
     );
   }
 }

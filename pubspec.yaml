@@ -50,6 +50,11 @@ dependencies:
   # fonctionnalité de l'app qui nécessite Internet)
   http: ^1.2.2
 
+  # Reconnaissance vocale (dictée en français dans le mode Conversation IA) :
+  # nécessite aussi Internet côté service de reconnaissance Android, donc
+  # limité au même écran que le reste de la Phase 5.
+  speech_to_text: ^7.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

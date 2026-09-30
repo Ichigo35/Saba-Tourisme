@@ -2,6 +2,9 @@
     <!-- Nécessaire uniquement pour le mode Conversation IA (proxy Cloudflare
          -> Gemini) : seule fonctionnalité de l'app qui n'est pas 100% hors-ligne. -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Micro pour la dictée en français dans le mode Conversation IA
+         (speech_to_text) : demandée à l'exécution, pas au premier lancement. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <application
         android:label="sabai_tourisme"
         android:name="${applicationName}"
@@ -43,6 +46,11 @@
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>
+        </intent>
+        <!-- Visibilité du service de reconnaissance vocale (Android 11+),
+             requise par speech_to_text pour la dictée en français. -->
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
         </intent>
     </queries>
 </manifest>

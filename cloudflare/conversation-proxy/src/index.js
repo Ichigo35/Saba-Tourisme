@@ -83,6 +83,107 @@ async function callGemini(model, apiKey, systemPrompt, history, userMessage) {
   return { ok: true, text };
 }
 
+/**
+ * Décalage horaire (en minutes, `local = UTC + décalage`) d'un fuseau donné à
+ * un instant donné. Calculé via Intl plutôt que codé en dur, pour rester
+ * correct malgré les changements heure d'été/hiver (le tier gratuit Gemini
+ * réinitialise son quota RPD à minuit heure du Pacifique, qui bascule entre
+ * UTC-7 et UTC-8 selon la période de l'année).
+ */
+function timeZoneOffsetMinutes(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hourCycle: "h23",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  })
+    .formatToParts(date)
+    .reduce((acc, p) => {
+      acc[p.type] = p.value;
+      return acc;
+    }, {});
+  const asUtc = Date.UTC(
+    Number(parts.year),
+    Number(parts.month) - 1,
+    Number(parts.day),
+    Number(parts.hour),
+    Number(parts.minute),
+    Number(parts.second),
+  );
+  return (asUtc - date.getTime()) / 60000;
+}
+
+/** Prochain minuit heure du Pacifique (reset du quota gratuit Gemini), en UTC réel. */
+function nextPacificMidnightUtc(now) {
+  const offsetMin = timeZoneOffsetMinutes(now, "America/Los_Angeles");
+  const shifted = new Date(now.getTime() + offsetMin * 60000);
+  const y = shifted.getUTCFullYear();
+  const m = shifted.getUTCMonth();
+  const d = shifted.getUTCDate();
+  const nextMidnightShifted = Date.UTC(y, m, d + 1, 0, 0, 0);
+  let real = new Date(nextMidnightShifted - offsetMin * 60000);
+  // Réajustement si la bascule DST tombe pile ce jour-là (rare, mais évite
+  // une erreur d'une heure les 2 jours de l'année où ça peut arriver).
+  const offsetAtTarget = timeZoneOffsetMinutes(real, "America/Los_Angeles");
+  if (offsetAtTarget !== offsetMin) {
+    real = new Date(nextMidnightShifted - offsetAtTarget * 60000);
+  }
+  return real;
+}
+
+/** Formate l'instant de reset en jour + heure lisibles, heure du Laos. */
+function formatResetMessage(resetDate) {
+  const dateFmt = new Intl.DateTimeFormat("fr-FR", {
+    timeZone: "Asia/Vientiane",
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+  });
+  const timeFmt = new Intl.DateTimeFormat("fr-FR", {
+    timeZone: "Asia/Vientiane",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+  return `${dateFmt.format(resetDate)} vers ${timeFmt.format(resetDate)} (heure du Laos)`;
+}
+
+/**
+ * Essaie chaque modèle de MODEL_FALLBACK_CHAIN dans l'ordre via `callFn`
+ * (reçoit le nom du modèle, doit retourner le résultat de `callGemini`).
+ * Partagé entre le mode conversation et le mode traduction : la logique de
+ * bascule/quota-épuisé est identique dans les deux cas.
+ */
+async function tryModels(callFn) {
+  for (const model of MODEL_FALLBACK_CHAIN) {
+    const result = await callFn(model);
+    if (result.ok) {
+      return { ok: true, text: result.text, model };
+    }
+    if (!result.quotaExceeded) {
+      return {
+        ok: false,
+        status: 502,
+        error: `Erreur du modèle ${model} (statut ${result.status}).`,
+      };
+    }
+    // Quota épuisé pour ce modèle : on essaie le suivant de la chaîne.
+  }
+
+  const reset = nextPacificMidnightUtc(new Date());
+  return {
+    ok: false,
+    status: 503,
+    error:
+      "Tous les modèles gratuits Gemini sont à quota épuisé pour aujourd'hui. " +
+      `Nouvelle disponibilité estimée : ${formatResetMessage(reset)}.`,
+  };
+}
+
 export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
@@ -103,7 +204,28 @@ export default {
       return jsonResponse({ error: "Corps de requête JSON invalide." }, 400);
     }
 
-    const { systemPrompt, history, userMessage } = payload ?? {};
+    const { mode, systemPrompt, history, userMessage, text } = payload ?? {};
+
+    // Mode traduction FR -> LAO : utilisé pour la relecture des messages du
+    // chat (touriste IA et réponse du pro), indépendant du fil de
+    // conversation. Partage la même chaîne de modèles et la même gestion de
+    // quota épuisé que le mode conversation.
+    if (mode === "translate") {
+      if (typeof text !== "string" || !text.trim()) {
+        return jsonResponse({ error: "Champ requis manquant (text)." }, 400);
+      }
+      const translatePrompt =
+        "Tu es un traducteur français vers lao. Traduis fidèlement la " +
+        "phrase suivante en lao, en écriture lao uniquement, sans " +
+        "translittération et sans aucun commentaire ni guillemets : " +
+        "réponds uniquement avec la traduction.";
+      const result = await tryModels((model) =>
+        callGemini(model, env.GEMINI_API_KEY, translatePrompt, [], text),
+      );
+      if (!result.ok) return jsonResponse({ error: result.error }, result.status);
+      return jsonResponse({ translation: result.text.trim(), model: result.model });
+    }
+
     if (typeof systemPrompt !== "string" || typeof userMessage !== "string") {
       return jsonResponse(
         { error: "Champs requis manquants (systemPrompt, userMessage)." },
@@ -113,31 +235,10 @@ export default {
 
     const safeHistory = Array.isArray(history) ? history : [];
 
-    for (const model of MODEL_FALLBACK_CHAIN) {
-      const result = await callGemini(
-        model,
-        env.GEMINI_API_KEY,
-        systemPrompt,
-        safeHistory,
-        userMessage,
-      );
-      if (result.ok) {
-        return jsonResponse({ reply: result.text, model });
-      }
-      if (!result.quotaExceeded) {
-        return jsonResponse(
-          {
-            error: `Erreur du modèle ${model} (statut ${result.status}).`,
-          },
-          502,
-        );
-      }
-      // Quota épuisé pour ce modèle : on essaie le suivant de la chaîne.
-    }
-
-    return jsonResponse(
-      { error: "Tous les modèles gratuits sont à quota épuisé pour le moment." },
-      503,
+    const result = await tryModels((model) =>
+      callGemini(model, env.GEMINI_API_KEY, systemPrompt, safeHistory, userMessage),
     );
+    if (!result.ok) return jsonResponse({ error: result.error }, result.status);
+    return jsonResponse({ reply: result.text, model: result.model });
   },
 };
